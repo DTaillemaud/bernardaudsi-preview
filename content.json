@@ -1,0 +1,1950 @@
+{
+  "settings": {
+    "siteName": "Bernardaud Solutions Industrielles",
+    "baseline": "Céramiques techniques, sérigraphie et traitements de surface",
+    "defaultLang": "fr",
+    "contactEmail": "contact@bernardaud.com",
+    "contactPhone": "+33 (0)5 55 10 55 50",
+    "address": "19 rue Pierre Bernardaud, 87100 Limoges, France"
+  },
+  "images": {
+    "logo": "/assets/logo-bsi.webp",
+    "stamp": "/assets/logo-bsi-estampille.webp",
+    "hero": "/assets/injection-arburg.webp",
+    "history": "/assets/dessin-manufacture.webp",
+    "industrial": "/assets/manufacture-aerienne.webp",
+    "defense": "/assets/ballistic-2.png",
+    "technicalParts": "/assets/ballistic-1.png",
+    "multiCurvature": "/assets/ballistic-3.png",
+    "production": "/assets/atelier-production.webp",
+    "screenprint": "/assets/serigraphie.jpg",
+    "furnace": "/assets/four-ceramique.jpg",
+    "surface": "/assets/surface-zenith.jpg",
+    "watch": "/assets/cadran.png",
+    "architecture": "/assets/architecture-facade.jpg",
+    "casting": "/assets/production-coulage.jpg",
+    "jiggering": "/assets/production-calibrage.jpg",
+    "pressing": "/assets/production-pressage.jpg",
+    "injection": "/assets/production-injection.jpg"
+  },
+  "website": {
+    "fr": {
+      "ballistic": {
+        "title": "Des formats adaptés à votre protection",
+        "intro": "Composants standards et développements sur mesure : dimensions, épaisseurs, courbures et géométries sont étudiées selon le système.",
+        "products": [
+          {
+            "title": "Tuiles, hexagones & pellets",
+            "body": "Des éléments céramiques pour les architectures de protection modulaires."
+          },
+          {
+            "title": "Plaques monolithiques",
+            "body": "Format 250 × 300 mm, épaisseurs de 3,5 à 12 mm selon le développement."
+          },
+          {
+            "title": "Pièces multi-courbures",
+            "body": "Des formes complexes étudiées pour l’intégration et l’ergonomie du système."
+          }
+        ]
+      },
+      "ui": {
+        "home": "Accueil",
+        "discover": "Découvrir",
+        "all": "Vue d’ensemble",
+        "contact": "Parlons de votre projet",
+        "menu": "Ouvrir le menu",
+        "close": "Fermer",
+        "language": "Choisir la langue",
+        "overview": "Explorer la rubrique",
+        "next": "À découvrir aussi",
+        "applications": "Applications",
+        "expertise": "Notre expertise",
+        "materials": "Matériaux",
+        "properties": "Propriétés indicatives",
+        "property": "Propriété",
+        "unit": "Unité",
+        "quality": "Qualité & environnement",
+        "process": "Du premier essai à la série",
+        "processIntro": "Un accompagnement continu, avec un interlocuteur à chaque étape de votre développement.",
+        "sites": "Des savoir-faire complémentaires",
+        "sitesIntro": "Ancrés en Haute-Vienne, nos pôles réunissent production céramique, impression et finition.",
+        "admin": "Administration",
+        "privacy": "Confidentialité",
+        "cookieSettings": "Préférences cookies",
+        "skip": "Aller au contenu",
+        "empty": "Aucune publication pour le moment.",
+        "notFound": "Cette page est introuvable",
+        "backHome": "Retour à l’accueil",
+        "error": "Le contenu n’a pas pu être chargé.",
+        "retry": "Réessayer",
+        "email": "Par e-mail",
+        "phone": "Par téléphone",
+        "address": "Nous trouver",
+        "contactDetails": "Votre interlocuteur industriel à Limoges",
+        "contactIntro": "Parlez-nous de votre application, de vos contraintes et de vos volumes. Nous vous orienterons vers l’équipe adaptée.",
+        "contactSubject": "Projet Bernardaud Solutions Industrielles",
+        "tableNote": "Valeurs issues du document de présentation BSI, à confirmer avec notre équipe technique selon le grade, le procédé et l’application. Elles ne constituent pas une spécification contractuelle.",
+        "propertyLabels": [
+          "Pureté / composition",
+          "Densité",
+          "Porosité",
+          "Dureté Rockwell 45N",
+          "Ténacité",
+          "Module de Young",
+          "Résistance à la flexion",
+          "Vitesse ultrasonique",
+          "Conductivité thermique"
+        ],
+        "sections": [
+          "Présentation",
+          "Offre",
+          "Matériaux",
+          "Marchés",
+          "Actualités"
+        ]
+      },
+      "home": {
+        "eyebrow": "Limoges, France · Depuis 1863",
+        "title": "Bernardaud",
+        "subtitle": "Solutions industrielles",
+        "intro": "Céramiques techniques, sérigraphie et traitements de surface. Un savoir-faire français, du prototype à la grande série.",
+        "primary": "Explorer nos savoir-faire",
+        "secondary": "Votre projet",
+        "caption": "Injection céramique · Notre outil industriel",
+        "scroll": "Découvrir BSI",
+        "offerTitle": "La matière. La forme. La surface.",
+        "offerIntro": "Quatre expertises, une même exigence de fabrication. Nous réunissons les savoir-faire nécessaires pour donner vie à vos projets industriels.",
+        "offerLink": "Toute notre offre",
+        "marketsTitle": "Des solutions à la hauteur de vos exigences.",
+        "marketsIntro": "De la protection balistique à l’habillage horloger, chaque application appelle une réponse particulière.",
+        "heritageTitle": "Un nom. Un savoir-faire. Une puissance industrielle.",
+        "heritageIntro": "Depuis 1863 à Limoges, Bernardaud conjugue connaissance de la matière et maîtrise du geste. Cette histoire nourrit aujourd’hui un outil industriel français au service de vos développements.",
+        "heritageLink": "Découvrir Bernardaud",
+        "productionTitle": "L’ambition du sur-mesure. La capacité de la série.",
+        "productionIntro": "Formulation, mise en forme, cuisson, impression, finition : nos équipes accompagnent le développement de votre pièce sur un outil industriel intégré.",
+        "productionLink": "Visiter notre outil industriel",
+        "footerBaseline": "L’exigence de la matière, au service de l’industrie."
+      },
+      "pages": {
+        "presentation": {
+          "title": "Présentation",
+          "intro": "Une entreprise familiale française, plus de 160 ans de savoir-faire et un outil industriel dédié à vos développements.",
+          "sections": [
+            {
+              "title": "L’héritage de la matière",
+              "body": "Née à Limoges en 1863, Bernardaud associe une culture céramique historique à une démarche continue d’investissement et d’innovation."
+            },
+            {
+              "title": "L’exigence industrielle",
+              "body": "Bernardaud Solutions Industrielles mobilise les compétences du groupe pour développer et produire des composants céramiques, des décors et des surfaces techniques."
+            },
+            {
+              "title": "Une relation de proximité",
+              "body": "De l’étude à la série, nos équipes travaillent avec vous sur la matière, la géométrie, les finitions et les contraintes de votre application."
+            }
+          ]
+        },
+        "historique": {
+          "title": "L’historique Bernardaud",
+          "intro": "Depuis 1863, une histoire de transmission, d’innovation et de fabrication française.",
+          "sections": [
+            {
+              "title": "1863 · L’ancrage à Limoges",
+              "body": "Bernardaud naît au cœur de Limoges, territoire dont l’histoire est intimement liée à la porcelaine. La connaissance des matières et des cuissons constitue le socle de la manufacture."
+            },
+            {
+              "title": "Un savoir-faire transmis",
+              "body": "La précision du geste, l’exigence de la finition et la maîtrise de la fabrication se transmettent dans les ateliers, au sein d’une entreprise familiale."
+            },
+            {
+              "title": "Aujourd’hui · Des applications nouvelles",
+              "body": "Bernardaud Solutions Industrielles ouvre ces compétences à la céramique technique, à l’impression et aux traitements de surface, du premier prototype à la production en série."
+            }
+          ]
+        },
+        "actionnariat": {
+          "title": "Actionnariat familial",
+          "intro": "Une entreprise indépendante, portée par une vision de long terme.",
+          "sections": [
+            {
+              "title": "Une gouvernance engagée",
+              "body": "La famille Bernardaud reste directement impliquée dans la conduite de l’entreprise. Cette continuité relie les décisions stratégiques à la réalité des ateliers et des marchés."
+            },
+            {
+              "title": "Investir dans la durée",
+              "body": "Cet ancrage familial soutient la transmission des savoir-faire, les investissements industriels et le développement de nouvelles applications."
+            },
+            {
+              "title": "Un partenaire industriel français",
+              "body": "L’implantation en Haute-Vienne et la maîtrise des étapes de fabrication favorisent la proximité entre les équipes et les partenaires industriels."
+            }
+          ]
+        },
+        "certifications": {
+          "title": "Qualité & environnement",
+          "intro": "Une exigence partagée dans les ateliers, les contrôles et le suivi de vos projets.",
+          "sections": [
+            {
+              "title": "ISO 9001 · Management de la qualité",
+              "body": "La démarche qualité structure les processus, les contrôles et l’amélioration continue. Le périmètre applicable à votre projet est précisé par nos équipes."
+            },
+            {
+              "title": "ISO 14001 · Management environnemental",
+              "body": "La démarche environnementale accompagne le suivi des impacts et l’amélioration des pratiques sur les sites de production."
+            },
+            {
+              "title": "Traçabilité & dialogue technique",
+              "body": "Le plan de contrôle, les critères de réception et le suivi des lots sont définis selon la pièce, les volumes et les exigences de votre cahier des charges."
+            }
+          ]
+        },
+        "partenaires": {
+          "title": "Un écosystème d’innovation",
+          "intro": "À Limoges, industrie, recherche et centres techniques travaillent au développement de nouvelles solutions céramiques.",
+          "sections": [
+            {
+              "title": "IRCER",
+              "body": "Institut de Recherche sur les Céramiques : recherche scientifique, connaissance des matériaux et compréhension de leurs comportements."
+            },
+            {
+              "title": "CTTC",
+              "body": "Centre de Transfert de Technologies Céramiques : développement de procédés, transfert technologique et accompagnement de l’innovation."
+            },
+            {
+              "title": "CITRA",
+              "body": "Ingénierie des traitements de surface : expertise des surfaces et de leurs fonctionnalités."
+            },
+            {
+              "title": "CEDREM",
+              "body": "Une expertise complémentaire pour les développements et l’évaluation des solutions de protection."
+            }
+          ]
+        },
+        "offre": {
+          "title": "Notre offre",
+          "intro": "Quatre expertises complémentaires, de la matière à la pièce finie. Un accompagnement du développement à l’industrialisation."
+        },
+        "ceramiques-techniques": {
+          "title": "Céramiques techniques",
+          "intro": "La bonne matière, la bonne géométrie et le bon procédé pour les contraintes de votre application.",
+          "sections": [
+            {
+              "title": "Choisir et développer la matière",
+              "body": "Porcelaine technique, alumine, ZTA ou zircone : nous étudions la famille céramique en fonction des sollicitations mécaniques, thermiques et électriques."
+            },
+            {
+              "title": "Maîtriser la forme",
+              "body": "Coulage, pressage et injection permettent de répondre à des géométries et des volumes variés. L’outillage et le procédé sont définis dès le développement."
+            },
+            {
+              "title": "Passer à la série",
+              "body": "Prototypes, caractérisation et contrôles préparent une fabrication répétable en petites ou grandes séries."
+            }
+          ],
+          "points": [
+            "Composants et pièces sur plan",
+            "Formulations adaptées à l’usage",
+            "Prototypage et industrialisation",
+            "Petites et grandes séries"
+          ]
+        },
+        "serigraphie": {
+          "title": "Impression sérigraphique",
+          "intro": "Des décors et marquages précis, pour différents matériaux et usages.",
+          "sections": [
+            {
+              "title": "De la conception à l’impression",
+              "body": "Notre imprimerie intégrée accompagne la préparation graphique, les essais et la réalisation de chromos et de marquages."
+            },
+            {
+              "title": "Une finition adaptée au support",
+              "body": "Les pigments, le procédé d’impression et la cuisson sont choisis selon la matière, le rendu visuel et la tenue attendue."
+            },
+            {
+              "title": "La régularité de la série",
+              "body": "La finesse des détails et la répétabilité sont étudiées avec vos équipes, pour les applications décoratives comme techniques."
+            }
+          ],
+          "points": [
+            "Conception graphique",
+            "Chromos et décors",
+            "Marquages techniques",
+            "Essais et production série"
+          ]
+        },
+        "traitements-de-surface": {
+          "title": "Décors & traitements de surface",
+          "intro": "Une surface peut changer l’aspect, la perception et la fonction d’une pièce.",
+          "sections": [
+            {
+              "title": "Finitions esthétiques",
+              "body": "Émaillage, décors et finitions métalliques enrichissent le rendu de la matière et l’identité de l’objet."
+            },
+            {
+              "title": "Surfaces fonctionnelles",
+              "body": "PVD, texturation, sablage et métallisation sont étudiés selon le support et les propriétés recherchées."
+            },
+            {
+              "title": "Une approche intégrée",
+              "body": "La préparation, le traitement et le contrôle du résultat sont coordonnés avec le développement de la pièce."
+            }
+          ],
+          "points": [
+            "Émaillage et décoration",
+            "PVD et métallisation",
+            "Texturation et sablage",
+            "Finitions et contrôle de surface"
+          ]
+        },
+        "developpements-industriels": {
+          "title": "Développements industriels",
+          "intro": "Étudier, essayer, assembler et industrialiser une solution adaptée à votre besoin.",
+          "sections": [
+            {
+              "title": "Études & preuves de concept",
+              "body": "Nous analysons avec vous le besoin, les contraintes et les choix possibles de matière, de forme ou de surface."
+            },
+            {
+              "title": "Prototypes & validation",
+              "body": "Les premières pièces permettent de vérifier l’intégration, le comportement et les conditions de fabrication."
+            },
+            {
+              "title": "Assemblage & ajout de fonctions",
+              "body": "Les opérations complémentaires et les prestations de sous-traitance sont définies pour répondre au cahier des charges final."
+            }
+          ],
+          "points": [
+            "Étude de faisabilité",
+            "Prototypage et caractérisation",
+            "Assemblages",
+            "Sous-traitance industrielle"
+          ]
+        },
+        "etapes-process": {
+          "title": "De la matière à la fonction",
+          "intro": "Cinq étapes coordonnées pour transformer votre besoin en composant céramique, de la faisabilité à l’intégration de fonctions.",
+          "stages": [
+            {
+              "title": "Analyse de faisabilité",
+              "body": "Le bureau d’études examine votre besoin et construit avec vous une réponse réalisable.",
+              "points": [
+                "Analyse du cahier des charges",
+                "Co-conception",
+                "Choix du process"
+              ],
+              "route": "developpements-industriels"
+            },
+            {
+              "title": "Définition de la matière",
+              "body": "La formulation et ses propriétés sont choisies en tenant compte de l’usage et des contraintes de fabrication.",
+              "points": [
+                "Propriétés recherchées",
+                "Approvisionnement",
+                "Préparation et contrôle"
+              ],
+              "route": "materiaux"
+            },
+            {
+              "title": "Production & densification",
+              "body": "La mise en forme et le cycle thermique sont étudiés ensemble pour maîtriser la géométrie finale.",
+              "points": [
+                "Injection et pressage",
+                "Coulage et calibrage",
+                "Déliantage et frittage",
+                "Découpe jet d’eau"
+              ],
+              "route": "production"
+            },
+            {
+              "title": "Finitions & traitements de surface",
+              "body": "Les opérations de finition donnent à la pièce l’aspect et les propriétés de surface attendus.",
+              "points": [
+                "Émaillage et polissage",
+                "Sablage",
+                "Dépôts PVD",
+                "Pulvérisation"
+              ],
+              "route": "traitements-de-surface"
+            },
+            {
+              "title": "Intégration de fonctions",
+              "body": "Les interfaces et les fonctions complémentaires sont définies selon le produit final.",
+              "points": [
+                "Connexions électriques",
+                "Interfaces mécaniques",
+                "Étanchéité et isolation",
+                "Décoration"
+              ],
+              "route": "ajout-de-fonctions"
+            }
+          ]
+        },
+        "outil-industriel": {
+          "title": "Notre outil industriel",
+          "intro": "Quatre sites en Haute-Vienne. Des procédés complémentaires pour développer, fabriquer et finir vos pièces."
+        },
+        "production": {
+          "title": "Mise en forme & production",
+          "intro": "Quatre procédés complémentaires, choisis selon la forme, la précision et le volume de vos pièces.",
+          "sections": [
+            {
+              "title": "Coulage & coulage sous pression",
+              "body": "Pour des formes creuses, des parois fines ou des volumes importants. Le coulage sous pression facilite l’automatisation et la régularité de production.",
+              "image": "casting"
+            },
+            {
+              "title": "Calibrage",
+              "body": "Une mise en forme adaptée aux pièces de révolution : disques, sphères et contenants circulaires, avec des cycles rapides et un état de surface régulier.",
+              "image": "jiggering"
+            },
+            {
+              "title": "Pressage uniaxial · 50 t",
+              "body": "Pour des composants plats ou peu reliefés. Le choix de la poudre et de l’outillage prépare la densification et la stabilité dimensionnelle après cuisson.",
+              "image": "pressing"
+            },
+            {
+              "title": "Injection céramique · CIM",
+              "body": "Pour des petites pièces de géométrie complexe et des séries industrielles. Le déliantage et le retrait au frittage sont anticipés dès la conception.",
+              "image": "injection"
+            }
+          ],
+          "comparison": {
+            "title": "Choisir le procédé adapté",
+            "headings": [
+              "Procédé",
+              "Atouts",
+              "Pièces types"
+            ],
+            "rows": [
+              [
+                "Coulage",
+                "Liberté de forme, parois fines",
+                "Pièces creuses ou de volume"
+              ],
+              [
+                "Calibrage",
+                "Cadence, régularité de surface",
+                "Pièces de révolution"
+              ],
+              [
+                "Pressage uniaxial",
+                "Densification, répétabilité",
+                "Plaques et composants plats"
+              ],
+              [
+                "Injection · CIM",
+                "Complexité, précision, série",
+                "Petits composants techniques"
+              ]
+            ]
+          }
+        },
+        "deliantage-frittage": {
+          "title": "Déliantage & frittage",
+          "intro": "Un parc thermique pour adapter les cycles de cuisson aux matériaux, aux dimensions et aux volumes de production.",
+          "metrics": [
+            {
+              "value": "24",
+              "label": "fours de grande capacité"
+            },
+            {
+              "value": "1 700 °C",
+              "label": "température maximale"
+            },
+            {
+              "value": "15 m³",
+              "label": "volume maximal de four"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Déliantage contrôlé",
+              "body": "Les constituants organiques sont retirés avant densification. Selon la matière, le déliantage est thermique, avec une montée progressive en température, ou réalisé en milieu aqueux."
+            },
+            {
+              "title": "Densification à haute température",
+              "body": "Les équipements électriques et gaz couvrent des cuissons de 980 à 1 700 °C. Le cycle et l’environnement sont définis pour le matériau et la géométrie."
+            },
+            {
+              "title": "Dimensions & production en série",
+              "body": "Des fours jusqu’à 15 m³ permettent d’étudier des pièces de grande dimension ou des charges importantes. Le plan de cuisson et les contrôles sont adaptés à chaque développement."
+            }
+          ],
+          "conditions": [
+            {
+              "title": "980 à 1 700 °C",
+              "body": "Une plage de cuisson selon le matériau."
+            },
+            {
+              "title": "Électrique & gaz",
+              "body": "Des équipements complémentaires."
+            },
+            {
+              "title": "Environnement maîtrisé",
+              "body": "Des conditions définies selon le cycle."
+            },
+            {
+              "title": "Tunnels gaz",
+              "body": "Des équipements pour les flux continus."
+            }
+          ]
+        },
+        "ajout-de-fonctions": {
+          "title": "Assemblage & ajout de fonctions",
+          "intro": "Compléter les propriétés de la céramique pour répondre à la fonction finale de votre produit.",
+          "sections": [
+            {
+              "title": "Associer les savoir-faire",
+              "body": "Les opérations de finition, de traitement de surface et d’assemblage sont étudiées ensemble dès le développement."
+            },
+            {
+              "title": "Répondre à l’usage",
+              "body": "Le cahier des charges définit les interfaces, les contraintes de montage et les propriétés de surface attendues."
+            },
+            {
+              "title": "Préparer l’industrialisation",
+              "body": "Les essais et contrôles permettent de définir les opérations complémentaires pour la série."
+            }
+          ]
+        },
+        "materiaux": {
+          "title": "Nos matériaux céramiques",
+          "intro": "Cinq familles pour répondre à vos contraintes mécaniques, thermiques, électriques et esthétiques."
+        },
+        "porcelaine-technique": {
+          "title": "Porcelaine technique",
+          "intro": "Un matériau historique, mis au service des applications industrielles.",
+          "points": [
+            "Isolation électrique",
+            "Stabilité dimensionnelle",
+            "Supports et contenants techniques",
+            "Moules et creusets"
+          ],
+          "sections": [
+            {
+              "title": "Une matière polyvalente",
+              "body": "La porcelaine technique répond à des besoins de stabilité, d’isolation et de tenue en usage. Formulation, géométrie et cuisson sont étudiées selon l’application."
+            }
+          ]
+        },
+        "alumine": {
+          "title": "Alumine",
+          "intro": "Dureté, résistance à l’usure et isolation électrique. Des grades de pureté intermédiaire adaptés à votre besoin.",
+          "points": [
+            "Dureté et résistance à l’abrasion",
+            "Isolation électrique",
+            "Tenue thermique",
+            "Buses, guides et supports"
+          ],
+          "sections": [
+            {
+              "title": "Des grades selon l’usage",
+              "body": "Les alumines de pureté intermédiaire permettent de combiner propriétés et coût. Le grade est choisi en fonction des sollicitations et du procédé de fabrication."
+            }
+          ]
+        },
+        "alumine-haute-purete": {
+          "title": "Alumine haute pureté",
+          "intro": "Des grades à 98 % et 99,7 % pour les applications techniques exigeantes.",
+          "points": [
+            "Dureté élevée",
+            "Pièces techniques de précision",
+            "Isolation et tenue thermique",
+            "Composants de protection balistique"
+          ],
+          "sections": [
+            {
+              "title": "Préciser la performance recherchée",
+              "body": "La pureté, la microstructure et la géométrie contribuent aux propriétés finales. Les critères sont définis avec nos équipes pour chaque application."
+            }
+          ]
+        },
+        "zta": {
+          "title": "ZTA",
+          "intro": "L’alumine renforcée à la zircone : une combinaison de dureté et de ténacité.",
+          "points": [
+            "Compromis dureté / ténacité",
+            "Pièces soumises aux chocs",
+            "Composants de pompes",
+            "Protection balistique"
+          ],
+          "sections": [
+            {
+              "title": "Associer deux familles céramiques",
+              "body": "La proportion de zircone et la formulation influencent le comportement du matériau. Le choix se fait selon les contraintes mécaniques et les performances recherchées."
+            }
+          ]
+        },
+        "zircone": {
+          "title": "Zircone",
+          "intro": "Résistance mécanique et faible conductivité thermique pour des composants de précision.",
+          "points": [
+            "Résistance mécanique",
+            "Faible conductivité thermique",
+            "Pièces de précision",
+            "Composants horlogers et techniques"
+          ],
+          "sections": [
+            {
+              "title": "Une matière pour les détails exigeants",
+              "body": "La zircone est étudiée pour les pièces où résistance mécanique, finition et précision géométrique doivent être réunies."
+            }
+          ]
+        },
+        "marches": {
+          "title": "Nos marchés",
+          "intro": "Des contraintes industrielles à l’expression esthétique, nos savoir-faire s’adaptent à chaque application."
+        },
+        "defense": {
+          "title": "Protection balistique",
+          "intro": "Des céramiques haute performance développées et fabriquées en France pour les systèmes de protection.",
+          "sections": [
+            {
+              "title": "La face d’impact céramique",
+              "body": "La céramique intervient dans la face d’impact d’un système de protection balistique. Le choix matière et la géométrie s’étudient avec l’ensemble de la solution de protection."
+            },
+            {
+              "title": "Des formes adaptées au système",
+              "body": "Tuiles, hexagones, pellets, plaques monolithiques et pièces multi-courbures : les composants sont développés selon l’architecture et le cahier des charges."
+            },
+            {
+              "title": "Du prototype à la production",
+              "body": "Alumine, ZTA et zircone sont étudiées selon les objectifs du système. Les performances NIJ ou VPAM doivent être validées sur le système complet, selon le protocole d’essai retenu."
+            }
+          ],
+          "points": [
+            "Protection individuelle",
+            "Véhicules et systèmes mobiles",
+            "Navires et aéronefs",
+            "Développements sur cahier des charges"
+          ],
+          "short": "Défense"
+        },
+        "industrie": {
+          "title": "Industrie",
+          "intro": "Des composants céramiques pour des environnements de production exigeants.",
+          "sections": [
+            {
+              "title": "Résister à l’usage",
+              "body": "Nous étudions les propriétés utiles à votre application : dureté, résistance à l’usure, stabilité dimensionnelle et tenue chimique."
+            },
+            {
+              "title": "Isoler & protéger",
+              "body": "L’isolation électrique et la tenue à haute température permettent d’envisager supports, isolateurs et protections techniques."
+            },
+            {
+              "title": "Adapter la fabrication",
+              "body": "La matière, le procédé et la finition sont définis ensemble selon le plan de la pièce et les volumes recherchés."
+            }
+          ],
+          "points": [
+            "Pièces de structure et inserts",
+            "Buses, guides et protections",
+            "Substrats et isolateurs",
+            "Supports de cuisson"
+          ]
+        },
+        "horlogerie": {
+          "title": "Horlogerie & luxe",
+          "intro": "La précision industrielle et la maîtrise du geste au service de l’habillage horloger.",
+          "sections": [
+            {
+              "title": "Composants céramiques",
+              "body": "Cadrans et éléments d’habillage conjuguent précision dimensionnelle, qualité de la matière et régularité des finitions."
+            },
+            {
+              "title": "Décors & marquages",
+              "body": "Notre imprimerie intégrée réalise des chromos et décors de précision. Le procédé et la cuisson sont choisis selon le rendu et la tenue recherchés."
+            },
+            {
+              "title": "Surfaces & finition",
+              "body": "Traitements et décors enrichissent la perception de la pièce. Les critères esthétiques et les exigences fonctionnelles font l’objet d’une validation dédiée."
+            }
+          ],
+          "points": [
+            "Cadrans",
+            "Éléments d’habillage",
+            "Marquages et décors fins",
+            "Traitements de surface"
+          ]
+        },
+        "contenants": {
+          "title": "Contenants & objets de marque",
+          "intro": "Cosmétiques, vins et spiritueux. Des objets distinctifs qui donnent matière à votre identité.",
+          "sections": [
+            {
+              "title": "Faire vivre une identité",
+              "body": "La forme, la couleur, le toucher et les décors prolongent l’histoire de votre marque dans un objet singulier."
+            },
+            {
+              "title": "Maîtriser le rendu",
+              "body": "Nos savoir-faire de fabrication, d’émaillage et de décoration accompagnent la recherche d’un résultat esthétique précis."
+            },
+            {
+              "title": "Préparer la série",
+              "body": "Les prototypes permettent de valider l’aspect, l’usage et les interfaces. Les contraintes de fabrication sont intégrées à chaque étape."
+            }
+          ],
+          "points": [
+            "Contenants cosmétiques",
+            "Vins et spiritueux",
+            "Objets de marque",
+            "Décors et finitions"
+          ]
+        },
+        "architecture": {
+          "title": "Architecture",
+          "intro": "La céramique et la porcelaine au service des façades, des habillages et des projets architecturaux singuliers.",
+          "sections": [
+            {
+              "title": "Matière & expression architecturale",
+              "body": "Couleurs, textures, reliefs et finitions permettent de développer une signature visuelle, du premier échantillon à la production des éléments."
+            },
+            {
+              "title": "Concevoir pour l’environnement du bâtiment",
+              "body": "Le choix du matériau, de la finition et de l’assemblage tient compte de l’exposition, de l’entretien et des contraintes de mise en œuvre. Les performances sont à valider à l’échelle de la solution constructive."
+            },
+            {
+              "title": "Accompagner l’intégration",
+              "body": "Le bureau d’études travaille avec les équipes de conception sur la géométrie, les fixations, les interfaces et les contrôles, pour préparer une fabrication reproductible."
+            }
+          ],
+          "points": [
+            "Façades et parements",
+            "Textures et reliefs sur mesure",
+            "Habillages intérieurs",
+            "Éléments décoratifs"
+          ],
+          "short": "Architecture"
+        },
+        "actualites": {
+          "title": "Actualités & ressources",
+          "intro": "Publications, rencontres et rendez-vous autour de nos savoir-faire."
+        },
+        "publications": {
+          "title": "Publications",
+          "intro": "Découvrir nos savoir-faire et nos solutions céramiques.",
+          "sections": [
+            {
+              "title": "Protection balistique",
+              "body": "Une présentation des céramiques de protection, des matériaux et des formats développés par Bernardaud Solutions Industrielles."
+            }
+          ]
+        },
+        "evenements": {
+          "title": "Évènements",
+          "intro": "Les rencontres de Bernardaud Solutions Industrielles.",
+          "empty": "Les prochains évènements seront annoncés ici."
+        },
+        "salons": {
+          "title": "Salons",
+          "intro": "Retrouvez les prochains rendez-vous avec notre équipe.",
+          "empty": "Notre calendrier de salons sera publié prochainement."
+        },
+        "contact": {
+          "title": "Parlons de votre projet",
+          "intro": "Un besoin matière, une pièce à développer, une surface à imaginer. Échangeons sur votre application."
+        },
+        "confidentialite": {
+          "title": "Confidentialité & préférences",
+          "intro": "Les informations sur le fonctionnement de cet aperçu.",
+          "sections": [
+            {
+              "title": "Préférences sur votre appareil",
+              "body": "Le choix de langue et le choix de cookies sont conservés dans le stockage local de votre navigateur. Aucun outil publicitaire ou de mesure d’audience n’est activé."
+            },
+            {
+              "title": "Contact par e-mail",
+              "body": "Les liens de contact ouvrent votre messagerie. Aucun message n’est envoyé automatiquement et aucun formulaire de contact n’est enregistré par cette version."
+            },
+            {
+              "title": "Contenu & ressources",
+              "body": "Cet aperçu est hébergé sur GitHub Pages. Les images, les polices et les icônes sont servies par l’hébergeur. Aucun backoffice ni formulaire de collecte n’est disponible dans cet aperçu."
+            }
+          ]
+        }
+      }
+    },
+    "en": {
+      "ballistic": {
+        "title": "Formats suited to your protection system",
+        "intro": "Standard components and custom development: dimensions, thickness, curvature and geometry are assessed for the complete system.",
+        "products": [
+          {
+            "title": "Tiles, hexagons & pellets",
+            "body": "Ceramic elements for modular protection architectures."
+          },
+          {
+            "title": "Monolithic plates",
+            "body": "250 × 300 mm format, with thicknesses from 3.5 to 12 mm depending on development."
+          },
+          {
+            "title": "Multi-curvature parts",
+            "body": "Complex shapes assessed for system integration and ergonomics."
+          }
+        ]
+      },
+      "ui": {
+        "home": "Home",
+        "discover": "Discover",
+        "all": "Overview",
+        "contact": "Discuss your project",
+        "menu": "Open menu",
+        "close": "Close",
+        "language": "Choose language",
+        "overview": "Explore this section",
+        "next": "Explore further",
+        "applications": "Applications",
+        "expertise": "Our expertise",
+        "materials": "Materials",
+        "properties": "Indicative properties",
+        "property": "Property",
+        "unit": "Unit",
+        "quality": "Quality & environment",
+        "process": "From first trial to production",
+        "processIntro": "Continuous support, with a contact at each stage of your development.",
+        "sites": "Complementary capabilities",
+        "sitesIntro": "Our hubs in Haute-Vienne bring together ceramic production, printing and finishing.",
+        "admin": "Administration",
+        "privacy": "Privacy",
+        "cookieSettings": "Cookie preferences",
+        "skip": "Skip to content",
+        "empty": "No publications at this time.",
+        "notFound": "This page could not be found",
+        "backHome": "Back to home",
+        "error": "Content could not be loaded.",
+        "retry": "Try again",
+        "email": "By email",
+        "phone": "By phone",
+        "address": "Find us",
+        "contactDetails": "Your industrial partner in Limoges",
+        "contactIntro": "Tell us about your application, requirements and volumes. We will connect you with the right team.",
+        "contactSubject": "Bernardaud Solutions Industrielles project",
+        "tableNote": "Values from the BSI presentation document, to be confirmed with our technical team for the selected grade, process and application. They are not a contractual specification.",
+        "propertyLabels": [
+          "Purity / composition",
+          "Density",
+          "Porosity",
+          "Rockwell 45N hardness",
+          "Fracture toughness",
+          "Young’s modulus",
+          "Flexural strength",
+          "Ultrasonic velocity",
+          "Thermal conductivity"
+        ],
+        "sections": [
+          "Company",
+          "Expertise",
+          "Materials",
+          "Markets",
+          "News"
+        ]
+      },
+      "home": {
+        "eyebrow": "Limoges, France · Since 1863",
+        "title": "Bernardaud",
+        "subtitle": "Industrial solutions",
+        "intro": "Technical ceramics, screen printing and surface treatments. French expertise, from prototype to volume production.",
+        "primary": "Explore our expertise",
+        "secondary": "Your project",
+        "caption": "Ceramic injection moulding · Our industrial platform",
+        "scroll": "Discover BSI",
+        "offerTitle": "Material. Form. Surface.",
+        "offerIntro": "Four areas of expertise, one commitment to manufacturing quality. We bring together the capabilities to realise your industrial projects.",
+        "offerLink": "Explore our offer",
+        "marketsTitle": "Solutions that meet your requirements.",
+        "marketsIntro": "From ballistic protection to watchmaking, each application calls for a specific response.",
+        "heritageTitle": "A name. A craft. An industrial capability.",
+        "heritageIntro": "Since 1863 in Limoges, Bernardaud has combined material expertise with skilled craftsmanship. This heritage underpins a French industrial platform dedicated to your developments.",
+        "heritageLink": "Discover Bernardaud",
+        "productionTitle": "Custom development. Industrial scale.",
+        "productionIntro": "Formulation, shaping, firing, printing and finishing: our teams support your component development on an integrated industrial platform.",
+        "productionLink": "Explore our industrial platform",
+        "footerBaseline": "Material expertise, serving industry."
+      },
+      "pages": {
+        "presentation": {
+          "title": "About Bernardaud",
+          "intro": "A French family business, over 160 years of expertise and an industrial platform dedicated to your development projects.",
+          "sections": [
+            {
+              "title": "Material heritage",
+              "body": "Founded in Limoges in 1863, Bernardaud combines a historic ceramic culture with continuous investment and innovation."
+            },
+            {
+              "title": "Industrial expertise",
+              "body": "Bernardaud Solutions Industrielles brings together the group’s capabilities to develop and manufacture ceramic components, decoration and technical surfaces."
+            },
+            {
+              "title": "Working closely with you",
+              "body": "From study to production, our teams work with you on material, geometry, finishes and the requirements of your application."
+            }
+          ]
+        },
+        "historique": {
+          "title": "Bernardaud’s history",
+          "intro": "Since 1863, a story of craftsmanship, innovation and French manufacturing.",
+          "sections": [
+            {
+              "title": "1863 · Founded in Limoges",
+              "body": "Bernardaud was founded in Limoges, a region closely associated with porcelain. Knowledge of materials and firing became the foundation of the manufacture."
+            },
+            {
+              "title": "Expertise passed on",
+              "body": "Precision, finishing quality and manufacturing expertise are passed on in the workshops of this family business."
+            },
+            {
+              "title": "Today · New applications",
+              "body": "Bernardaud Solutions Industrielles applies these capabilities to technical ceramics, printing and surface treatments, from first prototype to series production."
+            }
+          ]
+        },
+        "actionnariat": {
+          "title": "Family ownership",
+          "intro": "An independent business with a long-term vision.",
+          "sections": [
+            {
+              "title": "Committed leadership",
+              "body": "The Bernardaud family remains directly involved in running the business, connecting strategic decisions to the reality of the workshops and markets."
+            },
+            {
+              "title": "Long-term investment",
+              "body": "Family ownership supports the transmission of expertise, industrial investment and the development of new applications."
+            },
+            {
+              "title": "A French industrial partner",
+              "body": "The Haute-Vienne location and integrated manufacturing stages support close collaboration between teams and industrial partners."
+            }
+          ]
+        },
+        "certifications": {
+          "title": "Quality & environment",
+          "intro": "A shared commitment across workshops, inspection and project management.",
+          "sections": [
+            {
+              "title": "ISO 9001 · Quality management",
+              "body": "The quality approach structures processes, inspection and continuous improvement. Our teams confirm the scope applicable to your project."
+            },
+            {
+              "title": "ISO 14001 · Environmental management",
+              "body": "The environmental approach supports impact monitoring and the improvement of practices at production sites."
+            },
+            {
+              "title": "Traceability & technical dialogue",
+              "body": "Inspection plans, acceptance criteria and batch tracking are defined according to the component, volumes and specification."
+            }
+          ]
+        },
+        "partenaires": {
+          "title": "An innovation ecosystem",
+          "intro": "In Limoges, industry, research and technical centres contribute to the development of new ceramic solutions.",
+          "sections": [
+            {
+              "title": "IRCER",
+              "body": "Institute of Research for Ceramics: scientific research, material knowledge and understanding of material behaviour."
+            },
+            {
+              "title": "CTTC",
+              "body": "Ceramic Technology Transfer Centre: process development, technology transfer and innovation support."
+            },
+            {
+              "title": "CITRA",
+              "body": "Surface treatment engineering: expertise in surfaces and their functions."
+            },
+            {
+              "title": "CEDREM",
+              "body": "Complementary expertise for the development and assessment of protection solutions."
+            }
+          ]
+        },
+        "offre": {
+          "title": "Our expertise",
+          "intro": "Four complementary capabilities, from material to finished component. Support from development to industrialisation."
+        },
+        "ceramiques-techniques": {
+          "title": "Technical ceramics",
+          "intro": "The right material, geometry and process for your application.",
+          "sections": [
+            {
+              "title": "Select and develop the material",
+              "body": "Technical porcelain, alumina, ZTA or zirconia: we assess the ceramic family against mechanical, thermal and electrical requirements."
+            },
+            {
+              "title": "Control the shape",
+              "body": "Casting, pressing and injection moulding address a range of geometries and volumes. Tooling and process are defined during development."
+            },
+            {
+              "title": "Move to production",
+              "body": "Prototypes, characterisation and inspection prepare repeatable manufacturing in small batches or large volumes."
+            }
+          ],
+          "points": [
+            "Custom components",
+            "Application-specific formulations",
+            "Prototyping and industrialisation",
+            "Small batches and large series"
+          ]
+        },
+        "serigraphie": {
+          "title": "Screen printing",
+          "intro": "Precise decoration and markings for different materials and uses.",
+          "sections": [
+            {
+              "title": "From design to printing",
+              "body": "Our integrated printing department supports graphic preparation, trials and the production of transfers and markings."
+            },
+            {
+              "title": "A finish suited to the substrate",
+              "body": "Pigments, printing process and firing are selected for the material, appearance and durability required."
+            },
+            {
+              "title": "Repeatable production",
+              "body": "Fine details and consistency are assessed with your teams for decorative and technical applications."
+            }
+          ],
+          "points": [
+            "Graphic design",
+            "Transfers and decoration",
+            "Technical markings",
+            "Trials and series production"
+          ]
+        },
+        "traitements-de-surface": {
+          "title": "Decoration & surface treatments",
+          "intro": "A surface can change a component’s appearance, perception and function.",
+          "sections": [
+            {
+              "title": "Aesthetic finishes",
+              "body": "Glazing, decoration and metallic finishes enhance the material and the identity of the object."
+            },
+            {
+              "title": "Functional surfaces",
+              "body": "PVD, texturing, sandblasting and metallisation are assessed for the substrate and required properties."
+            },
+            {
+              "title": "An integrated approach",
+              "body": "Preparation, treatment and inspection are coordinated with component development."
+            }
+          ],
+          "points": [
+            "Glazing and decoration",
+            "PVD and metallisation",
+            "Texturing and sandblasting",
+            "Finishes and surface inspection"
+          ]
+        },
+        "developpements-industriels": {
+          "title": "Industrial development",
+          "intro": "Study, test, assemble and industrialise a solution for your requirements.",
+          "sections": [
+            {
+              "title": "Studies & proof of concept",
+              "body": "Together we analyse requirements, constraints and options for material, shape or surface."
+            },
+            {
+              "title": "Prototypes & validation",
+              "body": "First components help assess integration, behaviour and manufacturing conditions."
+            },
+            {
+              "title": "Assembly & added functions",
+              "body": "Complementary operations and subcontracting services are defined to meet the final specification."
+            }
+          ],
+          "points": [
+            "Feasibility studies",
+            "Prototyping and characterisation",
+            "Assembly",
+            "Industrial subcontracting"
+          ]
+        },
+        "etapes-process": {
+          "title": "From material to function",
+          "intro": "Five coordinated stages, from feasibility to added functions, to turn your requirements into a ceramic component.",
+          "stages": [
+            {
+              "title": "Feasibility analysis",
+              "body": "The engineering team reviews your requirements and develops a feasible solution with you.",
+              "points": [
+                "Specification review",
+                "Co-design",
+                "Process selection"
+              ],
+              "route": "developpements-industriels"
+            },
+            {
+              "title": "Material definition",
+              "body": "Formulation and properties are selected for the application and manufacturing requirements.",
+              "points": [
+                "Required properties",
+                "Sourcing",
+                "Preparation and inspection"
+              ],
+              "route": "materiaux"
+            },
+            {
+              "title": "Production & densification",
+              "body": "Shaping and thermal treatment are assessed together to control final geometry.",
+              "points": [
+                "Injection moulding and pressing",
+                "Casting and jiggering",
+                "Debinding and sintering",
+                "Waterjet cutting"
+              ],
+              "route": "production"
+            },
+            {
+              "title": "Finishes & surface treatments",
+              "body": "Finishing operations deliver the required appearance and surface properties.",
+              "points": [
+                "Glazing and polishing",
+                "Sandblasting",
+                "PVD coatings",
+                "Spraying"
+              ],
+              "route": "traitements-de-surface"
+            },
+            {
+              "title": "Added functions",
+              "body": "Interfaces and complementary functions are defined for the finished product.",
+              "points": [
+                "Electrical connections",
+                "Mechanical interfaces",
+                "Sealing and insulation",
+                "Decoration"
+              ],
+              "route": "ajout-de-fonctions"
+            }
+          ]
+        },
+        "outil-industriel": {
+          "title": "Our industrial platform",
+          "intro": "Four sites in Haute-Vienne. Complementary processes to develop, manufacture and finish your components."
+        },
+        "production": {
+          "title": "Shaping & production",
+          "intro": "Four complementary processes, selected for component geometry, precision and production volumes.",
+          "sections": [
+            {
+              "title": "Casting & pressure casting",
+              "body": "For hollow shapes, thin walls or larger volumes. Pressure casting supports automation and repeatable production.",
+              "image": "casting"
+            },
+            {
+              "title": "Jiggering",
+              "body": "For rotationally symmetrical components such as discs, spheres and circular containers, with short cycles and consistent surfaces.",
+              "image": "jiggering"
+            },
+            {
+              "title": "Uniaxial pressing · 50 t",
+              "body": "For flat or shallow-relief components. Powder and tooling selection prepare densification and dimensional stability after firing.",
+              "image": "pressing"
+            },
+            {
+              "title": "Ceramic injection moulding · CIM",
+              "body": "For small, complex components and industrial series. Debinding and sintering shrinkage are considered from the design stage.",
+              "image": "injection"
+            }
+          ],
+          "comparison": {
+            "title": "Select the right process",
+            "headings": [
+              "Process",
+              "Advantages",
+              "Typical components"
+            ],
+            "rows": [
+              [
+                "Casting",
+                "Shape freedom, thin walls",
+                "Hollow or larger components"
+              ],
+              [
+                "Jiggering",
+                "Cycle time, surface consistency",
+                "Rotationally symmetrical parts"
+              ],
+              [
+                "Uniaxial pressing",
+                "Densification, repeatability",
+                "Plates and flat components"
+              ],
+              [
+                "Injection moulding · CIM",
+                "Complexity, precision, series",
+                "Small technical components"
+              ]
+            ]
+          }
+        },
+        "deliantage-frittage": {
+          "title": "Debinding & sintering",
+          "intro": "Thermal capabilities to adapt firing cycles to materials, dimensions and production volumes.",
+          "metrics": [
+            {
+              "value": "24",
+              "label": "large-capacity kilns"
+            },
+            {
+              "value": "1,700 °C",
+              "label": "maximum temperature"
+            },
+            {
+              "value": "15 m³",
+              "label": "maximum kiln volume"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Controlled debinding",
+              "body": "Organic constituents are removed before densification. Depending on the material, debinding uses gradual heating or an aqueous process."
+            },
+            {
+              "title": "High-temperature densification",
+              "body": "Electric and gas equipment covers firing from 980 to 1,700 °C. Cycle and environment are defined for the material and geometry."
+            },
+            {
+              "title": "Dimensions & series production",
+              "body": "Kilns up to 15 m³ support the assessment of large components or substantial loads. Firing plans and inspection are adapted to each development."
+            }
+          ],
+          "conditions": [
+            {
+              "title": "980 to 1,700 °C",
+              "body": "A firing range selected for the material."
+            },
+            {
+              "title": "Electric & gas",
+              "body": "Complementary equipment."
+            },
+            {
+              "title": "Controlled environment",
+              "body": "Conditions selected for each cycle."
+            },
+            {
+              "title": "Gas tunnel kilns",
+              "body": "Equipment for continuous production."
+            }
+          ]
+        },
+        "ajout-de-fonctions": {
+          "title": "Assembly & added functions",
+          "intro": "Extend ceramic properties to meet the final function of your product.",
+          "sections": [
+            {
+              "title": "Combine capabilities",
+              "body": "Finishing, surface treatment and assembly are considered together from development."
+            },
+            {
+              "title": "Address the application",
+              "body": "The specification defines interfaces, assembly constraints and required surface properties."
+            },
+            {
+              "title": "Prepare production",
+              "body": "Trials and inspection define the complementary operations needed for series production."
+            }
+          ]
+        },
+        "materiaux": {
+          "title": "Our ceramic materials",
+          "intro": "Five families to address mechanical, thermal, electrical and aesthetic requirements."
+        },
+        "porcelaine-technique": {
+          "title": "Technical porcelain",
+          "intro": "A historic material, applied to industrial requirements.",
+          "points": [
+            "Electrical insulation",
+            "Dimensional stability",
+            "Technical supports and containers",
+            "Moulds and crucibles"
+          ],
+          "sections": [
+            {
+              "title": "A versatile material",
+              "body": "Technical porcelain addresses stability, insulation and application durability. Formulation, geometry and firing are assessed for each application."
+            }
+          ]
+        },
+        "alumine": {
+          "title": "Alumina",
+          "intro": "Hardness, wear resistance and electrical insulation. Intermediate purity grades for your requirements.",
+          "points": [
+            "Hardness and abrasion resistance",
+            "Electrical insulation",
+            "Thermal resistance",
+            "Nozzles, guides and supports"
+          ],
+          "sections": [
+            {
+              "title": "Grades for each application",
+              "body": "Intermediate purity alumina grades combine performance and cost. Selection depends on the loading conditions and manufacturing process."
+            }
+          ]
+        },
+        "alumine-haute-purete": {
+          "title": "High-purity alumina",
+          "intro": "98 % and 99.7 % grades for demanding technical applications.",
+          "points": [
+            "High hardness",
+            "Precision technical components",
+            "Insulation and thermal resistance",
+            "Ballistic protection components"
+          ],
+          "sections": [
+            {
+              "title": "Define the required performance",
+              "body": "Purity, microstructure and geometry contribute to final properties. Criteria are defined with our teams for each application."
+            }
+          ]
+        },
+        "zta": {
+          "title": "ZTA",
+          "intro": "Zirconia-toughened alumina: a combination of hardness and toughness.",
+          "points": [
+            "Hardness / toughness balance",
+            "Impact-loaded components",
+            "Pump components",
+            "Ballistic protection"
+          ],
+          "sections": [
+            {
+              "title": "Combine two ceramic families",
+              "body": "Zirconia content and formulation influence material behaviour. Selection depends on mechanical requirements and the performance sought."
+            }
+          ]
+        },
+        "zircone": {
+          "title": "Zirconia",
+          "intro": "Mechanical strength and low thermal conductivity for precision components.",
+          "points": [
+            "Mechanical strength",
+            "Low thermal conductivity",
+            "Precision components",
+            "Watchmaking and technical components"
+          ],
+          "sections": [
+            {
+              "title": "For demanding details",
+              "body": "Zirconia is assessed for components requiring mechanical strength, finish quality and geometrical precision."
+            }
+          ]
+        },
+        "marches": {
+          "title": "Our markets",
+          "intro": "From industrial requirements to aesthetic expression, our capabilities adapt to each application."
+        },
+        "defense": {
+          "title": "Ballistic protection",
+          "intro": "High-performance ceramics developed and manufactured in France for protection systems.",
+          "sections": [
+            {
+              "title": "The ceramic strike face",
+              "body": "Ceramics form part of the strike face of a ballistic protection system. Material and geometry are assessed alongside the complete protection solution."
+            },
+            {
+              "title": "Shapes adapted to the system",
+              "body": "Tiles, hexagons, pellets, monolithic plates and multi-curvature components are developed for the architecture and specification."
+            },
+            {
+              "title": "From prototype to production",
+              "body": "Alumina, ZTA and zirconia are assessed against system objectives. NIJ or VPAM performance must be validated on the complete system using the selected testing protocol."
+            }
+          ],
+          "points": [
+            "Personal protection",
+            "Vehicles and mobile systems",
+            "Ships and aircraft",
+            "Custom development"
+          ],
+          "short": "Defence"
+        },
+        "industrie": {
+          "title": "Industry",
+          "intro": "Ceramic components for demanding production environments.",
+          "sections": [
+            {
+              "title": "Withstand the application",
+              "body": "We assess relevant properties: hardness, wear resistance, dimensional stability and chemical resistance."
+            },
+            {
+              "title": "Insulate & protect",
+              "body": "Electrical insulation and high-temperature resistance support technical supports, insulators and protection components."
+            },
+            {
+              "title": "Adapt manufacturing",
+              "body": "Material, process and finishing are defined together for the drawing and required volumes."
+            }
+          ],
+          "points": [
+            "Structural parts and inserts",
+            "Nozzles, guides and protection",
+            "Substrates and insulators",
+            "Kiln furniture"
+          ]
+        },
+        "horlogerie": {
+          "title": "Watchmaking & luxury",
+          "intro": "Industrial precision and skilled craftsmanship for watch components.",
+          "sections": [
+            {
+              "title": "Ceramic components",
+              "body": "Dials and external watch components combine dimensional precision, material quality and consistent finishing."
+            },
+            {
+              "title": "Decoration & markings",
+              "body": "Our integrated printing department produces precision transfers and decoration. Process and firing are selected for appearance and durability."
+            },
+            {
+              "title": "Surfaces & finishing",
+              "body": "Treatments and decoration enhance the component. Aesthetic criteria and functional requirements receive dedicated validation."
+            }
+          ],
+          "points": [
+            "Dials",
+            "External watch components",
+            "Fine markings and decoration",
+            "Surface treatments"
+          ]
+        },
+        "contenants": {
+          "title": "Containers & branded objects",
+          "intro": "Cosmetics, wines and spirits. Distinctive objects that express your identity.",
+          "sections": [
+            {
+              "title": "Express an identity",
+              "body": "Shape, colour, feel and decoration extend your brand’s story into a distinctive object."
+            },
+            {
+              "title": "Control the appearance",
+              "body": "Manufacturing, glazing and decoration capabilities support a precise aesthetic result."
+            },
+            {
+              "title": "Prepare production",
+              "body": "Prototypes validate appearance, use and interfaces. Manufacturing constraints are considered at each stage."
+            }
+          ],
+          "points": [
+            "Cosmetic containers",
+            "Wines and spirits",
+            "Branded objects",
+            "Decoration and finishes"
+          ]
+        },
+        "architecture": {
+          "title": "Architecture",
+          "intro": "Ceramics and porcelain for façades, cladding and distinctive architectural projects.",
+          "sections": [
+            {
+              "title": "Material & architectural expression",
+              "body": "Colours, textures, reliefs and finishes support a visual signature, from initial samples to manufactured elements."
+            },
+            {
+              "title": "Designed for the building environment",
+              "body": "Material, finish and assembly are selected for exposure, maintenance and installation requirements. Performance must be validated at the level of the complete building solution."
+            },
+            {
+              "title": "Support integration",
+              "body": "The engineering team works with designers on geometry, fixings, interfaces and inspection to prepare repeatable manufacturing."
+            }
+          ],
+          "points": [
+            "Façades and cladding",
+            "Custom textures and reliefs",
+            "Interior finishes",
+            "Decorative elements"
+          ],
+          "short": "Architecture"
+        },
+        "actualites": {
+          "title": "News & resources",
+          "intro": "Publications, meetings and events around our expertise."
+        },
+        "publications": {
+          "title": "Publications",
+          "intro": "Explore our capabilities and ceramic solutions.",
+          "sections": [
+            {
+              "title": "Ballistic protection",
+              "body": "A presentation of protection ceramics, materials and formats developed by Bernardaud Solutions Industrielles."
+            }
+          ]
+        },
+        "evenements": {
+          "title": "Events",
+          "intro": "Meet Bernardaud Solutions Industrielles.",
+          "empty": "Upcoming events will be announced here."
+        },
+        "salons": {
+          "title": "Trade fairs",
+          "intro": "Discover the next opportunities to meet our team.",
+          "empty": "Our trade fair calendar will be published soon."
+        },
+        "contact": {
+          "title": "Discuss your project",
+          "intro": "A material requirement, a component to develop or a surface to create. Let’s discuss your application."
+        },
+        "confidentialite": {
+          "title": "Privacy & preferences",
+          "intro": "How this preview works.",
+          "sections": [
+            {
+              "title": "Preferences on your device",
+              "body": "Language and cookie choices are kept in your browser’s local storage. No advertising or audience measurement tools are active."
+            },
+            {
+              "title": "Contact by email",
+              "body": "Contact links open your email application. No message is sent automatically and this version stores no contact form."
+            },
+            {
+              "title": "Content & resources",
+              "body": "This preview is hosted on GitHub Pages. Images, fonts and icons are served by the host. No administration or data collection form is available in this preview."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "materialTables": {
+    "porcelaine-technique": {
+      "grades": [
+        "Porcelaine"
+      ],
+      "values": [
+        [
+          "25–75"
+        ],
+        [
+          "3.3"
+        ],
+        [
+          "0"
+        ],
+        [
+          "65"
+        ],
+        [
+          "2.5–3"
+        ],
+        [
+          "240"
+        ],
+        [
+          "200"
+        ],
+        [
+          "8500"
+        ],
+        [
+          "10"
+        ]
+      ]
+    },
+    "alumine": {
+      "grades": [
+        "90 %",
+        "92 %",
+        "96 %"
+      ],
+      "values": [
+        [
+          "90",
+          "92",
+          "96"
+        ],
+        [
+          "3.6",
+          "3.7",
+          "3.75"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "76",
+          "78",
+          "80"
+        ],
+        [
+          "3–4",
+          "3–4",
+          "4–5"
+        ],
+        [
+          "275",
+          "280",
+          "300"
+        ],
+        [
+          "250",
+          "280",
+          "310"
+        ],
+        [
+          "9300",
+          "9500",
+          "10200"
+        ],
+        [
+          "20",
+          "20",
+          "24"
+        ]
+      ]
+    },
+    "alumine-haute-purete": {
+      "grades": [
+        "98 %",
+        "99.7 %"
+      ],
+      "values": [
+        [
+          "98",
+          "99.7"
+        ],
+        [
+          "3.8",
+          "3.9"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "82–84",
+          "83–85"
+        ],
+        [
+          "4–5",
+          "4–5"
+        ],
+        [
+          "350",
+          "400"
+        ],
+        [
+          "330",
+          "350"
+        ],
+        [
+          "10300",
+          "10500"
+        ],
+        [
+          "26",
+          "30"
+        ]
+      ]
+    },
+    "zta": {
+      "grades": [
+        "90 / 10",
+        "80 / 20"
+      ],
+      "values": [
+        [
+          "90 / 10",
+          "80 / 20"
+        ],
+        [
+          "4.1",
+          "5.4"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "85",
+          "80"
+        ],
+        [
+          "6–8",
+          "8–10"
+        ],
+        [
+          "380",
+          "400"
+        ],
+        [
+          "600–750",
+          "750–900"
+        ],
+        [
+          "10100",
+          "9700"
+        ],
+        [
+          "10",
+          "10"
+        ]
+      ]
+    },
+    "zircone": {
+      "grades": [
+        "ZrO₂"
+      ],
+      "values": [
+        [
+          "Selon grade"
+        ],
+        [
+          "6"
+        ],
+        [
+          "0"
+        ],
+        [
+          "80"
+        ],
+        [
+          "5–10"
+        ],
+        [
+          "200"
+        ],
+        [
+          "1000"
+        ],
+        [
+          "7100"
+        ],
+        [
+          "2"
+        ]
+      ]
+    }
+  },
+  "fr": {
+    "nav": {
+      "contact": "Contact"
+    },
+    "metrics": [
+      {
+        "value": "60 000 m2",
+        "label": "d'usines en Haute-Vienne"
+      },
+      {
+        "value": "4",
+        "label": "sites de production"
+      },
+      {
+        "value": "750",
+        "label": "collaborateurs"
+      },
+      {
+        "value": "75 %",
+        "label": "à l'export"
+      }
+    ],
+    "pillars": [
+      {
+        "summary": "Développement et production de composants en porcelaine technique, alumine, ZTA, zircone et autres nuances selon cahier des charges."
+      },
+      {
+        "summary": "Conception et production de chromos, décors et marquages techniques pour différents matériaux et usages industriels."
+      },
+      {
+        "summary": "Solutions esthétiques ou fonctionnelles : émaillage, PVD, texturation, sablage, métallisation et finitions spécifiques."
+      },
+      {
+        "summary": "Études, prototypage, ajout de fonctions, assemblage et sous-traitance sur un outil industriel polyvalent."
+      }
+    ],
+    "presentationPage": {
+      "sites": [
+        {
+          "name": "Oradour-sur-Glane",
+          "role": "Céramiques techniques",
+          "details": "Formulation, façonnage, pressage, injection, déliantage, frittage, caractérisation et production de composants."
+        },
+        {
+          "name": "Limoges - centre",
+          "role": "Impression sérigraphique",
+          "details": "Chromos, décors, marquages techniques, essais et séries pour différents matériaux et usages."
+        },
+        {
+          "name": "Limoges - traitements",
+          "role": "Décors et surfaces",
+          "details": "Émaillage, PVD, texturation, sablage, métallisation, finitions et assemblages associés."
+        }
+      ]
+    },
+    "offerPage": {
+      "process": [
+        {
+          "step": "01",
+          "title": "Preuve de concept",
+          "body": "Valider rapidement une orientation matière, géométrie, décor ou surface avant d’engager un développement complet."
+        },
+        {
+          "step": "02",
+          "title": "Caractérisation",
+          "body": "Mesurer les propriétés utiles : densité, dureté, tenue mécanique, ultrasonique, thermique, électrique ou inspection de surface selon les cas."
+        },
+        {
+          "step": "03",
+          "title": "Prototypage",
+          "body": "Produire des premières pièces, formes ou décors pour vérifier l’usage, l’intégration, l’ergonomie et les contraintes de fabrication."
+        },
+        {
+          "step": "04",
+          "title": "Industrialisation",
+          "body": "Stabiliser les paramètres, outillages, contrôles et flux nécessaires à une production fiable en petites séries ou volumes récurrents."
+        }
+      ]
+    },
+    "industrialPage": {
+      "capabilities": [
+        {
+          "title": "Formulation et choix matière",
+          "body": "Sélection matière, adaptation formulation, analyse microstructure et arbitrage performance / coût."
+        },
+        {
+          "title": "Mise en forme",
+          "body": "Pressage axial ou semi-isostatique, injection céramique, coulage, coulage sous pression, plaques, carreaux et formes spécifiques."
+        },
+        {
+          "title": "Traitement thermique",
+          "body": "Déliantage, frittage haute température et stabilisation des paramètres de cuisson."
+        },
+        {
+          "title": "Finition et surface",
+          "body": "Décors, sérigraphie, PVD, texturation, sablage, métallisation, inspection et assemblages."
+        },
+        {
+          "title": "Contrôle et validation",
+          "body": "Mesures densité, dureté, mécanique, ultrasonique, inspection surface et essais comparatifs lorsque nécessaire."
+        },
+        {
+          "title": "Production série",
+          "body": "Industrialisation, traçabilité, qualification et fabrication récurrente dans une logique de proximité française."
+        }
+      ]
+    },
+    "contact": {
+      "button": "Écrire à BSI"
+    },
+    "cookies": {
+      "title": "Gestion des cookies",
+      "accept": "Accepter",
+      "reject": "Refuser"
+    }
+  },
+  "en": {
+    "nav": {
+      "contact": "Contact"
+    },
+    "metrics": [
+      {
+        "value": "60,000 sqm",
+        "label": "of factories in Haute-Vienne"
+      },
+      {
+        "value": "4",
+        "label": "production sites"
+      },
+      {
+        "value": "750",
+        "label": "employees"
+      },
+      {
+        "value": "75%",
+        "label": "export share"
+      }
+    ],
+    "pillars": [
+      {
+        "summary": "Development and production of technical porcelain, alumina, ZTA, zirconia and other formulations according to specification."
+      },
+      {
+        "summary": "Design and production of decals, decoration and technical markings for different materials and industrial uses."
+      },
+      {
+        "summary": "Aesthetic or functional solutions: glazing, PVD, texturing, sandblasting, metallization and specific finishes."
+      },
+      {
+        "summary": "Engineering, prototyping, added functions, assembly and subcontracted operations on a versatile industrial platform."
+      }
+    ],
+    "presentationPage": {
+      "sites": [
+        {
+          "name": "Oradour-sur-Glane",
+          "role": "Technical ceramics",
+          "details": "Formulation, forming, pressing, injection, debinding, sintering, characterization and component production."
+        },
+        {
+          "name": "Limoges - city center",
+          "role": "Screen printing",
+          "details": "Decals, decoration, technical markings, trials and series for different materials and uses."
+        },
+        {
+          "name": "Limoges - surface treatments",
+          "role": "Decoration and surfaces",
+          "details": "Glazing, PVD, texturing, sandblasting, metallization, finishes and associated assemblies."
+        }
+      ]
+    },
+    "offerPage": {
+      "process": [
+        {
+          "step": "01",
+          "title": "Proof of concept",
+          "body": "Quickly validate a material, geometry, decoration or surface direction before committing to full development."
+        },
+        {
+          "step": "02",
+          "title": "Characterization",
+          "body": "Measure useful properties: density, hardness, mechanical, ultrasonic, thermal, electrical or surface inspection depending on the case."
+        },
+        {
+          "step": "03",
+          "title": "Prototyping",
+          "body": "Produce first parts, shapes or decorations to verify use, integration, ergonomics and manufacturing constraints."
+        },
+        {
+          "step": "04",
+          "title": "Industrialization",
+          "body": "Stabilize parameters, tooling, controls and flows required for reliable production in small batches or recurring volumes."
+        }
+      ]
+    },
+    "industrialPage": {
+      "capabilities": [
+        {
+          "title": "Formulation and material choice",
+          "body": "Material selection, formulation adaptation, microstructure analysis and performance / cost arbitration."
+        },
+        {
+          "title": "Forming",
+          "body": "Axial or semi-isostatic pressing, ceramic injection, casting, die casting, plates, tiles and specific shapes."
+        },
+        {
+          "title": "Thermal treatment",
+          "body": "Debinding, high-temperature sintering and stabilization of firing parameters."
+        },
+        {
+          "title": "Finishing and surface",
+          "body": "Decoration, screen printing, PVD, texturing, sandblasting, metallization, inspection and assemblies."
+        },
+        {
+          "title": "Control and validation",
+          "body": "Density, hardness, mechanical, ultrasonic and surface inspection measurements, with comparative tests where required."
+        },
+        {
+          "title": "Series production",
+          "body": "Industrialization, traceability, qualification and recurring manufacturing with French proximity."
+        }
+      ]
+    },
+    "contact": {
+      "button": "Email BSI"
+    },
+    "cookies": {
+      "title": "Cookie settings",
+      "accept": "Accept",
+      "reject": "Reject"
+    }
+  }
+}
