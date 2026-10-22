@@ -27,7 +27,7 @@ const routeImages = {
   "ceramiques-techniques": "hero", serigraphie: "screenprint", "traitements-de-surface": "surface",
   "developpements-industriels": "production", "outil-industriel": "production", production: "hero",
   "deliantage-frittage": "furnace", "ajout-de-fonctions": "surface", defense: "defense", industrie: "production",
-  horlogerie: "watch", contenants: "surface", architecture: "architecture"
+  horlogerie: "printingDetail"
 };
 const routeIcons = { "ceramiques-techniques": "Hexagon", serigraphie: "ScanLine", "traitements-de-surface": "Layers", "developpements-industriels": "FlaskConical", defense: "ShieldCheck", industrie: "Factory", horlogerie: "Watch", contenants: "Package", architecture: "Layers" };
 const chemistry = ["Silicates", "Al₂O₃", "Al₂O₃", "Al₂O₃ + ZrO₂", "ZrO₂"];
@@ -73,24 +73,25 @@ function renderHeader() {
 }
 
 function metrics() {
-  return `<section class="metrics" aria-label="${lang === "fr" ? "Chiffres clés du groupe Bernardaud" : "Bernardaud group key figures"}"><div class="container metric-grid">${content[lang].metrics.map(metric => `<div data-reveal><strong>${esc(metric.value.replace("m2", "m²"))}</strong><span>${esc(metric.label)}</span></div>`).join("")}</div></section>`;
+  return `<section class="metrics" aria-label="${lang === "fr" ? "Chiffres clés du groupe Bernardaud" : "Bernardaud group key figures"}"><div class="container metric-grid">${content[lang].metrics.map(metric => `<div data-reveal><strong class="${metric.value.startsWith("ISO") ? "metric-certifications" : ""}">${esc(metric.value.replace("m2", "m²"))}</strong><span>${esc(metric.label)}</span></div>`).join("")}</div></section>`;
 }
 
 function heading(eyebrow, name, intro, action = "") {
   return `<div class="section-heading" data-reveal><div><p class="eyebrow">${esc(eyebrow)}</p><h2>${esc(name)}</h2></div><div class="section-description"><p>${esc(intro)}</p>${action}</div></div>`;
 }
 
-function offerCards() {
+function offerCards(detailed = false) {
   const slots = ["technicalParts", "screenprint", "surface", "production"];
-  return `<div class="offer-grid">${offers.map((id, i) => `<article class="offer-card" data-reveal>${link(id, `<div class="offer-photo">${picture(slots[i], title(id))}<span class="photo-arrow">${icon("ArrowUpRight")}</span></div><div class="offer-copy"><span class="offer-number">0${i + 1}</span><h3>${esc(title(id))}</h3><p>${esc(content[lang].pillars[i].summary)}</p></div>`)}</article>`).join("")}</div>`;
+  return `<div class="offer-grid">${offers.map((id, i) => `<article class="offer-card" data-reveal>${link(id, `<div class="offer-photo">${picture(slots[i], title(id))}<span class="photo-arrow">${icon("ArrowUpRight")}</span></div><div class="offer-copy"><span class="offer-number">0${i + 1}</span><h3>${esc(page("offre").items[i].title)}</h3><p>${esc(detailed ? page("offre").items[i].body : content[lang].pillars[i].summary)}</p></div>`)}</article>`).join("")}</div>`;
 }
 
 function marketCards() {
-  return `<div class="market-grid">${markets.map((id, i) => `<article class="market-card" data-reveal>${link(id, `<div class="market-card-top">${icon(routeIcons[id])}<span>0${i + 1}</span></div><h3>${esc(title(id))}</h3><p>${esc(page(id).intro)}</p><span class="text-link">${esc(t("ui.discover"))}${icon("ArrowUpRight")}</span>`)}</article>`).join("")}</div>`;
+  return `<div class="market-grid">${markets.map((id, i) => `<article class="market-card" data-reveal>${link(id, `<div class="market-card-top">${icon(routeIcons[id])}<span>0${i + 1}</span></div><h3>${esc(title(id))}</h3><p>${esc(id === "defense" ? page(id).title : page(id).intro)}</p><span class="text-link">${esc(t("ui.discover"))}${icon("ArrowUpRight")}</span>`)}</article>`).join("")}</div>`;
 }
 
-function process() {
-  return `<section class="section process-section"><div class="container">${heading(t("ui.expertise"), t("ui.process"), t("ui.processIntro"))}<div class="process-grid">${content[lang].offerPage.process.map((step, i) => `<article data-reveal><span class="process-number">${esc(step.step)}</span><div class="process-line">${icon(i === 0 ? "FlaskConical" : i === 1 ? "Gauge" : i === 2 ? "Hexagon" : "Factory")}</div><h3>${esc(step.title)}</h3><p>${esc(step.body)}</p></article>`).join("")}</div></div></section>`;
+function developmentSupport() {
+  const data = page("offre").support;
+  return `<section class="section development-support"><div class="container support-layout"><div data-reveal><p class="eyebrow">R&D · ${esc(title("developpements-industriels"))}</p><h2>${esc(data.title)}</h2><p>${esc(data.body)}</p>${link("etapes-process", esc(title("etapes-process")), "text-link", true)}</div><figure data-reveal>${picture("laboratory", lang === "fr" ? "Microscope du laboratoire Bernardaud" : "Microscope at the Bernardaud laboratory")}</figure></div></section>`;
 }
 
 function manufacturingProcess() {
@@ -117,6 +118,7 @@ function home() {
     ${metrics()}
     <section class="section" id="savoir-faire"><div class="container">${heading(t("ui.expertise"), t("home.offerTitle"), t("home.offerIntro"), link("offre", esc(t("home.offerLink")), "text-link", true))}${offerCards()}</div></section>
     <section class="heritage-section"><div class="container heritage-layout"><div class="heritage-art" data-reveal>${picture("history", lang === "fr" ? "Dessin de la manufacture Bernardaud à Limoges" : "Drawing of the Bernardaud manufacture in Limoges")}<span class="heritage-year">1863</span></div><div class="heritage-copy" data-reveal><p class="eyebrow">Bernardaud · Limoges</p><h2>${esc(t("home.heritageTitle"))}</h2><p>${esc(t("home.heritageIntro"))}</p>${link("presentation", esc(t("home.heritageLink")), "text-link", true)}</div></div></section>
+    <section class="section statement-section"><div class="container statement-layout" data-reveal><blockquote><p>« ${esc(t("home.quote"))} »</p><footer><strong>${esc(t("home.quoteAuthor"))}</strong><span>${esc(t("home.quoteRole"))}</span></footer></blockquote></div></section>
     <section class="section"><div class="container">${heading(t("ui.applications"), t("home.marketsTitle"), t("home.marketsIntro"))}${marketCards()}</div></section>
     <section class="production-banner">${picture("production", lang === "fr" ? "Atelier de production Bernardaud" : "Bernardaud production workshop")}<div class="container"><div class="production-copy" data-reveal><p class="eyebrow">${esc(title("outil-industriel"))}</p><h2>${esc(t("home.productionTitle"))}</h2><p>${esc(t("home.productionIntro"))}</p>${link("outil-industriel", esc(t("home.productionLink")), "button light", true)}</div></div></section>${contactBand()}`;
 }
@@ -131,8 +133,22 @@ function pageHero(id) {
   return `<section class="page-hero"><div class="container">${breadcrumb(id)}<div class="page-heading"><div><p class="eyebrow">Bernardaud Solutions Industrielles</p><h1>${esc(data?.title || t("ui.notFound"))}</h1></div><p class="page-lead">${esc(data?.intro || "")}</p></div></div></section>`;
 }
 
+function bulletList(items = []) {
+  return items.length ? `<ul class="editorial-list">${items.map(item => `<li>${esc(item)}</li>`).join("")}</ul>` : "";
+}
+
 function sections(items = [], className = "") {
-  return `<div class="detail-sections ${className}">${items.map((item, i) => `<article data-reveal><span class="detail-number">${String(i + 1).padStart(2, "0")}</span><div><h2>${esc(item.title)}</h2><p>${esc(item.body)}</p></div></article>`).join("")}</div>`;
+  return `<div class="detail-sections ${className}">${items.map((item, i) => `<article data-reveal><span class="detail-number">${String(i + 1).padStart(2, "0")}</span><div><h2>${esc(item.title)}</h2><p>${esc(item.body)}</p>${bulletList(item.points)}${(item.paragraphs || []).map(text => `<p>${esc(text)}</p>`).join("")}</div></article>`).join("")}</div>`;
+}
+
+function applicationGroups(items) {
+  if (!items?.length) return "";
+  return `<section class="section application-section"><div class="container"><p class="eyebrow">${esc(t("ui.applications"))}</p><div class="application-grid">${items.map((item, i) => `<article data-reveal><span class="detail-number">${String(i + 1).padStart(2, "0")}</span><h2>${esc(item.title)}</h2>${bulletList(item.points)}</article>`).join("")}</div></div></section>`;
+}
+
+function portraits(items) {
+  if (!items?.length) return "";
+  return `<div class="portrait-grid">${items.map(item => `<figure data-reveal>${picture(item.image, item.name)}<figcaption>${esc(item.name)}</figcaption></figure>`).join("")}</div>`;
 }
 
 function related(ids) {
@@ -140,48 +156,50 @@ function related(ids) {
 }
 
 function ballisticGallery() {
-  return `<section class="section"><div class="container">${heading(t("ui.applications"), t("ballistic.title"), t("ballistic.intro"))}<div class="ballistic-gallery">${t("ballistic.products").map((product, i) => `<figure data-reveal>${picture(["technicalParts", "defense", "multiCurvature"][i], product.title)}<figcaption><h3>${esc(product.title)}</h3><p>${esc(product.body)}</p></figcaption></figure>`).join("")}</div><a class="text-link" href="${localURL("assets/protection-balistique.pdf")}" target="_blank" rel="noopener">${esc(page("publications").title)} · PDF${icon("Download")}</a></div></section>`;
+  return `<section class="section"><div class="container">${heading(t("ui.applications"), t("ballistic.title"), t("ballistic.intro"))}<div class="ballistic-gallery">${t("ballistic.products").map((product, i) => `<figure data-reveal>${picture(["ballisticTiles", "defense", "multiCurvature"][i], product.title)}<figcaption><h3>${esc(product.title)}</h3><p>${esc(product.body)}</p></figcaption></figure>`).join("")}</div><a class="text-link" href="${localURL("assets/protection-balistique.pdf")}" target="_blank" rel="noopener">${esc(page("publications").title)} · PDF${icon("Download")}</a></div></section>`;
 }
 
 function sites() {
-  return `<section class="section sites-section"><div class="container">${heading(title("outil-industriel"), t("ui.sites"), t("ui.sitesIntro"))}<div class="site-grid">${content[lang].presentationPage.sites.map((site, i) => `<article data-reveal>${icon(i ? "ScanLine" : "Factory")}<p class="eyebrow">${esc(site.role)}</p><h3>${esc(site.name)}</h3><p>${esc(site.details)}</p></article>`).join("")}</div></div></section>`;
+  return `<section class="section sites-section"><div class="container">${heading(title("outil-industriel"), t("ui.sites"), t("ui.sitesIntro"))}<div class="site-grid">${content[lang].presentationPage.sites.map((site, i) => `<article data-reveal>${icon(["Factory", "ScanLine", "Layers", "Package"][i])}<p class="eyebrow">${esc(site.role)}</p><h3>${esc(site.name)}</h3><p>${esc(site.details)}</p>${bulletList(site.points)}</article>`).join("")}</div></div></section>`;
 }
 
 function presentation(id) {
   const data = page(id);
   const image = routeImages[id];
-  return `${pageHero(id)}<section class="section presentation-content"><div class="container">${image ? `<figure class="page-visual ${id === "historique" ? "drawing" : ""}" data-reveal>${picture(image, data.title)}</figure>` : ""}${sections(data.sections, id === "historique" ? "timeline" : "")}</div></section>${id === "presentation" ? `${sites()}${metrics()}${related(groups[0].children.filter(child => child !== "outil-industriel"))}` : ""}${id === "certifications" ? related(["outil-industriel", "partenaires"]) : ""}${contactBand()}`;
+  return `${pageHero(id)}<section class="section presentation-content"><div class="container">${image && id !== "actionnariat" ? `<figure class="page-visual ${id === "historique" ? "drawing" : ""}" data-reveal>${picture(image, data.title)}</figure>` : ""}${portraits(data.portraits)}${sections(data.sections, id === "historique" ? "timeline" : "")}</div></section>${id === "presentation" ? `${sites()}${metrics()}${related(groups[0].children.filter(child => child !== "outil-industriel"))}` : ""}${id === "certifications" ? related(["outil-industriel", "partenaires"]) : ""}${contactBand()}`;
 }
 
 function offer() {
-  return `${pageHero("offre")}<section class="section"><div class="container">${offerCards()}</div></section>${process()}${related(["outil-industriel", "materiaux"])}${contactBand()}`;
+  return `${pageHero("offre")}<section class="section"><div class="container">${offerCards(true)}</div></section>${developmentSupport()}${related(["outil-industriel", "materiaux"])}${contactBand()}`;
 }
 
 function detail(id, extra = "", before = "") {
   const data = page(id);
-  const image = `<figure class="detail-image ${id === "horlogerie" ? "object-image" : ""}" data-reveal>${picture(routeImages[id] || "production", data.title)}</figure>`;
+  const image = routeImages[id] ? `<figure class="detail-image" data-reveal>${picture(routeImages[id], data.title)}</figure>` : "";
   const applications = data.points ? `<div class="application-list" data-reveal><h3>${esc(t("ui.applications"))}</h3><ul>${data.points.map(point => `<li>${icon("Check")}<span>${esc(point)}</span></li>`).join("")}</ul></div>` : "";
   const defense = id === "defense" ? `<section class="section defense-band"><div class="container">${heading(t("ui.materials"), title("alumine-haute-purete") + " · ZTA · " + title("zircone"), data.sections[2].body)}<div class="defense-formats">${["Al₂O₃", "Al₂O₃ + ZrO₂", "ZrO₂"].map((formula, i) => link(["alumine-haute-purete", "zta", "zircone"][i], `<span>${formula}</span><strong>${esc(title(["alumine-haute-purete", "zta", "zircone"][i]))}</strong>`, "formula-link", true)).join("")}</div></div></section>` : "";
-  return `${pageHero(id)}${before}<section class="section detail-content"><div class="container detail-layout"><div>${sections(data.sections)}</div><aside class="detail-aside">${image}${applications}</aside></div></section>${defense}${extra}${related(parent(id) === "marches" ? markets.filter(other => other !== id).slice(0, 3) : ["etapes-process", "materiaux", "outil-industriel"])}${contactBand()}`;
+  const aside = image || applications ? `<aside class="detail-aside">${image}${applications}</aside>` : "";
+  return `${pageHero(id)}${before}<section class="section detail-content"><div class="container detail-layout ${aside ? "" : "text-only"}"><div>${sections(data.sections)}</div>${aside}</div></section>${applicationGroups(data.applications)}${defense}${extra}${related(parent(id) === "marches" ? markets.filter(other => other !== id).slice(0, 3) : ["etapes-process", "materiaux", "outil-industriel"])}${contactBand()}`;
 }
 
 function materialIndex() {
-  return `${pageHero("materiaux")}<section class="section"><div class="container"><div class="material-index">${materials.map((id, i) => link(id, `<span class="material-formula">${chemistry[i]}</span><div><span class="material-id">0${i + 1}</span><h2>${esc(title(id))}</h2><p>${esc(page(id).intro)}</p></div>${icon("ArrowUpRight")}`, "material-row")).join("")}</div><p class="technical-note">${esc(t("ui.tableNote"))}</p></div></section>${related(["ceramiques-techniques", "industrie", "defense"])}${contactBand()}`;
+  const data = page("materiaux");
+  return `${pageHero("materiaux")}<section class="section"><div class="container">${sections(data.sections)}<div class="material-index">${materials.map((id, i) => link(id, `<span class="material-formula">${chemistry[i]}</span><div><span class="material-id">0${i + 1}</span><h2>${esc(title(id))}</h2><p>${esc(page(id).intro)}</p></div>${icon("ArrowUpRight")}`, "material-row")).join("")}</div><div class="other-materials" data-reveal><h2>${esc(data.other.title)}</h2><p>${esc(data.other.body)}</p>${link("contact", esc(t("ui.contact")), "text-link", true)}</div></div></section>${related(["ceramiques-techniques", "industrie", "defense"])}${contactBand()}`;
 }
 
 function materialDetail(id) {
   const data = page(id);
   const table = content.materialTables[id];
   const units = ["%", "g/cm³", "%", "", "MPa·m½", "GPa", "MPa", "m/s", "W·m⁻¹·K⁻¹"];
-  return `${pageHero(id)}<nav class="material-tabs" aria-label="${esc(t("ui.materials"))}"><div class="container">${materials.map(item => link(item, esc(title(item)), item === id ? "active" : "")).join("")}</div></nav><section class="section"><div class="container"><div class="material-intro" data-reveal><span class="material-formula">${chemistry[materials.indexOf(id)]}</span><div><h2>${esc(data.sections[0].title)}</h2><p>${esc(data.sections[0].body)}</p></div><ul class="property-list">${data.points.map(point => `<li>${icon("Check")}${esc(point)}</li>`).join("")}</ul></div><h2 class="table-heading">${esc(t("ui.properties"))}</h2><div class="table-scroll" role="region" aria-label="${esc(t("ui.properties"))}" tabindex="0"><table><thead><tr><th scope="col">${esc(t("ui.property"))}</th><th scope="col">${esc(t("ui.unit"))}</th>${table.grades.map(grade => `<th scope="col">${esc(grade === "Porcelaine" ? title(id) : grade)}</th>`).join("")}</tr></thead><tbody>${table.values.map((values, i) => `<tr><th scope="row">${esc(t("ui.propertyLabels")[i])}</th><td>${esc(units[i])}</td>${values.map(value => `<td>${esc(value === "Selon grade" ? (lang === "fr" ? value : "Grade-dependent") : lang === "fr" ? value.replaceAll(".", ",") : value)}</td>`).join("")}</tr>`).join("")}</tbody></table></div><p class="technical-note">${esc(t("ui.tableNote"))}</p></div></section>${related(["ceramiques-techniques", "contact"])}${contactBand()}`;
+  return `${pageHero(id)}<nav class="material-tabs" aria-label="${esc(t("ui.materials"))}"><div class="container">${materials.map(item => link(item, esc(title(item)), item === id ? "active" : "")).join("")}</div></nav><section class="section"><div class="container"><div class="material-formula material-heading-formula">${chemistry[materials.indexOf(id)]}</div><div class="material-editorial"><div>${sections(data.sections)}</div><aside class="application-list"><h3>${lang === "fr" ? "Applications industrielles" : "Industrial applications"}</h3>${bulletList(data.points)}</aside></div><h2 class="table-heading">${esc(t("ui.properties"))}</h2><div class="table-scroll" role="region" aria-label="${esc(t("ui.properties"))}" tabindex="0"><table><thead><tr><th scope="col">${esc(t("ui.property"))}</th><th scope="col">${esc(t("ui.unit"))}</th>${table.grades.map(grade => `<th scope="col">${esc(grade === "Porcelaine" ? title(id) : grade)}</th>`).join("")}</tr></thead><tbody>${table.values.map((values, i) => `<tr><th scope="row">${esc(t("ui.propertyLabels")[i])}</th><td>${esc(units[i])}</td>${values.map(value => `<td>${esc(value === "Selon grade" ? (lang === "fr" ? value : "Grade-dependent") : lang === "fr" ? value.replaceAll(".", ",") : value)}</td>`).join("")}</tr>`).join("")}</tbody></table></div><p class="technical-note">${esc(t("ui.tableNote"))}</p></div></section>${related(["ceramiques-techniques", "contact"])}${contactBand()}`;
 }
 
 function industrial() {
-  return `${pageHero("outil-industriel")}<section class="industrial-photo">${picture("production", page("outil-industriel").title, "", true)}</section>${metrics()}<section class="section"><div class="container">${heading(t("ui.expertise"), t("home.productionTitle"), t("home.productionIntro"))}<div class="capability-grid">${content[lang].industrialPage.capabilities.map((item, i) => `<article data-reveal><span>0${i + 1}</span><h3>${esc(item.title)}</h3><p>${esc(item.body)}</p></article>`).join("")}</div><div class="workshop-gallery"><figure data-reveal>${picture("hero", title("production"))}<figcaption>${link("production", esc(title("production")), "text-link", true)}</figcaption></figure><figure data-reveal>${picture("furnace", title("deliantage-frittage"))}<figcaption>${link("deliantage-frittage", esc(title("deliantage-frittage")), "text-link", true)}</figcaption></figure><figure data-reveal>${picture("screenprint", title("serigraphie"))}<figcaption>${link("serigraphie", esc(title("serigraphie")), "text-link", true)}</figcaption></figure></div></div></section>${sites()}${related(["certifications", "etapes-process", "ajout-de-fonctions"])}${contactBand()}`;
+  return `${pageHero("outil-industriel")}<section class="industrial-photo">${picture("production", page("outil-industriel").title, "", true)}</section>${metrics()}${sites()}<section class="section"><div class="container"><div class="workshop-gallery"><figure data-reveal>${picture("hero", title("production"))}<figcaption>${link("production", esc(title("production")), "text-link", true)}</figcaption></figure><figure data-reveal>${picture("furnace", title("deliantage-frittage"))}<figcaption>${link("deliantage-frittage", esc(title("deliantage-frittage")), "text-link", true)}</figcaption></figure><figure data-reveal>${picture("screenprint", title("serigraphie"))}<figcaption>${link("serigraphie", esc(title("serigraphie")), "text-link", true)}</figcaption></figure></div></div></section>${related(["certifications", "etapes-process", "ajout-de-fonctions"])}${contactBand()}`;
 }
 
 function news(id) {
-  return `${pageHero(id)}<section class="section"><div class="container">${id === "actualites" ? `<div class="news-grid">${groups[4].children.map(child => link(child, `${icon(child === "publications" ? "Download" : "MapPin")}<h2>${esc(title(child))}</h2><p>${esc(page(child).intro)}</p><span class="text-link">${esc(t("ui.discover"))}${icon("ArrowUpRight")}</span>`, "news-category")).join("")}</div>` : id === "publications" ? `<article class="publication" data-reveal><div class="publication-image">${picture("defense", title("defense"))}</div><div><p class="eyebrow">BSI · ${esc(t("ui.materials"))}</p><h2>${esc(page(id).sections[0].title)}</h2><p>${esc(page(id).sections[0].body)}</p><a class="button primary" href="/assets/protection-balistique.pdf" target="_blank" rel="noopener">${lang === "fr" ? "Consulter la brochure" : "View the brochure"}${icon("Download")}</a></div></article>` : `<div class="empty-state">${icon("MapPin")}<p>${esc(page(id).empty)}</p>${link("contact", esc(t("ui.contact")), "text-link", true)}</div>`}</div></section>${id !== "actualites" ? related(groups[4].children.filter(child => child !== id)) : ""}${contactBand()}`;
+  return `${pageHero(id)}<section class="section"><div class="container">${id === "actualites" ? `<div class="news-grid">${groups[4].children.map(child => link(child, `${icon(child === "publications" ? "Download" : "MapPin")}<h2>${esc(title(child))}</h2><p>${esc(page(child).intro)}</p><span class="text-link">${esc(t("ui.discover"))}${icon("ArrowUpRight")}</span>`, "news-category")).join("")}</div>` : id === "publications" ? `<article class="publication" data-reveal><div class="publication-image">${picture("defense", title("defense"))}</div><div><p class="eyebrow">BSI · ${esc(t("ui.materials"))}</p><h2>${esc(page(id).sections[0].title)}</h2><p>${esc(page(id).sections[0].body)}</p><a class="button primary" href="${localURL("assets/protection-balistique.pdf")}" target="_blank" rel="noopener">${lang === "fr" ? "Consulter la brochure" : "View the brochure"}${icon("Download")}</a></div></article>` : `<div class="empty-state">${icon("MapPin")}<p>${esc(page(id).empty)}</p>${link("contact", esc(t("ui.contact")), "text-link", true)}</div>`}</div></section>${id !== "actualites" ? related(groups[4].children.filter(child => child !== id)) : ""}${contactBand()}`;
 }
 
 function contactBand() {
@@ -383,7 +401,7 @@ reducedMotion.addEventListener("change", () => { if (content) render(); });
 
 async function load() {
   try {
-    const response = await fetch(new URL(staticPreview ? "content.json" : "api/content", appURL));
+    const response = await fetch(new URL(staticPreview ? "content.json" : "api/content", appURL), { cache: "no-cache" });
     if (!response.ok) throw new Error("Content unavailable");
     content = await response.json();
     const saved = localStorage.getItem("bsi_lang");

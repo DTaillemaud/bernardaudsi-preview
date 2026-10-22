@@ -14,14 +14,17 @@
     "history": "/assets/dessin-manufacture.webp",
     "industrial": "/assets/manufacture-aerienne.webp",
     "defense": "/assets/ballistic-2.png",
-    "technicalParts": "/assets/ballistic-1.png",
+    "technicalParts": "/assets/composants-ceramiques.webp",
+    "ballisticTiles": "/assets/ballistic-1.png",
     "multiCurvature": "/assets/ballistic-3.png",
     "production": "/assets/atelier-production.webp",
-    "screenprint": "/assets/serigraphie.jpg",
-    "furnace": "/assets/four-ceramique.jpg",
-    "surface": "/assets/surface-zenith.jpg",
-    "watch": "/assets/cadran.png",
-    "architecture": "/assets/architecture-facade.jpg",
+    "screenprint": "/assets/atelier-serigraphie.jpg",
+    "printingDetail": "/assets/impression-serigraphique.jpg",
+    "furnace": "/assets/atelier-cuisson.webp",
+    "surface": "/assets/decoration-atelier.jpg",
+    "laboratory": "/assets/laboratoire.webp",
+    "michel": "/assets/michel-bernardaud.jpg",
+    "charles": "/assets/charles-bernardaud.png",
     "casting": "/assets/production-coulage.jpg",
     "jiggering": "/assets/production-calibrage.jpg",
     "pressing": "/assets/production-pressage.jpg",
@@ -107,122 +110,150 @@
         "eyebrow": "Limoges, France · Depuis 1863",
         "title": "Bernardaud",
         "subtitle": "Solutions industrielles",
-        "intro": "Céramiques techniques, sérigraphie et traitements de surface. Un savoir-faire français, du prototype à la grande série.",
-        "primary": "Explorer nos savoir-faire",
-        "secondary": "Votre projet",
+        "intro": "Bernardaud Solutions Industrielles réunit des expertises en céramiques techniques, imprimerie sérigraphique, décoration et traitements de surface, ainsi qu’un ensemble de technologies et de moyens industriels dédiés au développement, à l’industrialisation et à la production.",
+        "primary": "Notre offre",
+        "secondary": "Contactez-nous",
         "caption": "Injection céramique · Notre outil industriel",
         "scroll": "Découvrir BSI",
-        "offerTitle": "La matière. La forme. La surface.",
-        "offerIntro": "Quatre expertises, une même exigence de fabrication. Nous réunissons les savoir-faire nécessaires pour donner vie à vos projets industriels.",
+        "offerTitle": "Quatre expertises complémentaires",
+        "offerIntro": "Céramiques techniques, impression sérigraphique, décors et traitements de surface, services et développements industriels.",
         "offerLink": "Toute notre offre",
         "marketsTitle": "Des solutions à la hauteur de vos exigences.",
         "marketsIntro": "De la protection balistique à l’habillage horloger, chaque application appelle une réponse particulière.",
-        "heritageTitle": "Un nom. Un savoir-faire. Une puissance industrielle.",
-        "heritageIntro": "Depuis 1863 à Limoges, Bernardaud conjugue connaissance de la matière et maîtrise du geste. Cette histoire nourrit aujourd’hui un outil industriel français au service de vos développements.",
+        "heritageTitle": "Un groupe industriel français",
+        "heritageIntro": "Depuis 1863, Bernardaud développe en Haute-Vienne un outil industriel diversifié, aujourd’hui réparti sur quatre sites de production. Le groupe réunit des compétences, des technologies et des moyens de production au service de marchés et d’applications variés, en France comme à l’international.",
         "heritageLink": "Découvrir Bernardaud",
-        "productionTitle": "L’ambition du sur-mesure. La capacité de la série.",
-        "productionIntro": "Formulation, mise en forme, cuisson, impression, finition : nos équipes accompagnent le développement de votre pièce sur un outil industriel intégré.",
+        "quote": "Bernardaud Solutions Industrielles accompagne ses partenaires du développement à l’industrialisation et à la production en série. La diversité de nos compétences et de nos moyens nous permet de répondre à des besoins industriels très variés.",
+        "quoteAuthor": "Michel Bernardaud",
+        "quoteRole": "Président-directeur général",
+        "productionTitle": "Des moyens de production diversifiés",
+        "productionIntro": "Bernardaud dispose de capacités industrielles importantes et complémentaires, réparties sur plusieurs sites de production en Haute-Vienne. Cet outil permet de couvrir différentes étapes de transformation, de mise en forme, d’impression, de décoration et de traitement des matériaux.",
         "productionLink": "Visiter notre outil industriel",
-        "footerBaseline": "L’exigence de la matière, au service de l’industrie."
+        "footerBaseline": "Céramiques techniques, impression, décoration et développements industriels."
       },
       "pages": {
         "presentation": {
-          "title": "Présentation",
-          "intro": "Une entreprise familiale française, plus de 160 ans de savoir-faire et un outil industriel dédié à vos développements.",
+          "title": "Un groupe industriel français",
+          "short": "Présentation",
+          "intro": "Depuis 1863, Bernardaud développe en Haute-Vienne un outil industriel diversifié, aujourd’hui réparti sur quatre sites de production.",
           "sections": [
             {
-              "title": "L’héritage de la matière",
-              "body": "Née à Limoges en 1863, Bernardaud associe une culture céramique historique à une démarche continue d’investissement et d’innovation."
+              "title": "Des compétences complémentaires",
+              "body": "Le groupe réunit des compétences, des technologies et des moyens de production au service de marchés et d’applications variés, en France comme à l’international."
             },
             {
-              "title": "L’exigence industrielle",
-              "body": "Bernardaud Solutions Industrielles mobilise les compétences du groupe pour développer et produire des composants céramiques, des décors et des surfaces techniques."
-            },
-            {
-              "title": "Une relation de proximité",
-              "body": "De l’étude à la série, nos équipes travaillent avec vous sur la matière, la géométrie, les finitions et les contraintes de votre application."
+              "title": "Du développement à la production",
+              "body": "Bernardaud Solutions Industrielles réunit des expertises en céramiques techniques, imprimerie sérigraphique, décoration et traitements de surface, ainsi qu’un ensemble de technologies et de moyens industriels dédiés au développement, à l’industrialisation et à la production."
             }
           ]
         },
         "historique": {
-          "title": "L’historique Bernardaud",
-          "intro": "Depuis 1863, une histoire de transmission, d’innovation et de fabrication française.",
+          "title": "Une trajectoire industrielle depuis 1863",
+          "short": "Historique",
+          "intro": "Fondée à Limoges en 1863, Bernardaud s’est développée au fil des générations par des investissements industriels continus et l’intégration de nouvelles technologies de production.",
           "sections": [
             {
-              "title": "1863 · L’ancrage à Limoges",
-              "body": "Bernardaud naît au cœur de Limoges, territoire dont l’histoire est intimement liée à la porcelaine. La connaissance des matières et des cuissons constitue le socle de la manufacture."
+              "title": "Investir et explorer de nouveaux procédés",
+              "body": "Four tunnel, pressage isostatique, injection, traitements de surface PVD : ces évolutions témoignent d’une même volonté d’adapter l’outil industriel, d’explorer de nouveaux procédés et d’élargir progressivement les compétences du groupe."
             },
             {
-              "title": "Un savoir-faire transmis",
-              "body": "La précision du geste, l’exigence de la finition et la maîtrise de la fabrication se transmettent dans les ateliers, au sein d’une entreprise familiale."
+              "title": "Élargir les savoir-faire industriels",
+              "body": "Cette capacité à investir, expérimenter et faire évoluer ses moyens de production a permis à Bernardaud de développer, au-delà de son activité historique, des savoir-faire aujourd’hui mobilisés pour des applications industrielles et des céramiques techniques."
             },
             {
-              "title": "Aujourd’hui · Des applications nouvelles",
-              "body": "Bernardaud Solutions Industrielles ouvre ces compétences à la céramique technique, à l’impression et aux traitements de surface, du premier prototype à la production en série."
+              "title": "Une entreprise familiale, plusieurs générations d’investissements industriels",
+              "body": "Depuis sa création, chaque génération a contribué à faire évoluer l’entreprise par de nouveaux équipements, procédés et choix industriels."
             }
           ]
         },
         "actionnariat": {
-          "title": "Actionnariat familial",
-          "intro": "Une entreprise indépendante, portée par une vision de long terme.",
+          "title": "Un actionnariat familial et indépendant",
+          "short": "Actionnariat familial",
+          "intro": "Depuis plus de 160 ans, Bernardaud s’appuie sur un actionnariat familial stable et indépendant, qui permet d’inscrire les décisions de l’entreprise dans le temps long.",
           "sections": [
             {
-              "title": "Une gouvernance engagée",
-              "body": "La famille Bernardaud reste directement impliquée dans la conduite de l’entreprise. Cette continuité relie les décisions stratégiques à la réalité des ateliers et des marchés."
+              "title": "Une famille directement impliquée",
+              "body": "La famille Bernardaud reste directement impliquée dans la direction et les activités du groupe. Cette proximité avec les équipes, les marchés et les enjeux industriels favorise une prise de décision rapide et une continuité dans les orientations stratégiques."
             },
             {
-              "title": "Investir dans la durée",
-              "body": "Cet ancrage familial soutient la transmission des savoir-faire, les investissements industriels et le développement de nouvelles applications."
+              "title": "Des investissements de long terme",
+              "body": "Cette gouvernance permet d’engager des investissements industriels de long terme, de faire évoluer les outils de production et de développer de nouvelles activités tout en conservant une maîtrise directe de la stratégie de l’entreprise."
+            }
+          ],
+          "portraits": [
+            {
+              "name": "Michel Bernardaud",
+              "image": "michel"
             },
             {
-              "title": "Un partenaire industriel français",
-              "body": "L’implantation en Haute-Vienne et la maîtrise des étapes de fabrication favorisent la proximité entre les équipes et les partenaires industriels."
+              "name": "Charles Bernardaud",
+              "image": "charles"
             }
           ]
         },
         "certifications": {
-          "title": "Qualité & environnement",
-          "intro": "Une exigence partagée dans les ateliers, les contrôles et le suivi de vos projets.",
+          "title": "Certifications & responsabilité",
+          "short": "Qualité & environnement",
+          "intro": "Les sites concernés de Bernardaud sont certifiés selon les référentiels ISO 9001, relatifs au management de la qualité, et ISO 14001, consacrés au management environnemental.",
           "sections": [
             {
-              "title": "ISO 9001 · Management de la qualité",
-              "body": "La démarche qualité structure les processus, les contrôles et l’amélioration continue. Le périmètre applicable à votre projet est précisé par nos équipes."
+              "title": "ISO 9001 | ISO 14001",
+              "body": "Ces certifications s’inscrivent dans une démarche d’amélioration continue des processus, de maîtrise de la qualité et de réduction des impacts environnementaux liés aux activités industrielles."
             },
             {
-              "title": "ISO 14001 · Management environnemental",
-              "body": "La démarche environnementale accompagne le suivi des impacts et l’amélioration des pratiques sur les sites de production."
+              "title": "Responsabilité sociale et environnementale",
+              "body": "La démarche RSE de Bernardaud fait également l’objet d’une évaluation EcoVadis, portant notamment sur les pratiques environnementales, sociales, éthiques et les achats responsables."
             },
             {
-              "title": "Traçabilité & dialogue technique",
-              "body": "Le plan de contrôle, les critères de réception et le suivi des lots sont définis selon la pièce, les volumes et les exigences de votre cahier des charges."
+              "title": "Égalité professionnelle",
+              "body": "L’entreprise suit par ailleurs son index de l’égalité professionnelle entre les femmes et les hommes, conformément aux obligations réglementaires."
             }
           ]
         },
         "partenaires": {
-          "title": "Un écosystème d’innovation",
-          "intro": "À Limoges, industrie, recherche et centres techniques travaillent au développement de nouvelles solutions céramiques.",
+          "title": "Un écosystème scientifique et technologique",
+          "short": "Partenaires",
+          "intro": "Implantée au sein du pôle européen de la céramique à Limoges, Bernardaud Solutions Industrielles s’appuie sur un environnement associant recherche, transfert de technologies et expertise industrielle.",
           "sections": [
             {
-              "title": "IRCER",
-              "body": "Institut de Recherche sur les Céramiques : recherche scientifique, connaissance des matériaux et compréhension de leurs comportements."
+              "title": "IRCER, CTTC, CITRA & CEDREM",
+              "body": "BSI collabore notamment avec l’IRCER (Institut de Recherche sur les Céramiques), le CTTC (Centre de Transfert de Technologies Céramiques), le CITRA spécialisé dans les traitements de surface, ainsi qu’avec le CEDREM."
             },
             {
-              "title": "CTTC",
-              "body": "Centre de Transfert de Technologies Céramiques : développement de procédés, transfert technologique et accompagnement de l’innovation."
+              "title": "Des compétences scientifiques et techniques complémentaires",
+              "body": "Ces collaborations permettent de mobiliser des compétences scientifiques et techniques complémentaires pour accompagner les phases de recherche, de caractérisation et de développement, notamment dans les domaines des céramiques techniques et des traitements de surface."
             },
             {
-              "title": "CITRA",
-              "body": "Ingénierie des traitements de surface : expertise des surfaces et de leurs fonctionnalités."
-            },
-            {
-              "title": "CEDREM",
-              "body": "Une expertise complémentaire pour les développements et l’évaluation des solutions de protection."
+              "title": "Compléter les moyens internes",
+              "body": "Elles viennent compléter les moyens internes de Bernardaud Solutions Industrielles lorsqu’un projet nécessite des expertises ou des équipements spécifiques."
             }
           ]
         },
         "offre": {
           "title": "Notre offre",
-          "intro": "Quatre expertises complémentaires, de la matière à la pièce finie. Un accompagnement du développement à l’industrialisation."
+          "intro": "Bernardaud Solutions Industrielles réunit quatre expertises complémentaires permettant d’accompagner des besoins allant du développement de composants à la mise en production, en passant par l’impression, la décoration, les traitements de surface et les développements industriels spécifiques.",
+          "items": [
+            {
+              "title": "Céramiques techniques",
+              "body": "Développement et production de composants en céramiques techniques, sur catalogue ou sur mesure, de la petite à la grande série."
+            },
+            {
+              "title": "Imprimerie sérigraphique",
+              "body": "Conception et impression sérigraphique sur une grande diversité de supports, pour des applications industrielles et décoratives."
+            },
+            {
+              "title": "Décoration & traitements de surface",
+              "body": "Solutions de décoration, revêtement et traitement de surface, pour répondre à des objectifs esthétiques ou fonctionnels."
+            },
+            {
+              "title": "Développements & services industriels",
+              "body": "Mobilisation de nos compétences et de notre outil industriel pour des besoins spécifiques : études, prototypage, ajout de fonctions, assemblage et opérations industrielles sur mesure."
+            }
+          ],
+          "support": {
+            "title": "Du laboratoire à la production en série",
+            "body": "Grâce à un laboratoire intégré, un bureau d’études et des ateliers de prototypage, Bernardaud Solutions Industrielles peut intervenir à différents niveaux de maturité d’un projet, depuis les phases de R&D jusqu’à l’industrialisation et la production en grande série."
+          }
         },
         "ceramiques-techniques": {
           "title": "Céramiques techniques",
@@ -380,8 +411,9 @@
           ]
         },
         "outil-industriel": {
-          "title": "Notre outil industriel",
-          "intro": "Quatre sites en Haute-Vienne. Des procédés complémentaires pour développer, fabriquer et finir vos pièces."
+          "title": "Des moyens de production diversifiés en Haute-Vienne",
+          "short": "Outil industriel",
+          "intro": "Bernardaud dispose de capacités industrielles importantes et complémentaires, réparties sur plusieurs sites de production en Haute-Vienne. Cet outil permet de couvrir différentes étapes de transformation, de mise en forme, d’impression, de décoration et de traitement des matériaux."
         },
         "production": {
           "title": "Mise en forme & production",
@@ -508,86 +540,136 @@
           ]
         },
         "materiaux": {
-          "title": "Nos matériaux céramiques",
-          "intro": "Cinq familles pour répondre à vos contraintes mécaniques, thermiques, électriques et esthétiques."
+          "title": "Céramiques techniques",
+          "short": "Matériaux",
+          "intro": "Les céramiques techniques présentent une combinaison de propriétés mécaniques, thermiques, électriques et chimiques qui les rendent adaptées à de nombreuses applications industrielles.",
+          "sections": [
+            {
+              "title": "Des propriétés complémentaires",
+              "body": "Selon leur composition et leur microstructure, elles peuvent notamment offrir une faible densité, une bonne stabilité dimensionnelle, une dureté élevée, une forte résistance à l’usure et à l’abrasion, de bonnes propriétés d’isolation électrique, une résistance aux environnements chimiques exigeants ainsi qu’une tenue adaptée aux hautes températures."
+            },
+            {
+              "title": "Choisir selon l’application",
+              "body": "Le choix du matériau dépend des conditions d’utilisation, des sollicitations mécaniques, thermiques, chimiques ou électriques, mais aussi des contraintes de mise en forme, de production et de coût."
+            }
+          ],
+          "other": {
+            "title": "Autres céramiques techniques",
+            "body": "Bernardaud Solutions Industrielles travaille également d’autres familles et nuances de céramiques techniques afin de répondre à des contraintes thermiques, mécaniques, électriques ou chimiques spécifiques."
+          }
         },
         "porcelaine-technique": {
           "title": "Porcelaine technique",
-          "intro": "Un matériau historique, mis au service des applications industrielles.",
+          "intro": "La porcelaine technique appartient à la famille des céramiques silicatées.",
           "points": [
-            "Isolation électrique",
-            "Stabilité dimensionnelle",
-            "Supports et contenants techniques",
-            "Moules et creusets"
+            "Isolateurs et composants électriques",
+            "Pièces techniques pour équipements industriels",
+            "Supports et composants nécessitant une bonne isolation électrique",
+            "Applications industrielles recherchant un bon rapport performance/coût"
           ],
           "sections": [
             {
-              "title": "Une matière polyvalente",
-              "body": "La porcelaine technique répond à des besoins de stabilité, d’isolation et de tenue en usage. Formulation, géométrie et cuisson sont étudiées selon l’application."
+              "title": "Isolation, résistance et maîtrise des coûts",
+              "body": "Sa composition associe une phase vitreuse et des phases cristallines qui lui permettent de combiner isolation électrique, résistance mécanique et maîtrise des coûts."
+            },
+            {
+              "title": "Un équilibre technique et économique",
+              "body": "Elle constitue une solution particulièrement adaptée lorsque l’application recherche un équilibre entre performances techniques, aptitude à la production en série et compétitivité économique."
             }
           ]
         },
         "alumine": {
-          "title": "Alumine",
-          "intro": "Dureté, résistance à l’usure et isolation électrique. Des grades de pureté intermédiaire adaptés à votre besoin.",
+          "title": "Alumine de pureté intermédiaire",
+          "short": "Alumine",
+          "intro": "Alumine Al₂O₃ – 90 à 96 %.",
           "points": [
-            "Dureté et résistance à l’abrasion",
-            "Isolation électrique",
-            "Tenue thermique",
-            "Buses, guides et supports"
+            "Billes et éléments de broyage",
+            "Tubes de protection thermique",
+            "Buses et pièces soumises à l’abrasion",
+            "Guides-fils",
+            "Vannes et composants d’usure",
+            "Isolants et supports électriques"
           ],
           "sections": [
             {
-              "title": "Des grades selon l’usage",
-              "body": "Les alumines de pureté intermédiaire permettent de combiner propriétés et coût. Le grade est choisi en fonction des sollicitations et du procédé de fabrication."
+              "title": "Un compromis entre propriétés et coût",
+              "body": "Les alumines de pureté intermédiaire offrent un bon compromis entre résistance mécanique, dureté, résistance à l’usure, propriétés électriques et coût."
+            },
+            {
+              "title": "Une teneur plus élevée en alumine",
+              "body": "Par rapport aux porcelaines techniques, leur teneur plus élevée en alumine permet notamment d’améliorer les performances mécaniques, la résistance à l’abrasion et la tenue thermique."
             }
           ]
         },
         "alumine-haute-purete": {
           "title": "Alumine haute pureté",
-          "intro": "Des grades à 98 % et 99,7 % pour les applications techniques exigeantes.",
+          "intro": "Alumine Al₂O₃ – supérieure à 98 %.",
           "points": [
-            "Dureté élevée",
-            "Pièces techniques de précision",
-            "Isolation et tenue thermique",
-            "Composants de protection balistique"
+            "Composants pour l’électronique et les semi-conducteurs",
+            "Isolateurs et supports électriques",
+            "Pièces d’usure",
+            "Composants de pompes et de vannes",
+            "Tubes et équipements de laboratoire",
+            "Applications médicales selon les nuances",
+            "Protection balistique pour certaines formulations"
           ],
           "sections": [
             {
-              "title": "Préciser la performance recherchée",
-              "body": "La pureté, la microstructure et la géométrie contribuent aux propriétés finales. Les critères sont définis avec nos équipes pour chaque application."
+              "title": "Dureté et stabilité thermique",
+              "body": "L’alumine haute pureté se caractérise par une grande dureté, une bonne stabilité thermique, d’excellentes propriétés diélectriques ainsi qu’une forte résistance à l’usure et aux environnements chimiques exigeants."
+            },
+            {
+              "title": "Précision et durabilité",
+              "body": "Elle est particulièrement adaptée aux applications nécessitant un niveau élevé de précision, de résistance mécanique, d’isolation électrique ou de durabilité."
             }
           ]
         },
         "zta": {
           "title": "ZTA",
-          "intro": "L’alumine renforcée à la zircone : une combinaison de dureté et de ténacité.",
+          "intro": "Alumine renforcée à la zircone – Al₂O₃ + ZrO₂.",
           "points": [
-            "Compromis dureté / ténacité",
-            "Pièces soumises aux chocs",
-            "Composants de pompes",
-            "Protection balistique"
+            "Composants de pompes et de vannes",
+            "Pièces soumises à l’usure et aux chocs",
+            "Composants mécaniques à haute résistance",
+            "Applications balistiques",
+            "Outils et composants industriels soumis à de fortes sollicitations",
+            "Applications médicales selon les formulations"
           ],
           "sections": [
             {
-              "title": "Associer deux familles céramiques",
-              "body": "La proportion de zircone et la formulation influencent le comportement du matériau. Le choix se fait selon les contraintes mécaniques et les performances recherchées."
+              "title": "Zirconia Toughened Alumina",
+              "body": "Le ZTA – Zirconia Toughened Alumina – est un matériau composite associant une matrice d’alumine à des particules de zircone."
+            },
+            {
+              "title": "Dureté, ténacité et résistance aux fissures",
+              "body": "Cette combinaison permet d’améliorer la ténacité et la résistance à la propagation des fissures, tout en conservant une grande partie de la dureté et de la résistance à l’usure propres à l’alumine."
+            },
+            {
+              "title": "Des sollicitations mécaniques importantes",
+              "body": "Le ZTA constitue ainsi un compromis particulièrement intéressant pour les applications soumises à des contraintes mécaniques importantes."
             }
           ]
         },
         "zircone": {
           "title": "Zircone",
-          "intro": "Résistance mécanique et faible conductivité thermique pour des composants de précision.",
+          "intro": "Zircone ZrO₂.",
           "points": [
-            "Résistance mécanique",
-            "Faible conductivité thermique",
-            "Pièces de précision",
-            "Composants horlogers et techniques"
+            "Composants de pompes et de vannes",
+            "Pièces tribologiques et composants d’usure",
+            "Outils et éléments de coupe",
+            "Composants pour capteurs",
+            "Applications automobiles",
+            "Pièces horlogères",
+            "Applications dentaires et médicales selon les nuances"
           ],
           "sections": [
             {
-              "title": "Une matière pour les détails exigeants",
-              "body": "La zircone est étudiée pour les pièces où résistance mécanique, finition et précision géométrique doivent être réunies."
+              "title": "Ténacité et résistance mécanique",
+              "body": "La zircone stabilisée se distingue par une ténacité et une résistance mécanique élevées par rapport à de nombreuses autres céramiques d’oxydes."
+            },
+            {
+              "title": "Comportement sous contrainte",
+              "body": "Sa microstructure lui permet de limiter la propagation des fissures sous contrainte. Elle présente également une faible conductivité thermique et peut être utilisée pour des composants soumis à des sollicitations mécaniques importantes."
             }
           ]
         },
@@ -596,126 +678,306 @@
           "intro": "Des contraintes industrielles à l’expression esthétique, nos savoir-faire s’adaptent à chaque application."
         },
         "defense": {
-          "title": "Protection balistique",
-          "intro": "Des céramiques haute performance développées et fabriquées en France pour les systèmes de protection.",
+          "title": "Céramiques balistiques haute performance",
+          "short": "Défense",
+          "intro": "Bernardaud Solutions Industrielles développe et fabrique en France des composants en céramiques techniques destinés aux systèmes de protection balistique. L’offre comprend des géométries et formulations standards ainsi que des développements sur mesure adaptés aux exigences spécifiques des applications de défense et de sécurité.",
           "sections": [
             {
-              "title": "La face d’impact céramique",
-              "body": "La céramique intervient dans la face d’impact d’un système de protection balistique. Le choix matière et la géométrie s’étudient avec l’ensemble de la solution de protection."
+              "title": "Protection contre les menaces balistiques",
+              "body": "Les céramiques balistiques permettent de répondre à des niveaux de menace élevés tout en contribuant à limiter la masse du système de protection.",
+              "paragraphs": [
+                "Grâce à leur grande dureté, elles participent à la fragmentation du projectile et à la dispersion de l’énergie lors de l’impact. Elles sont intégrées à un système associant généralement une face céramique à un matériau de support — polyéthylène, aramide ou composite — chargé de retenir les fragments et d’absorber l’énergie résiduelle."
+              ]
             },
             {
-              "title": "Des formes adaptées au système",
-              "body": "Tuiles, hexagones, pellets, plaques monolithiques et pièces multi-courbures : les composants sont développés selon l’architecture et le cahier des charges."
+              "title": "Composants céramiques",
+              "body": "Bernardaud Solutions Industrielles développe et produit différents types de composants pour leur intégration dans des systèmes de protection :",
+              "points": [
+                "Carreaux, hexagones et pellets",
+                "Plaques monolithiques",
+                "Pièces à courbures complexes",
+                "Géométries et épaisseurs spécifiques développées sur mesure"
+              ]
             },
             {
-              "title": "Du prototype à la production",
-              "body": "Alumine, ZTA et zircone sont étudiées selon les objectifs du système. Les performances NIJ ou VPAM doivent être validées sur le système complet, selon le protocole d’essai retenu."
+              "title": "Matériaux proposés",
+              "body": "Les matériaux proposés comprennent notamment des alumines haute pureté, du ZTA – alumine renforcée à la zircone – et de la zircone."
+            },
+            {
+              "title": "Du développement à la production en série",
+              "body": "Bernardaud Solutions Industrielles accompagne aussi bien les besoins standards que les développements spécifiques : adaptation des matériaux, dimensions, épaisseurs, courbures et géométries complexes, réalisation de prototypes et de lots de qualification, puis passage à la production en série.",
+              "paragraphs": [
+                "Ses capacités industrielles permettent de répondre à des petites séries spécialisées comme à des besoins de volumes plus importants, avec un développement et une production réalisés en France. La fabrication, la traçabilité et la caractérisation sont intégrées aux systèmes de management certifiés ISO 9001 et ISO 14001."
+              ]
+            },
+            {
+              "title": "Niveaux de protection",
+              "body": "Les composants Bernardaud sont conçus pour être intégrés à des systèmes visant notamment des niveaux de protection VPAM, NIJ III+, NIJ IV, selon la configuration du système complet."
             }
           ],
           "points": [
-            "Protection individuelle",
-            "Véhicules et systèmes mobiles",
-            "Navires et aéronefs",
-            "Développements sur cahier des charges"
-          ],
-          "short": "Défense"
+            "Protections individuelles et boucliers balistiques",
+            "Véhicules blindés et véhicules logistiques",
+            "Navires et équipements maritimes",
+            "Aéronefs, hélicoptères et protections de cockpit",
+            "Radars, postes de commandement et boîtiers protégés"
+          ]
         },
         "industrie": {
           "title": "Industrie",
-          "intro": "Des composants céramiques pour des environnements de production exigeants.",
+          "intro": "Céramiques techniques et traitements de surface pour l’industrie.",
           "sections": [
             {
-              "title": "Résister à l’usage",
-              "body": "Nous étudions les propriétés utiles à votre application : dureté, résistance à l’usure, stabilité dimensionnelle et tenue chimique."
+              "title": "Répondre aux contraintes d’utilisation",
+              "body": "Dans de nombreux environnements industriels, les composants sont soumis à des contraintes mécaniques, thermiques, chimiques ou électriques importantes."
             },
             {
-              "title": "Isoler & protéger",
-              "body": "L’isolation électrique et la tenue à haute température permettent d’envisager supports, isolateurs et protections techniques."
+              "title": "Céramiques techniques et PVD",
+              "body": "Les céramiques techniques et les traitements de surface, notamment par PVD, permettent d’apporter des réponses adaptées à ces contraintes, en fonction des conditions d’utilisation et du cahier des charges."
             },
             {
-              "title": "Adapter la fabrication",
-              "body": "La matière, le procédé et la finition sont définis ensemble selon le plan de la pièce et les volumes recherchés."
+              "title": "Des secteurs d’application variés",
+              "body": "Leurs propriétés trouvent des applications dans des secteurs très variés : équipements industriels, énergie, électronique, aéronautique, instrumentation, procédés thermiques ou encore environnements soumis à l’usure et à la corrosion."
             }
           ],
-          "points": [
-            "Pièces de structure et inserts",
-            "Buses, guides et protections",
-            "Substrats et isolateurs",
-            "Supports de cuisson"
+          "applications": [
+            {
+              "title": "Stabilité dimensionnelle",
+              "points": [
+                "Pièces de structure",
+                "Inserts",
+                "Renforts",
+                "Composants de précision"
+              ]
+            },
+            {
+              "title": "Dureté et résistance à l’usure",
+              "points": [
+                "Buses",
+                "Guides",
+                "Protections",
+                "Pièces de friction"
+              ]
+            },
+            {
+              "title": "Résistance chimique",
+              "points": [
+                "Corps de pompes et mélangeurs",
+                "Équipements de laboratoire",
+                "Vannes",
+                "Composants en contact avec des fluides corrosifs"
+              ]
+            },
+            {
+              "title": "Isolation électrique",
+              "points": [
+                "Substrats",
+                "Isolateurs",
+                "Supports électriques"
+              ]
+            },
+            {
+              "title": "Applications à hautes températures",
+              "points": [
+                "Supports de cuisson",
+                "Protections thermiques",
+                "Composants de fours"
+              ]
+            },
+            {
+              "title": "Traitements de surface et PVD",
+              "points": [
+                "Protection contre l’usure",
+                "Réduction du frottement",
+                "Fonctionnalisation des surfaces",
+                "Finitions esthétiques"
+              ]
+            }
           ]
         },
         "horlogerie": {
-          "title": "Horlogerie & luxe",
-          "intro": "La précision industrielle et la maîtrise du geste au service de l’habillage horloger.",
+          "title": "Horlogerie",
+          "intro": "Des solutions d’impression et de décoration pour l’horlogerie.",
           "sections": [
             {
-              "title": "Composants céramiques",
-              "body": "Cadrans et éléments d’habillage conjuguent précision dimensionnelle, qualité de la matière et régularité des finitions."
+              "title": "Des savoir-faire pour les composants horlogers",
+              "body": "Bernardaud Solutions Industrielles met ses compétences en imprimerie sérigraphique, décoration et traitements de surface au service des composants horlogers.",
+              "paragraphs": [
+                "Ces savoir-faire permettent de travailler la couleur, le décor, la texture, le relief ou encore l’aspect de surface de différents composants, selon les exigences esthétiques et techniques de chaque projet."
+              ]
             },
             {
-              "title": "Décors & marquages",
-              "body": "Notre imprimerie intégrée réalise des chromos et décors de précision. Le procédé et la cuisson sont choisis selon le rendu et la tenue recherchés."
+              "title": "Imprimerie sérigraphique",
+              "body": "Notre imprimerie intégrée accompagne la conception et la production de chromos de haute précision destinés notamment aux cadrans et composants horlogers.",
+              "points": [
+                "Chromos basse température (on-glaze), offrant une large liberté chromatique",
+                "Chromos haute température (in-glaze), intégrés à l’émail lors de la cuisson",
+                "Décors fins, motifs, index et éléments graphiques",
+                "Développements spécifiques selon les supports et les contraintes du projet"
+              ],
+              "paragraphs": [
+                "L’accompagnement couvre la mise au point graphique, le développement des décors et leur production en série."
+              ]
             },
             {
-              "title": "Surfaces & finition",
-              "body": "Traitements et décors enrichissent la perception de la pièce. Les critères esthétiques et les exigences fonctionnelles font l’objet d’une validation dédiée."
+              "title": "Décoration & traitements de surface",
+              "body": "Bernardaud Solutions Industrielles propose également différents procédés permettant de modifier l’aspect, la couleur ou la texture des surfaces.",
+              "points": [
+                "PVD",
+                "Texturation et création de reliefs",
+                "Coloration de la matière",
+                "Dépôts de métaux précieux, notamment or et platine",
+                "Finitions décoratives spécifiques"
+              ],
+              "paragraphs": [
+                "Ces procédés peuvent être appliqués à différents composants horlogers tels que les cadrans, carrures, lunettes, bracelets ou verres saphir, selon les caractéristiques du support."
+              ]
             }
           ],
-          "points": [
-            "Cadrans",
-            "Éléments d’habillage",
-            "Marquages et décors fins",
-            "Traitements de surface"
+          "applications": [
+            {
+              "title": "Cadrans",
+              "points": [
+                "Imprimerie sérigraphique",
+                "Chromos basse et haute température",
+                "Décoration, PVD, texturation et reliefs",
+                "Dépôts de métaux précieux"
+              ]
+            },
+            {
+              "title": "Carrures et lunettes",
+              "points": [
+                "Coloration de la matière",
+                "PVD",
+                "Texturation",
+                "Dépôts de métaux précieux"
+              ]
+            },
+            {
+              "title": "Bracelets",
+              "points": [
+                "Coloration de la matière",
+                "Décoration de composants céramiques",
+                "PVD",
+                "Dépôts de métaux précieux"
+              ]
+            },
+            {
+              "title": "Verres saphir",
+              "points": [
+                "PVD",
+                "Effets de surface et reflets"
+              ]
+            }
           ]
         },
         "contenants": {
-          "title": "Contenants & objets de marque",
-          "intro": "Cosmétiques, vins et spiritueux. Des objets distinctifs qui donnent matière à votre identité.",
+          "title": "Cosmétiques, parfums, vins & spiritueux",
+          "short": "Contenants",
+          "intro": "Des contenants d’exception.",
           "sections": [
             {
-              "title": "Faire vivre une identité",
-              "body": "La forme, la couleur, le toucher et les décors prolongent l’histoire de votre marque dans un objet singulier."
+              "title": "Le contenant, une identité",
+              "body": "Pour les maisons de cosmétiques, de parfumerie, de vins et de spiritueux, le contenant participe pleinement à l’identité du produit. Bernardaud met à leur service sa connaissance de la porcelaine, de la couleur et du décor pour concevoir des contenants et objets sur mesure."
             },
             {
-              "title": "Maîtriser le rendu",
-              "body": "Nos savoir-faire de fabrication, d’émaillage et de décoration accompagnent la recherche d’un résultat esthétique précis."
+              "title": "La liberté de création de la porcelaine",
+              "body": "La porcelaine offre une grande liberté de création par la richesse de ses formes, de ses couleurs, de ses textures et de ses finitions. Elle permet de concevoir des pièces singulières, depuis les séries limitées jusqu’aux lignes permanentes."
             },
             {
-              "title": "Préparer la série",
-              "body": "Les prototypes permettent de valider l’aspect, l’usage et les interfaces. Les contraintes de fabrication sont intégrées à chaque étape."
+              "title": "De l’intention esthétique à la série",
+              "body": "Bernardaud Solutions Industrielles accompagne chaque projet dans la recherche du juste équilibre entre intention esthétique, qualité d’exécution et contraintes d’usage, avec la capacité de répondre à des cahiers des charges exigeants et d’assurer une production régulière en série."
             }
           ],
-          "points": [
-            "Contenants cosmétiques",
-            "Vins et spiritueux",
-            "Objets de marque",
-            "Décors et finitions"
+          "applications": [
+            {
+              "title": "Écrins",
+              "points": [
+                "Formes sur mesure",
+                "Couleurs et effets de matière",
+                "Décors personnalisés",
+                "Finitions précieuses",
+                "Reliefs et textures"
+              ]
+            },
+            {
+              "title": "Flacons et contenants",
+              "points": [
+                "Formes et formats spécifiques",
+                "Décors personnalisés",
+                "Couleurs sur mesure",
+                "Finitions décoratives",
+                "Intégration des contraintes fonctionnelles du contenant"
+              ]
+            },
+            {
+              "title": "Pièces d’exception",
+              "points": [
+                "Développements sur mesure",
+                "Formes complexes",
+                "Reliefs et textures",
+                "Décors et finitions spécifiques",
+                "Petites séries et éditions limitées"
+              ]
+            }
           ]
         },
         "architecture": {
-          "title": "Architecture",
-          "intro": "La céramique et la porcelaine au service des façades, des habillages et des projets architecturaux singuliers.",
+          "title": "La porcelaine au service de l’architecture",
+          "short": "Architecture",
+          "intro": "Depuis 1863, Bernardaud développe à Limoges une connaissance approfondie de la porcelaine, de la couleur et du décor.",
           "sections": [
             {
-              "title": "Matière & expression architecturale",
-              "body": "Couleurs, textures, reliefs et finitions permettent de développer une signature visuelle, du premier échantillon à la production des éléments."
+              "title": "Des éléments architecturaux singuliers",
+              "body": "Cette expérience est mise au service des architectes, designers et maîtres d’œuvre pour imaginer des éléments architecturaux singuliers, conçus spécifiquement pour chaque projet."
             },
             {
-              "title": "Concevoir pour l’environnement du bâtiment",
-              "body": "Le choix du matériau, de la finition et de l’assemblage tient compte de l’exposition, de l’entretien et des contraintes de mise en œuvre. Les performances sont à valider à l’échelle de la solution constructive."
+              "title": "Une matière d’expression architecturale",
+              "body": "La porcelaine offre une grande liberté de création par la richesse de ses formes, reliefs, textures, couleurs et finitions. Elle peut ainsi devenir un véritable élément d’expression architecturale, en façade comme dans les espaces intérieurs."
             },
             {
-              "title": "Accompagner l’intégration",
-              "body": "Le bureau d’études travaille avec les équipes de conception sur la géométrie, les fixations, les interfaces et les contrôles, pour préparer une fabrication reproductible."
+              "title": "De la conception à la réalisation",
+              "body": "Bernardaud Solutions Industrielles accompagne les projets depuis leur conception jusqu’à leur réalisation, avec la capacité de développer des pièces sur mesure et de répondre aux contraintes dimensionnelles, mécaniques, environnementales et de mise en œuvre propres à l’architecture."
             }
           ],
-          "points": [
-            "Façades et parements",
-            "Textures et reliefs sur mesure",
-            "Habillages intérieurs",
-            "Éléments décoratifs"
-          ],
-          "short": "Architecture"
+          "applications": [
+            {
+              "title": "Façades et enveloppes architecturales",
+              "points": [
+                "Éléments de parement",
+                "Reliefs et textures",
+                "Motifs et compositions sur mesure",
+                "Couleurs et finitions spécifiques"
+              ]
+            },
+            {
+              "title": "Architecture intérieure",
+              "points": [
+                "Habillages muraux",
+                "Éléments décoratifs",
+                "Panneaux et compositions",
+                "Pièces sur mesure"
+              ]
+            },
+            {
+              "title": "Éléments architecturaux",
+              "points": [
+                "Volumes et formes spécifiques",
+                "Pièces répétitives ou uniques",
+                "Reliefs et éléments sculpturaux",
+                "Intégration à des structures ou ensembles existants"
+              ]
+            },
+            {
+              "title": "Projets sur mesure",
+              "points": [
+                "Développement spécifique selon l’intention de l’architecte",
+                "Recherche de formes, textures et couleurs",
+                "Prototypage et mise au point",
+                "Production adaptée à l’échelle du projet"
+              ]
+            }
+          ]
         },
         "actualites": {
           "title": "Actualités & ressources",
@@ -844,122 +1106,150 @@
         "eyebrow": "Limoges, France · Since 1863",
         "title": "Bernardaud",
         "subtitle": "Industrial solutions",
-        "intro": "Technical ceramics, screen printing and surface treatments. French expertise, from prototype to volume production.",
-        "primary": "Explore our expertise",
-        "secondary": "Your project",
+        "intro": "Bernardaud Solutions Industrielles brings together expertise in technical ceramics, screen printing, decoration and surface treatments, alongside industrial technologies and resources dedicated to development, industrialisation and manufacturing.",
+        "primary": "Our expertise",
+        "secondary": "Contact us",
         "caption": "Ceramic injection moulding · Our industrial platform",
         "scroll": "Discover BSI",
-        "offerTitle": "Material. Form. Surface.",
-        "offerIntro": "Four areas of expertise, one commitment to manufacturing quality. We bring together the capabilities to realise your industrial projects.",
+        "offerTitle": "Four complementary capabilities",
+        "offerIntro": "Technical ceramics, screen printing, decoration and surface treatments, industrial services and development.",
         "offerLink": "Explore our offer",
         "marketsTitle": "Solutions that meet your requirements.",
         "marketsIntro": "From ballistic protection to watchmaking, each application calls for a specific response.",
-        "heritageTitle": "A name. A craft. An industrial capability.",
-        "heritageIntro": "Since 1863 in Limoges, Bernardaud has combined material expertise with skilled craftsmanship. This heritage underpins a French industrial platform dedicated to your developments.",
+        "heritageTitle": "A French industrial group",
+        "heritageIntro": "Since 1863, Bernardaud has developed a diverse industrial platform in Haute-Vienne, now spread across four production sites. The group brings together skills, technologies and manufacturing resources serving a range of markets and applications in France and internationally.",
         "heritageLink": "Discover Bernardaud",
-        "productionTitle": "Custom development. Industrial scale.",
-        "productionIntro": "Formulation, shaping, firing, printing and finishing: our teams support your component development on an integrated industrial platform.",
+        "quote": "Bernardaud Solutions Industrielles supports its partners from development through industrialisation to series production. The breadth of our expertise and resources enables us to address a wide variety of industrial requirements.",
+        "quoteAuthor": "Michel Bernardaud",
+        "quoteRole": "Chairman and Chief Executive Officer",
+        "productionTitle": "Diverse manufacturing resources",
+        "productionIntro": "Bernardaud has substantial, complementary industrial capabilities across several sites in Haute-Vienne, covering material processing, shaping, printing, decoration and surface treatments.",
         "productionLink": "Explore our industrial platform",
-        "footerBaseline": "Material expertise, serving industry."
+        "footerBaseline": "Technical ceramics, printing, decoration and industrial development."
       },
       "pages": {
         "presentation": {
-          "title": "About Bernardaud",
-          "intro": "A French family business, over 160 years of expertise and an industrial platform dedicated to your development projects.",
+          "title": "A French industrial group",
+          "short": "Company",
+          "intro": "Since 1863, Bernardaud has developed a diverse industrial platform in Haute-Vienne, now spread across four production sites.",
           "sections": [
             {
-              "title": "Material heritage",
-              "body": "Founded in Limoges in 1863, Bernardaud combines a historic ceramic culture with continuous investment and innovation."
+              "title": "Complementary capabilities",
+              "body": "The group brings together skills, technologies and manufacturing resources serving a range of markets and applications in France and internationally."
             },
             {
-              "title": "Industrial expertise",
-              "body": "Bernardaud Solutions Industrielles brings together the group’s capabilities to develop and manufacture ceramic components, decoration and technical surfaces."
-            },
-            {
-              "title": "Working closely with you",
-              "body": "From study to production, our teams work with you on material, geometry, finishes and the requirements of your application."
+              "title": "From development to manufacturing",
+              "body": "Bernardaud Solutions Industrielles brings together expertise in technical ceramics, screen printing, decoration and surface treatments, alongside industrial technologies and resources dedicated to development, industrialisation and manufacturing."
             }
           ]
         },
         "historique": {
-          "title": "Bernardaud’s history",
-          "intro": "Since 1863, a story of craftsmanship, innovation and French manufacturing.",
+          "title": "An industrial journey since 1863",
+          "short": "History",
+          "intro": "Founded in Limoges in 1863, Bernardaud has grown over successive generations through continuous industrial investment and the introduction of new production technologies.",
           "sections": [
             {
-              "title": "1863 · Founded in Limoges",
-              "body": "Bernardaud was founded in Limoges, a region closely associated with porcelain. Knowledge of materials and firing became the foundation of the manufacture."
+              "title": "Investing and exploring new processes",
+              "body": "Tunnel kilns, isostatic pressing, injection moulding and PVD surface treatments reflect a consistent commitment to adapting manufacturing resources, exploring new processes and gradually expanding the group’s expertise."
             },
             {
-              "title": "Expertise passed on",
-              "body": "Precision, finishing quality and manufacturing expertise are passed on in the workshops of this family business."
+              "title": "Broadening industrial expertise",
+              "body": "This ability to invest, experiment and develop its manufacturing resources has enabled Bernardaud to extend beyond its original activity, building expertise now applied to industrial applications and technical ceramics."
             },
             {
-              "title": "Today · New applications",
-              "body": "Bernardaud Solutions Industrielles applies these capabilities to technical ceramics, printing and surface treatments, from first prototype to series production."
+              "title": "A family business, generations of industrial investment",
+              "body": "Since the company was founded, each generation has contributed new equipment, processes and industrial decisions."
             }
           ]
         },
         "actionnariat": {
-          "title": "Family ownership",
-          "intro": "An independent business with a long-term vision.",
+          "title": "Independent family ownership",
+          "short": "Family ownership",
+          "intro": "For over 160 years, Bernardaud has relied on stable, independent family ownership, enabling the company to take a long-term approach to its decisions.",
           "sections": [
             {
-              "title": "Committed leadership",
-              "body": "The Bernardaud family remains directly involved in running the business, connecting strategic decisions to the reality of the workshops and markets."
+              "title": "Direct family involvement",
+              "body": "The Bernardaud family remains directly involved in the group’s management and activities. Close contact with teams, markets and industrial challenges supports rapid decision-making and continuity in strategic direction."
             },
             {
-              "title": "Long-term investment",
-              "body": "Family ownership supports the transmission of expertise, industrial investment and the development of new applications."
+              "title": "Long-term industrial investment",
+              "body": "This governance enables long-term industrial investment, improvements to manufacturing resources and the development of new activities, while retaining direct control of the company’s strategy."
+            }
+          ],
+          "portraits": [
+            {
+              "name": "Michel Bernardaud",
+              "image": "michel"
             },
             {
-              "title": "A French industrial partner",
-              "body": "The Haute-Vienne location and integrated manufacturing stages support close collaboration between teams and industrial partners."
+              "name": "Charles Bernardaud",
+              "image": "charles"
             }
           ]
         },
         "certifications": {
-          "title": "Quality & environment",
-          "intro": "A shared commitment across workshops, inspection and project management.",
+          "title": "Certifications & responsibility",
+          "short": "Quality & environment",
+          "intro": "The relevant Bernardaud sites are certified to ISO 9001 for quality management and ISO 14001 for environmental management.",
           "sections": [
             {
-              "title": "ISO 9001 · Quality management",
-              "body": "The quality approach structures processes, inspection and continuous improvement. Our teams confirm the scope applicable to your project."
+              "title": "ISO 9001 | ISO 14001",
+              "body": "These certifications support continuous process improvement, quality control and the reduction of environmental impacts associated with industrial activities."
             },
             {
-              "title": "ISO 14001 · Environmental management",
-              "body": "The environmental approach supports impact monitoring and the improvement of practices at production sites."
+              "title": "Social and environmental responsibility",
+              "body": "Bernardaud’s corporate social responsibility approach is also assessed by EcoVadis, including environmental, social, ethical and responsible purchasing practices."
             },
             {
-              "title": "Traceability & technical dialogue",
-              "body": "Inspection plans, acceptance criteria and batch tracking are defined according to the component, volumes and specification."
+              "title": "Gender equality",
+              "body": "The company also monitors its professional gender equality index in accordance with regulatory requirements."
             }
           ]
         },
         "partenaires": {
-          "title": "An innovation ecosystem",
-          "intro": "In Limoges, industry, research and technical centres contribute to the development of new ceramic solutions.",
+          "title": "A scientific and technological ecosystem",
+          "short": "Partners",
+          "intro": "Based in Limoges within the European ceramics cluster, Bernardaud Solutions Industrielles benefits from an environment combining research, technology transfer and industrial expertise.",
           "sections": [
             {
-              "title": "IRCER",
-              "body": "Institute of Research for Ceramics: scientific research, material knowledge and understanding of material behaviour."
+              "title": "IRCER, CTTC, CITRA & CEDREM",
+              "body": "BSI works with IRCER (Institute of Research for Ceramics), CTTC (Ceramic Technology Transfer Centre), surface treatment specialist CITRA, and CEDREM."
             },
             {
-              "title": "CTTC",
-              "body": "Ceramic Technology Transfer Centre: process development, technology transfer and innovation support."
+              "title": "Complementary scientific and technical expertise",
+              "body": "These collaborations provide complementary scientific and technical capabilities for research, characterisation and development, particularly in technical ceramics and surface treatments."
             },
             {
-              "title": "CITRA",
-              "body": "Surface treatment engineering: expertise in surfaces and their functions."
-            },
-            {
-              "title": "CEDREM",
-              "body": "Complementary expertise for the development and assessment of protection solutions."
+              "title": "Supporting internal resources",
+              "body": "They complement Bernardaud Solutions Industrielles’ internal resources when a project requires specific expertise or equipment."
             }
           ]
         },
         "offre": {
           "title": "Our expertise",
-          "intro": "Four complementary capabilities, from material to finished component. Support from development to industrialisation."
+          "intro": "Bernardaud Solutions Industrielles brings together four complementary capabilities to support requirements from component development to manufacturing, including printing, decoration, surface treatments and specific industrial development services.",
+          "items": [
+            {
+              "title": "Technical ceramics",
+              "body": "Development and production of technical ceramic components, standard or custom-made, from small batches to large series."
+            },
+            {
+              "title": "Screen printing",
+              "body": "Design and screen printing on a broad range of substrates for industrial and decorative applications."
+            },
+            {
+              "title": "Decoration & surface treatments",
+              "body": "Decoration, coating and surface treatment solutions for aesthetic or functional purposes."
+            },
+            {
+              "title": "Industrial development & services",
+              "body": "Expertise and manufacturing resources for specific requirements: engineering, prototyping, added functions, assembly and custom industrial operations."
+            }
+          ],
+          "support": {
+            "title": "From the laboratory to series production",
+            "body": "With an integrated laboratory, an engineering department and prototyping workshops, Bernardaud Solutions Industrielles can support projects at different levels of maturity, from R&D to industrialisation and large-scale manufacturing."
+          }
         },
         "ceramiques-techniques": {
           "title": "Technical ceramics",
@@ -1117,8 +1407,9 @@
           ]
         },
         "outil-industriel": {
-          "title": "Our industrial platform",
-          "intro": "Four sites in Haute-Vienne. Complementary processes to develop, manufacture and finish your components."
+          "title": "Diverse manufacturing resources in Haute-Vienne",
+          "short": "Industrial platform",
+          "intro": "Bernardaud has substantial, complementary industrial capabilities across several sites in Haute-Vienne, covering material processing, shaping, printing, decoration and surface treatments."
         },
         "production": {
           "title": "Shaping & production",
@@ -1245,86 +1536,136 @@
           ]
         },
         "materiaux": {
-          "title": "Our ceramic materials",
-          "intro": "Five families to address mechanical, thermal, electrical and aesthetic requirements."
+          "title": "Technical ceramics",
+          "short": "Materials",
+          "intro": "Technical ceramics combine mechanical, thermal, electrical and chemical properties suited to a wide range of industrial applications.",
+          "sections": [
+            {
+              "title": "Complementary properties",
+              "body": "Depending on their composition and microstructure, they can offer low density, dimensional stability, high hardness, strong wear and abrasion resistance, electrical insulation, resistance to demanding chemical environments and suitable performance at high temperatures."
+            },
+            {
+              "title": "Selection for the application",
+              "body": "Material selection depends on operating conditions and mechanical, thermal, chemical or electrical stresses, as well as shaping, manufacturing and cost requirements."
+            }
+          ],
+          "other": {
+            "title": "Other technical ceramics",
+            "body": "Bernardaud Solutions Industrielles also works with other ceramic families and grades to address specific thermal, mechanical, electrical or chemical requirements."
+          }
         },
         "porcelaine-technique": {
           "title": "Technical porcelain",
-          "intro": "A historic material, applied to industrial requirements.",
+          "intro": "Technical porcelain belongs to the silicate ceramics family.",
           "points": [
-            "Electrical insulation",
-            "Dimensional stability",
-            "Technical supports and containers",
-            "Moulds and crucibles"
+            "Insulators and electrical components",
+            "Technical components for industrial equipment",
+            "Supports and components requiring electrical insulation",
+            "Industrial applications seeking a good performance-to-cost ratio"
           ],
           "sections": [
             {
-              "title": "A versatile material",
-              "body": "Technical porcelain addresses stability, insulation and application durability. Formulation, geometry and firing are assessed for each application."
+              "title": "Insulation, strength and cost control",
+              "body": "Its composition combines a glassy phase with crystalline phases, providing electrical insulation, mechanical strength and cost control."
+            },
+            {
+              "title": "Technical and economic balance",
+              "body": "It is particularly suited to applications seeking a balance between technical performance, suitability for series production and economic competitiveness."
             }
           ]
         },
         "alumine": {
-          "title": "Alumina",
-          "intro": "Hardness, wear resistance and electrical insulation. Intermediate purity grades for your requirements.",
+          "title": "Intermediate-purity alumina",
+          "short": "Alumina",
+          "intro": "Alumina Al₂O₃ – 90 to 96%.",
           "points": [
-            "Hardness and abrasion resistance",
-            "Electrical insulation",
-            "Thermal resistance",
-            "Nozzles, guides and supports"
+            "Grinding balls and media",
+            "Thermal protection tubes",
+            "Nozzles and abrasion-resistant parts",
+            "Wire guides",
+            "Valves and wear components",
+            "Electrical insulators and supports"
           ],
           "sections": [
             {
-              "title": "Grades for each application",
-              "body": "Intermediate purity alumina grades combine performance and cost. Selection depends on the loading conditions and manufacturing process."
+              "title": "Balancing properties and cost",
+              "body": "Intermediate-purity aluminas provide a balance of mechanical strength, hardness, wear resistance, electrical properties and cost."
+            },
+            {
+              "title": "A higher alumina content",
+              "body": "Compared with technical porcelains, their higher alumina content can improve mechanical performance, abrasion resistance and thermal performance."
             }
           ]
         },
         "alumine-haute-purete": {
           "title": "High-purity alumina",
-          "intro": "98 % and 99.7 % grades for demanding technical applications.",
+          "intro": "Alumina Al₂O₃ – above 98%.",
           "points": [
-            "High hardness",
-            "Precision technical components",
-            "Insulation and thermal resistance",
-            "Ballistic protection components"
+            "Electronics and semiconductor components",
+            "Electrical insulators and supports",
+            "Wear parts",
+            "Pump and valve components",
+            "Laboratory tubes and equipment",
+            "Medical applications depending on grade",
+            "Ballistic protection for specific formulations"
           ],
           "sections": [
             {
-              "title": "Define the required performance",
-              "body": "Purity, microstructure and geometry contribute to final properties. Criteria are defined with our teams for each application."
+              "title": "Hardness and thermal stability",
+              "body": "High-purity alumina offers high hardness, thermal stability, excellent dielectric properties and strong resistance to wear and demanding chemical environments."
+            },
+            {
+              "title": "Precision and durability",
+              "body": "It is particularly suited to applications requiring precision, mechanical strength, electrical insulation or durability."
             }
           ]
         },
         "zta": {
           "title": "ZTA",
-          "intro": "Zirconia-toughened alumina: a combination of hardness and toughness.",
+          "intro": "Zirconia-toughened alumina – Al₂O₃ + ZrO₂.",
           "points": [
-            "Hardness / toughness balance",
-            "Impact-loaded components",
-            "Pump components",
-            "Ballistic protection"
+            "Pump and valve components",
+            "Wear- and impact-loaded parts",
+            "High-strength mechanical components",
+            "Ballistic applications",
+            "Heavily loaded industrial tools and components",
+            "Medical applications depending on formulation"
           ],
           "sections": [
             {
-              "title": "Combine two ceramic families",
-              "body": "Zirconia content and formulation influence material behaviour. Selection depends on mechanical requirements and the performance sought."
+              "title": "Zirconia Toughened Alumina",
+              "body": "ZTA, or Zirconia Toughened Alumina, is a composite material with an alumina matrix containing zirconia particles."
+            },
+            {
+              "title": "Hardness, toughness and crack resistance",
+              "body": "This combination improves toughness and resistance to crack propagation while retaining much of alumina’s hardness and wear resistance."
+            },
+            {
+              "title": "High mechanical loads",
+              "body": "ZTA therefore offers a particularly useful balance for applications subject to substantial mechanical stress."
             }
           ]
         },
         "zircone": {
           "title": "Zirconia",
-          "intro": "Mechanical strength and low thermal conductivity for precision components.",
+          "intro": "Zirconia ZrO₂.",
           "points": [
-            "Mechanical strength",
-            "Low thermal conductivity",
-            "Precision components",
-            "Watchmaking and technical components"
+            "Pump and valve components",
+            "Tribological components and wear parts",
+            "Tools and cutting elements",
+            "Sensor components",
+            "Automotive applications",
+            "Watch components",
+            "Dental and medical applications depending on grade"
           ],
           "sections": [
             {
-              "title": "For demanding details",
-              "body": "Zirconia is assessed for components requiring mechanical strength, finish quality and geometrical precision."
+              "title": "Toughness and mechanical strength",
+              "body": "Stabilised zirconia offers high toughness and mechanical strength compared with many other oxide ceramics."
+            },
+            {
+              "title": "Behaviour under stress",
+              "body": "Its microstructure helps limit crack propagation under stress. It also has low thermal conductivity and can be used for components subject to substantial mechanical loads."
             }
           ]
         },
@@ -1333,126 +1674,306 @@
           "intro": "From industrial requirements to aesthetic expression, our capabilities adapt to each application."
         },
         "defense": {
-          "title": "Ballistic protection",
-          "intro": "High-performance ceramics developed and manufactured in France for protection systems.",
+          "title": "High-performance ballistic ceramics",
+          "short": "Defence",
+          "intro": "Bernardaud Solutions Industrielles develops and manufactures technical ceramic components in France for ballistic protection systems. The offer includes standard geometries and formulations alongside custom developments for defence and security requirements.",
           "sections": [
             {
-              "title": "The ceramic strike face",
-              "body": "Ceramics form part of the strike face of a ballistic protection system. Material and geometry are assessed alongside the complete protection solution."
+              "title": "Protection against ballistic threats",
+              "body": "Ballistic ceramics help address high threat levels while limiting the mass of the protection system.",
+              "paragraphs": [
+                "Their high hardness helps fragment the projectile and disperse impact energy. They are integrated into systems generally combining a ceramic strike face with a backing material, such as polyethylene, aramid or composite, that retains fragments and absorbs residual energy."
+              ]
             },
             {
-              "title": "Shapes adapted to the system",
-              "body": "Tiles, hexagons, pellets, monolithic plates and multi-curvature components are developed for the architecture and specification."
+              "title": "Ceramic components",
+              "body": "Bernardaud Solutions Industrielles develops and produces various components for integration into protection systems:",
+              "points": [
+                "Tiles, hexagons and pellets",
+                "Monolithic plates",
+                "Complex-curvature parts",
+                "Custom geometries and thicknesses"
+              ]
             },
             {
-              "title": "From prototype to production",
-              "body": "Alumina, ZTA and zirconia are assessed against system objectives. NIJ or VPAM performance must be validated on the complete system using the selected testing protocol."
+              "title": "Available materials",
+              "body": "Available materials include high-purity aluminas, ZTA (zirconia-toughened alumina) and zirconia."
+            },
+            {
+              "title": "From development to series production",
+              "body": "Bernardaud Solutions Industrielles supports standard requirements and specific developments: adapting materials, dimensions, thicknesses, curvature and complex geometries, producing prototypes and qualification batches, then moving into series production.",
+              "paragraphs": [
+                "Its industrial capabilities support specialised small batches and larger volumes, with development and production in France. Manufacturing, traceability and characterisation are integrated into ISO 9001 and ISO 14001 certified management systems."
+              ]
+            },
+            {
+              "title": "Protection levels",
+              "body": "Bernardaud components are designed for integration into systems targeting protection levels including VPAM, NIJ III+ and NIJ IV, depending on the configuration of the complete system."
             }
           ],
           "points": [
-            "Personal protection",
-            "Vehicles and mobile systems",
-            "Ships and aircraft",
-            "Custom development"
-          ],
-          "short": "Defence"
+            "Personal protection and ballistic shields",
+            "Armoured and logistics vehicles",
+            "Ships and maritime equipment",
+            "Aircraft, helicopters and cockpit protection",
+            "Radars, command posts and protected enclosures"
+          ]
         },
         "industrie": {
           "title": "Industry",
-          "intro": "Ceramic components for demanding production environments.",
+          "intro": "Technical ceramics and surface treatments for industry.",
           "sections": [
             {
-              "title": "Withstand the application",
-              "body": "We assess relevant properties: hardness, wear resistance, dimensional stability and chemical resistance."
+              "title": "Addressing operating requirements",
+              "body": "In many industrial environments, components are subject to substantial mechanical, thermal, chemical or electrical stresses."
             },
             {
-              "title": "Insulate & protect",
-              "body": "Electrical insulation and high-temperature resistance support technical supports, insulators and protection components."
+              "title": "Technical ceramics and PVD",
+              "body": "Technical ceramics and surface treatments, particularly PVD, can address these requirements according to operating conditions and specifications."
             },
             {
-              "title": "Adapt manufacturing",
-              "body": "Material, process and finishing are defined together for the drawing and required volumes."
+              "title": "A broad range of sectors",
+              "body": "Applications span industrial equipment, energy, electronics, aerospace, instrumentation, thermal processes and environments exposed to wear and corrosion."
             }
           ],
-          "points": [
-            "Structural parts and inserts",
-            "Nozzles, guides and protection",
-            "Substrates and insulators",
-            "Kiln furniture"
+          "applications": [
+            {
+              "title": "Dimensional stability",
+              "points": [
+                "Structural parts",
+                "Inserts",
+                "Reinforcements",
+                "Precision components"
+              ]
+            },
+            {
+              "title": "Hardness and wear resistance",
+              "points": [
+                "Nozzles",
+                "Guides",
+                "Protective components",
+                "Friction parts"
+              ]
+            },
+            {
+              "title": "Chemical resistance",
+              "points": [
+                "Pump bodies and mixers",
+                "Laboratory equipment",
+                "Valves",
+                "Components in contact with corrosive fluids"
+              ]
+            },
+            {
+              "title": "Electrical insulation",
+              "points": [
+                "Substrates",
+                "Insulators",
+                "Electrical supports"
+              ]
+            },
+            {
+              "title": "High-temperature applications",
+              "points": [
+                "Kiln furniture",
+                "Thermal protection",
+                "Furnace components"
+              ]
+            },
+            {
+              "title": "Surface treatments and PVD",
+              "points": [
+                "Wear protection",
+                "Friction reduction",
+                "Surface functionalisation",
+                "Aesthetic finishes"
+              ]
+            }
           ]
         },
         "horlogerie": {
-          "title": "Watchmaking & luxury",
-          "intro": "Industrial precision and skilled craftsmanship for watch components.",
+          "title": "Watchmaking",
+          "intro": "Printing and decoration solutions for watchmaking.",
           "sections": [
             {
-              "title": "Ceramic components",
-              "body": "Dials and external watch components combine dimensional precision, material quality and consistent finishing."
+              "title": "Expertise for watch components",
+              "body": "Bernardaud Solutions Industrielles applies its screen printing, decoration and surface treatment expertise to watch components.",
+              "paragraphs": [
+                "These capabilities address colour, decoration, texture, relief and surface appearance for different components, according to each project’s aesthetic and technical requirements."
+              ]
             },
             {
-              "title": "Decoration & markings",
-              "body": "Our integrated printing department produces precision transfers and decoration. Process and firing are selected for appearance and durability."
+              "title": "Screen printing",
+              "body": "Our integrated printing department supports the design and production of high-precision transfers, particularly for dials and watch components.",
+              "points": [
+                "Low-temperature on-glaze transfers, offering broad colour possibilities",
+                "High-temperature in-glaze transfers, incorporated into the glaze during firing",
+                "Fine decoration, patterns, indices and graphic elements",
+                "Specific development for the substrate and project requirements"
+              ],
+              "paragraphs": [
+                "Support covers graphic development, decoration trials and series production."
+              ]
             },
             {
-              "title": "Surfaces & finishing",
-              "body": "Treatments and decoration enhance the component. Aesthetic criteria and functional requirements receive dedicated validation."
+              "title": "Decoration & surface treatments",
+              "body": "Bernardaud Solutions Industrielles also offers processes to modify surface appearance, colour or texture.",
+              "points": [
+                "PVD",
+                "Texturing and relief creation",
+                "Colouring of the material",
+                "Precious metal deposits, including gold and platinum",
+                "Specific decorative finishes"
+              ],
+              "paragraphs": [
+                "Depending on substrate characteristics, these processes can be applied to dials, cases, bezels, bracelets and sapphire crystals."
+              ]
             }
           ],
-          "points": [
-            "Dials",
-            "External watch components",
-            "Fine markings and decoration",
-            "Surface treatments"
+          "applications": [
+            {
+              "title": "Dials",
+              "points": [
+                "Screen printing",
+                "Low- and high-temperature transfers",
+                "Decoration, PVD, texturing and reliefs",
+                "Precious metal deposits"
+              ]
+            },
+            {
+              "title": "Cases and bezels",
+              "points": [
+                "Colouring of the material",
+                "PVD",
+                "Texturing",
+                "Precious metal deposits"
+              ]
+            },
+            {
+              "title": "Bracelets",
+              "points": [
+                "Colouring of the material",
+                "Ceramic component decoration",
+                "PVD",
+                "Precious metal deposits"
+              ]
+            },
+            {
+              "title": "Sapphire crystals",
+              "points": [
+                "PVD",
+                "Surface effects and reflections"
+              ]
+            }
           ]
         },
         "contenants": {
-          "title": "Containers & branded objects",
-          "intro": "Cosmetics, wines and spirits. Distinctive objects that express your identity.",
+          "title": "Cosmetics, fragrances, wines & spirits",
+          "short": "Containers",
+          "intro": "Exceptional containers.",
           "sections": [
             {
-              "title": "Express an identity",
-              "body": "Shape, colour, feel and decoration extend your brand’s story into a distinctive object."
+              "title": "The container as an expression of identity",
+              "body": "For cosmetics, fragrance, wine and spirits houses, the container is an integral part of product identity. Bernardaud applies its knowledge of porcelain, colour and decoration to create custom containers and objects."
             },
             {
-              "title": "Control the appearance",
-              "body": "Manufacturing, glazing and decoration capabilities support a precise aesthetic result."
+              "title": "Porcelain’s creative possibilities",
+              "body": "Porcelain offers creative freedom through its wealth of shapes, colours, textures and finishes. It enables distinctive pieces, from limited editions to permanent collections."
             },
             {
-              "title": "Prepare production",
-              "body": "Prototypes validate appearance, use and interfaces. Manufacturing constraints are considered at each stage."
+              "title": "From aesthetic intent to production",
+              "body": "Bernardaud Solutions Industrielles supports each project in balancing aesthetic intent, execution quality and practical requirements, with the ability to meet demanding specifications and deliver consistent series production."
             }
           ],
-          "points": [
-            "Cosmetic containers",
-            "Wines and spirits",
-            "Branded objects",
-            "Decoration and finishes"
+          "applications": [
+            {
+              "title": "Presentation cases",
+              "points": [
+                "Custom shapes",
+                "Colours and material effects",
+                "Personalised decoration",
+                "Precious finishes",
+                "Reliefs and textures"
+              ]
+            },
+            {
+              "title": "Bottles and containers",
+              "points": [
+                "Specific shapes and sizes",
+                "Personalised decoration",
+                "Custom colours",
+                "Decorative finishes",
+                "Integration of functional container requirements"
+              ]
+            },
+            {
+              "title": "Exceptional pieces",
+              "points": [
+                "Custom development",
+                "Complex shapes",
+                "Reliefs and textures",
+                "Specific decoration and finishes",
+                "Small batches and limited editions"
+              ]
+            }
           ]
         },
         "architecture": {
-          "title": "Architecture",
-          "intro": "Ceramics and porcelain for façades, cladding and distinctive architectural projects.",
+          "title": "Porcelain for architecture",
+          "short": "Architecture",
+          "intro": "Since 1863, Bernardaud has developed extensive knowledge of porcelain, colour and decoration in Limoges.",
           "sections": [
             {
-              "title": "Material & architectural expression",
-              "body": "Colours, textures, reliefs and finishes support a visual signature, from initial samples to manufactured elements."
+              "title": "Distinctive architectural elements",
+              "body": "This experience supports architects, designers and project teams in creating distinctive architectural elements, designed specifically for each project."
             },
             {
-              "title": "Designed for the building environment",
-              "body": "Material, finish and assembly are selected for exposure, maintenance and installation requirements. Performance must be validated at the level of the complete building solution."
+              "title": "A material for architectural expression",
+              "body": "Porcelain offers creative freedom through its variety of shapes, reliefs, textures, colours and finishes, becoming an element of architectural expression on façades and in interiors."
             },
             {
-              "title": "Support integration",
-              "body": "The engineering team works with designers on geometry, fixings, interfaces and inspection to prepare repeatable manufacturing."
+              "title": "From design to implementation",
+              "body": "Bernardaud Solutions Industrielles supports projects from design to completion, developing custom pieces and addressing architecture’s dimensional, mechanical, environmental and installation requirements."
             }
           ],
-          "points": [
-            "Façades and cladding",
-            "Custom textures and reliefs",
-            "Interior finishes",
-            "Decorative elements"
-          ],
-          "short": "Architecture"
+          "applications": [
+            {
+              "title": "Façades and building envelopes",
+              "points": [
+                "Cladding elements",
+                "Reliefs and textures",
+                "Custom patterns and compositions",
+                "Specific colours and finishes"
+              ]
+            },
+            {
+              "title": "Interior architecture",
+              "points": [
+                "Wall cladding",
+                "Decorative elements",
+                "Panels and compositions",
+                "Custom pieces"
+              ]
+            },
+            {
+              "title": "Architectural elements",
+              "points": [
+                "Specific volumes and shapes",
+                "Repeated or unique pieces",
+                "Reliefs and sculptural elements",
+                "Integration into existing structures or assemblies"
+              ]
+            },
+            {
+              "title": "Custom projects",
+              "points": [
+                "Development to the architect’s design intent",
+                "Shape, texture and colour research",
+                "Prototyping and development",
+                "Manufacturing adapted to project scale"
+              ]
+            }
+          ]
         },
         "actualites": {
           "title": "News & resources",
@@ -1721,12 +2242,8 @@
     },
     "metrics": [
       {
-        "value": "60 000 m2",
-        "label": "d'usines en Haute-Vienne"
-      },
-      {
-        "value": "4",
-        "label": "sites de production"
+        "value": "60 000 m²",
+        "label": "sur 4 sites en Haute-Vienne, France"
       },
       {
         "value": "750",
@@ -1734,21 +2251,25 @@
       },
       {
         "value": "75 %",
-        "label": "à l'export"
+        "label": "des ventes à l’export"
+      },
+      {
+        "value": "ISO 9001 | ISO 14001",
+        "label": "sites certifiés"
       }
     ],
     "pillars": [
       {
-        "summary": "Développement et production de composants en porcelaine technique, alumine, ZTA, zircone et autres nuances selon cahier des charges."
+        "summary": "Développement et production de composants en céramiques techniques, sur catalogue ou sur mesure, de la petite à la grande série."
       },
       {
-        "summary": "Conception et production de chromos, décors et marquages techniques pour différents matériaux et usages industriels."
+        "summary": "Impression sérigraphique sur une grande diversité de supports, pour des applications industrielles et décoratives."
       },
       {
-        "summary": "Solutions esthétiques ou fonctionnelles : émaillage, PVD, texturation, sablage, métallisation et finitions spécifiques."
+        "summary": "Solutions de décoration et de traitement de surface à finalité esthétique ou fonctionnelle."
       },
       {
-        "summary": "Études, prototypage, ajout de fonctions, assemblage et sous-traitance sur un outil industriel polyvalent."
+        "summary": "Études, prototypage, ajout de fonctions, assemblage et opérations industrielles spécifiques, grâce à un outil industriel polyvalent."
       }
     ],
     "presentationPage": {
@@ -1756,69 +2277,39 @@
         {
           "name": "Oradour-sur-Glane",
           "role": "Céramiques techniques",
-          "details": "Formulation, façonnage, pressage, injection, déliantage, frittage, caractérisation et production de composants."
+          "details": "Le site réunit les moyens dédiés au développement et à la production de composants en céramiques techniques.",
+          "points": [
+            "Plusieurs procédés de mise en forme : pressage, injection, coulage sous pression, calibrage",
+            "Capacités de déliantage et de frittage adaptées à différents matériaux, géométries et volumes",
+            "Un parc de 24 fours de grande capacité",
+            "Des moyens permettant d’accompagner la production, du prototype à la grande série"
+          ]
         },
         {
-          "name": "Limoges - centre",
-          "role": "Impression sérigraphique",
-          "details": "Chromos, décors, marquages techniques, essais et séries pour différents matériaux et usages."
+          "name": "Limoges",
+          "role": "Imprimerie sérigraphique",
+          "details": "Le site d’imprimerie concentre les équipements et compétences nécessaires à la réalisation de décors et impressions sérigraphiques sur une grande diversité de supports.",
+          "points": [
+            "Préparation et mise au point des impressions",
+            "Production en petites et grandes séries",
+            "Adaptation aux contraintes techniques et esthétiques des différents supports et applications"
+          ]
         },
         {
-          "name": "Limoges - traitements",
-          "role": "Décors et surfaces",
-          "details": "Émaillage, PVD, texturation, sablage, métallisation, finitions et assemblages associés."
-        }
-      ]
-    },
-    "offerPage": {
-      "process": [
-        {
-          "step": "01",
-          "title": "Preuve de concept",
-          "body": "Valider rapidement une orientation matière, géométrie, décor ou surface avant d’engager un développement complet."
+          "name": "Limoges",
+          "role": "Décoration & traitements de surface",
+          "details": "Ce site rassemble différents procédés de décoration et de traitement de surface, destinés à modifier l’aspect ou les propriétés fonctionnelles des pièces.",
+          "points": [
+            "Procédés de décoration et de finition",
+            "Dépôt de couches minces, notamment par PVD",
+            "Solutions de fonctionnalisation et de finition adaptées aux exigences de chaque application"
+          ]
         },
         {
-          "step": "02",
-          "title": "Caractérisation",
-          "body": "Mesurer les propriétés utiles : densité, dureté, tenue mécanique, ultrasonique, thermique, électrique ou inspection de surface selon les cas."
-        },
-        {
-          "step": "03",
-          "title": "Prototypage",
-          "body": "Produire des premières pièces, formes ou décors pour vérifier l’usage, l’intégration, l’ergonomie et les contraintes de fabrication."
-        },
-        {
-          "step": "04",
-          "title": "Industrialisation",
-          "body": "Stabiliser les paramètres, outillages, contrôles et flux nécessaires à une production fiable en petites séries ou volumes récurrents."
-        }
-      ]
-    },
-    "industrialPage": {
-      "capabilities": [
-        {
-          "title": "Formulation et choix matière",
-          "body": "Sélection matière, adaptation formulation, analyse microstructure et arbitrage performance / coût."
-        },
-        {
-          "title": "Mise en forme",
-          "body": "Pressage axial ou semi-isostatique, injection céramique, coulage, coulage sous pression, plaques, carreaux et formes spécifiques."
-        },
-        {
-          "title": "Traitement thermique",
-          "body": "Déliantage, frittage haute température et stabilisation des paramètres de cuisson."
-        },
-        {
-          "title": "Finition et surface",
-          "body": "Décors, sérigraphie, PVD, texturation, sablage, métallisation, inspection et assemblages."
-        },
-        {
-          "title": "Contrôle et validation",
-          "body": "Mesures densité, dureté, mécanique, ultrasonique, inspection surface et essais comparatifs lorsque nécessaire."
-        },
-        {
-          "title": "Production série",
-          "body": "Industrialisation, traçabilité, qualification et fabrication récurrente dans une logique de proximité française."
+          "name": "Aix-sur-Vienne",
+          "role": "Expéditions",
+          "details": "Le site d’Aix-sur-Vienne est dédié à la préparation et à l’expédition des commandes, en France comme à l’international.",
+          "points": []
         }
       ]
     },
@@ -1837,12 +2328,8 @@
     },
     "metrics": [
       {
-        "value": "60,000 sqm",
-        "label": "of factories in Haute-Vienne"
-      },
-      {
-        "value": "4",
-        "label": "production sites"
+        "value": "60,000 m²",
+        "label": "across 4 sites in Haute-Vienne, France"
       },
       {
         "value": "750",
@@ -1850,21 +2337,25 @@
       },
       {
         "value": "75%",
-        "label": "export share"
+        "label": "of sales exported"
+      },
+      {
+        "value": "ISO 9001 | ISO 14001",
+        "label": "certified sites"
       }
     ],
     "pillars": [
       {
-        "summary": "Development and production of technical porcelain, alumina, ZTA, zirconia and other formulations according to specification."
+        "summary": "Development and production of technical ceramic components, standard or custom-made, from small batches to large series."
       },
       {
-        "summary": "Design and production of decals, decoration and technical markings for different materials and industrial uses."
+        "summary": "Screen printing on a broad range of substrates for industrial and decorative applications."
       },
       {
-        "summary": "Aesthetic or functional solutions: glazing, PVD, texturing, sandblasting, metallization and specific finishes."
+        "summary": "Decoration and surface treatment solutions for aesthetic or functional purposes."
       },
       {
-        "summary": "Engineering, prototyping, added functions, assembly and subcontracted operations on a versatile industrial platform."
+        "summary": "Engineering, prototyping, added functions, assembly and specific industrial operations, supported by versatile manufacturing resources."
       }
     ],
     "presentationPage": {
@@ -1872,69 +2363,39 @@
         {
           "name": "Oradour-sur-Glane",
           "role": "Technical ceramics",
-          "details": "Formulation, forming, pressing, injection, debinding, sintering, characterization and component production."
+          "details": "This site brings together resources dedicated to the development and manufacture of technical ceramic components.",
+          "points": [
+            "Shaping processes: pressing, injection moulding, pressure casting and jiggering",
+            "Debinding and sintering capabilities for different materials, geometries and volumes",
+            "24 large-capacity kilns",
+            "Resources supporting production from prototypes to large series"
+          ]
         },
         {
-          "name": "Limoges - city center",
+          "name": "Limoges",
           "role": "Screen printing",
-          "details": "Decals, decoration, technical markings, trials and series for different materials and uses."
+          "details": "The printing site brings together equipment and expertise for decoration and screen printing on a broad range of substrates.",
+          "points": [
+            "Print preparation and development",
+            "Small- and large-series production",
+            "Adaptation to technical and aesthetic requirements across substrates and applications"
+          ]
         },
         {
-          "name": "Limoges - surface treatments",
-          "role": "Decoration and surfaces",
-          "details": "Glazing, PVD, texturing, sandblasting, metallization, finishes and associated assemblies."
-        }
-      ]
-    },
-    "offerPage": {
-      "process": [
-        {
-          "step": "01",
-          "title": "Proof of concept",
-          "body": "Quickly validate a material, geometry, decoration or surface direction before committing to full development."
+          "name": "Limoges",
+          "role": "Decoration & surface treatments",
+          "details": "This site combines decoration and surface treatment processes to modify the appearance or functional properties of components.",
+          "points": [
+            "Decoration and finishing processes",
+            "Thin-film deposition, including PVD",
+            "Functionalisation and finishing adapted to application requirements"
+          ]
         },
         {
-          "step": "02",
-          "title": "Characterization",
-          "body": "Measure useful properties: density, hardness, mechanical, ultrasonic, thermal, electrical or surface inspection depending on the case."
-        },
-        {
-          "step": "03",
-          "title": "Prototyping",
-          "body": "Produce first parts, shapes or decorations to verify use, integration, ergonomics and manufacturing constraints."
-        },
-        {
-          "step": "04",
-          "title": "Industrialization",
-          "body": "Stabilize parameters, tooling, controls and flows required for reliable production in small batches or recurring volumes."
-        }
-      ]
-    },
-    "industrialPage": {
-      "capabilities": [
-        {
-          "title": "Formulation and material choice",
-          "body": "Material selection, formulation adaptation, microstructure analysis and performance / cost arbitration."
-        },
-        {
-          "title": "Forming",
-          "body": "Axial or semi-isostatic pressing, ceramic injection, casting, die casting, plates, tiles and specific shapes."
-        },
-        {
-          "title": "Thermal treatment",
-          "body": "Debinding, high-temperature sintering and stabilization of firing parameters."
-        },
-        {
-          "title": "Finishing and surface",
-          "body": "Decoration, screen printing, PVD, texturing, sandblasting, metallization, inspection and assemblies."
-        },
-        {
-          "title": "Control and validation",
-          "body": "Density, hardness, mechanical, ultrasonic and surface inspection measurements, with comparative tests where required."
-        },
-        {
-          "title": "Series production",
-          "body": "Industrialization, traceability, qualification and recurring manufacturing with French proximity."
+          "name": "Aix-sur-Vienne",
+          "role": "Dispatch",
+          "details": "The Aix-sur-Vienne site prepares and dispatches orders in France and internationally.",
+          "points": []
         }
       ]
     },
