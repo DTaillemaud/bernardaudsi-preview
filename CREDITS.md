@@ -22,6 +22,21 @@ pas declarees libres de droits et restent la propriete de leurs ayants droit.
 - Pressage : https://bernardaudsi.com/wp-content/uploads/2026/10/Image4.jpg
 - Injection : https://bernardaudsi.com/wp-content/uploads/2026/10/Image1.jpg
 
+### Complements du 26 octobre 2026
+
+- Manufacture en 1890 : https://bernardaudsi.com/wp-content/uploads/2026/05/Manufacture-Bernardaud-1890-1024x771.jpg ; archives Bernardaud.
+- Manufacture en 2025 : https://bernardaudsi.com/wp-content/uploads/2026/05/Manufacture_Glycine_4-%C2%A9-OdieuxBoby-1024x681.jpg ; credit OdieuxBoby / Bernardaud.
+- Fours a bois : https://bernardaudsi.com/wp-content/uploads/2026/05/Archives-Four-a-bois-1-710x1024.jpg ; archives Bernardaud.
+- Four tunnel historique : https://bernardaudsi.com/wp-content/uploads/2026/05/Archives-Four-tunnel-1024x689.jpg ; archives Bernardaud.
+- Impression numerique DIPTECH : https://bernardaudsi.com/wp-content/uploads/2026/10/DIPTECH.jpg ; Bernardaud. Image conservee a sa definition native, sans agrandissement.
+- Decor imprime : https://bernardaudsi.com/wp-content/uploads/2026/10/SavoirFaire_Impression_DecorAlbertine6%C2%A9-OdieuxBoby-683x1024.jpg ; credit OdieuxBoby / Bernardaud.
+- Four charge : ressource photographique de cuisson Bernardaud, conservee dans le prototype initial (`four-ceramique.jpg`).
+
+Les photographies de fours illustrent uniquement la cuisson, pas le depot PVD.
+Les textes techniques complementaires proviennent des pages publiques Serigraphie / chromos,
+Traitement de surface, Production et Deliantage consultees le 26 octobre 2026.
+Les textes de presentation et d'historique du document editorial fourni restent prioritaires.
+
 ## Police et icones
 
 - Manrope : licence SIL Open Font License 1.1, copie dans `assets/manrope-OFL.txt`.

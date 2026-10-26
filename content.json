@@ -28,7 +28,14 @@
     "casting": "/assets/production-coulage.jpg",
     "jiggering": "/assets/production-calibrage.jpg",
     "pressing": "/assets/production-pressage.jpg",
-    "injection": "/assets/production-injection.jpg"
+    "injection": "/assets/production-injection.jpg",
+    "archiveManufacture": "/assets/archive-manufacture-1890.jpg",
+    "manufactureToday": "/assets/manufacture-2025.jpg",
+    "archiveWoodKiln": "/assets/archive-four-bois.jpg",
+    "archiveTunnelKiln": "/assets/archive-four-tunnel.jpg",
+    "digitalPrinter": "/assets/imprimante-numerique.jpg",
+    "printedDecoration": "/assets/decor-imprime.jpg",
+    "loadedKiln": "/assets/four-ceramique.jpg"
   },
   "website": {
     "fr": {
@@ -164,7 +171,33 @@
               "title": "Une entreprise familiale, plusieurs générations d’investissements industriels",
               "body": "Depuis sa création, chaque génération a contribué à faire évoluer l’entreprise par de nouveaux équipements, procédés et choix industriels."
             }
-          ]
+          ],
+          "gallery": {
+            "title": "La manufacture, d’hier à aujourd’hui",
+            "intro": "Des vues de la manufacture et des équipements de cuisson, conservées dans les archives et les ateliers Bernardaud.",
+            "items": [
+              {
+                "image": "archiveManufacture",
+                "title": "La manufacture en 1890",
+                "credit": "Archives Bernardaud"
+              },
+              {
+                "image": "manufactureToday",
+                "title": "La manufacture en 2025",
+                "credit": "© OdieuxBoby / Bernardaud"
+              },
+              {
+                "image": "archiveWoodKiln",
+                "title": "Les anciens fours à bois",
+                "credit": "Archives Bernardaud"
+              },
+              {
+                "image": "archiveTunnelKiln",
+                "title": "Un four tunnel historique",
+                "credit": "Archives Bernardaud"
+              }
+            ]
+          }
         },
         "actionnariat": {
           "title": "Un actionnariat familial et indépendant",
@@ -281,7 +314,7 @@
         },
         "serigraphie": {
           "title": "Impression sérigraphique",
-          "intro": "Des décors et marquages précis, pour différents matériaux et usages.",
+          "intro": "Une chaîne intégrée, de la création graphique à la production de décors et de marquages, en petites comme en grandes séries.",
           "sections": [
             {
               "title": "De la conception à l’impression",
@@ -293,7 +326,7 @@
             },
             {
               "title": "La régularité de la série",
-              "body": "La finesse des détails et la répétabilité sont étudiées avec vos équipes, pour les applications décoratives comme techniques."
+              "body": "La maîtrise interne de la chaîne graphique, des couleurs et de l’impression facilite les mises au point, préserve la confidentialité des projets et permet d’adapter les volumes."
             }
           ],
           "points": [
@@ -301,11 +334,88 @@
             "Chromos et décors",
             "Marquages techniques",
             "Essais et production série"
-          ]
+          ],
+          "creative": {
+            "title": "Création graphique & colorimétrie",
+            "intro": "Le dessin, la séparation des couleurs et les formulations sont développés ensemble pour préparer le passage en production.",
+            "items": [
+              {
+                "title": "Création artistique & DAO",
+                "body": "Les équipes graphiques conçoivent les décors et préparent leur séparation pour une reproduction adaptée au procédé industriel."
+              },
+              {
+                "title": "Mise au point des couleurs",
+                "body": "Les couleurs et les frittes sont préparées et mélangées en interne, avec des essais de rendu et de répétabilité sur le support choisi."
+              },
+              {
+                "title": "Grand feu & petit feu",
+                "body": "Des décors de grand feu autour de 1 200 °C et de petit feu autour de 800 °C, ainsi que des métaux précieux : or, platine et argent, selon le projet."
+              }
+            ]
+          },
+          "precision": {
+            "title": "Sérigraphie de haute précision",
+            "body": "Nous réalisons nos propres chromos, transferts à chaud ou à froid, depuis la fabrication des écrans jusqu’à l’impression.",
+            "metrics": [
+              {
+                "value": "1 µm",
+                "label": "précision de dépôt de l’émulsion"
+              },
+              {
+                "value": "6",
+                "label": "machines d’impression"
+              },
+              {
+                "value": "120 µm",
+                "label": "finesse de motifs"
+              }
+            ],
+            "note": "Repères de nos équipements et procédés. La finesse réalisable et la tenue du décor sont à confirmer selon le motif, le support et les conditions de production.",
+            "items": [
+              {
+                "title": "Films & écrans",
+                "body": "Préparation des films et fabrication des écrans en interne."
+              },
+              {
+                "title": "Dépôt maîtrisé",
+                "body": "Contrôle de l’émulsion pour préparer la restitution des détails."
+              },
+              {
+                "title": "Transferts à chaud & à froid",
+                "body": "Choix du chromo et de son application selon le support."
+              },
+              {
+                "title": "Production intégrée",
+                "body": "Coordination de la mise au point, des essais et de l’impression en série."
+              }
+            ]
+          },
+          "digital": {
+            "title": "Impression numérique & personnalisation",
+            "body": "L’impression numérique complète la sérigraphie pour les développements graphiques et la personnalisation. Le procédé est choisi selon le décor, le support et les quantités.",
+            "image": "digitalPrinter",
+            "caption": "Équipement d’impression numérique DIPTECH"
+          },
+          "gallery": {
+            "title": "Du transfert au décor imprimé",
+            "intro": "Préparation et contrôle des décors dans les ateliers Bernardaud.",
+            "items": [
+              {
+                "image": "printingDetail",
+                "title": "Contrôle d’un décor sérigraphique",
+                "credit": "© OdieuxBoby / Bernardaud"
+              },
+              {
+                "image": "printedDecoration",
+                "title": "Le décor après impression",
+                "credit": "© OdieuxBoby / Bernardaud"
+              }
+            ]
+          }
         },
         "traitements-de-surface": {
           "title": "Décors & traitements de surface",
-          "intro": "Une surface peut changer l’aspect, la perception et la fonction d’une pièce.",
+          "intro": "Adapter l’aspect et les propriétés d’une surface à son usage : couleur, brillance, rugosité, conductivité ou résistance.",
           "sections": [
             {
               "title": "Finitions esthétiques",
@@ -325,7 +435,69 @@
             "PVD et métallisation",
             "Texturation et sablage",
             "Finitions et contrôle de surface"
-          ]
+          ],
+          "processes": {
+            "title": "Quatre familles de procédés",
+            "intro": "Le traitement est défini selon la matière, la géométrie et les sollicitations de la pièce.",
+            "items": [
+              {
+                "title": "Émaillage",
+                "body": "Dépôt d’émail et cuisson à basse ou haute température, selon le support et l’état de surface recherché."
+              },
+              {
+                "title": "Dépôts PVD",
+                "body": "Dépôt de couches minces sous vide pour la métallisation et les finitions esthétiques ou fonctionnelles."
+              },
+              {
+                "title": "Pulvérisation",
+                "body": "Application de revêtements sur des géométries variées, avec une préparation adaptée de la surface."
+              },
+              {
+                "title": "Texturation & sablage",
+                "body": "Modification mécanique de la surface pour travailler la rugosité, l’adhérence, le frottement ou un aspect mat et structuré."
+              }
+            ]
+          },
+          "functional": {
+            "title": "De l’aspect à la fonction",
+            "body": "La finition est une interface entre le composant et son environnement. Le choix du revêtement et sa validation tiennent compte des conditions d’utilisation et du cahier des charges.",
+            "points": [
+              "Métallisation et conductivité",
+              "Revêtements de protection",
+              "Rugosité et comportement au contact",
+              "Aspect, couleur et brillance"
+            ]
+          },
+          "controls": {
+            "title": "Caractériser & contrôler les surfaces",
+            "intro": "Les essais sont sélectionnés selon le traitement et la fonction attendue ; ils accompagnent la mise au point et la validation du procédé.",
+            "items": [
+              {
+                "title": "Rugosité",
+                "body": "Mesure de paramètres tels que Ra, Rz, Rp et Rsk, selon le besoin de caractérisation."
+              },
+              {
+                "title": "Homogénéité du dépôt",
+                "body": "Évaluation de la régularité et de l’uniformité du revêtement."
+              },
+              {
+                "title": "Adhérence",
+                "body": "Essais d’adhérence et d’arrachement adaptés au couple support–revêtement."
+              },
+              {
+                "title": "Tenue à l’environnement",
+                "body": "Essais en température et en humidité selon les conditions d’usage prévues."
+              },
+              {
+                "title": "Conductivité électrique",
+                "body": "Caractérisation des propriétés électriques des surfaces fonctionnelles."
+              },
+              {
+                "title": "Validation fonctionnelle",
+                "body": "Vérification du comportement de la pièce traitée par rapport aux critères du projet."
+              }
+            ]
+          }
         },
         "developpements-industriels": {
           "title": "Développements industriels",
@@ -469,6 +641,18 @@
                 "Petits composants techniques"
               ]
             ]
+          },
+          "sectors": {
+            "title": "Des domaines d’application variés",
+            "body": "Du prototype à la série, le procédé est étudié selon les contraintes du composant et de son secteur.",
+            "items": [
+              "Défense",
+              "Horlogerie",
+              "Industrie",
+              "Luxe",
+              "Design",
+              "Santé"
+            ]
           }
         },
         "deliantage-frittage": {
@@ -491,15 +675,31 @@
           "sections": [
             {
               "title": "Déliantage contrôlé",
-              "body": "Les constituants organiques sont retirés avant densification. Selon la matière, le déliantage est thermique, avec une montée progressive en température, ou réalisé en milieu aqueux."
+              "body": "Les constituants organiques sont retirés avant densification. Selon la matière, le déliantage est thermique, avec une montée progressive en température, ou réalisé en milieu aqueux.",
+              "points": [
+                "Équipements électriques ou gaz",
+                "Montées en température progressives et contrôlées",
+                "Déliantage en milieu aqueux selon la formulation",
+                "Vérification de l’élimination des constituants organiques"
+              ]
             },
             {
               "title": "Densification à haute température",
-              "body": "Les équipements électriques et gaz couvrent des cuissons de 980 à 1 700 °C. Le cycle et l’environnement sont définis pour le matériau et la géométrie."
+              "body": "Les équipements électriques et gaz couvrent des cuissons de 980 à 1 700 °C. Le cycle et l’environnement sont définis pour le matériau et la géométrie.",
+              "points": [
+                "Atmosphères et cycles définis selon le matériau",
+                "Fours électriques, gaz et tunnels gaz",
+                "Frittage laser pour des applications spécifiques, selon étude technique"
+              ]
             },
             {
               "title": "Dimensions & production en série",
-              "body": "Des fours jusqu’à 15 m³ permettent d’étudier des pièces de grande dimension ou des charges importantes. Le plan de cuisson et les contrôles sont adaptés à chaque développement."
+              "body": "Des fours jusqu’à 15 m³ permettent d’étudier des pièces de grande dimension ou des charges importantes. Le plan de cuisson et les contrôles sont adaptés à chaque développement.",
+              "points": [
+                "Définition du chargement et des supports de cuisson",
+                "Suivi du retrait et des dimensions finales",
+                "Contrôles adaptés au matériau et à la série"
+              ]
             }
           ],
           "conditions": [
@@ -519,7 +719,23 @@
               "title": "Tunnels gaz",
               "body": "Des équipements pour les flux continus."
             }
-          ]
+          ],
+          "gallery": {
+            "title": "Les moyens de cuisson",
+            "intro": "Les équipements et les cycles sont sélectionnés selon la matière, la géométrie des pièces et le chargement.",
+            "items": [
+              {
+                "image": "furnace",
+                "title": "Atelier de cuisson",
+                "credit": "Bernardaud"
+              },
+              {
+                "image": "loadedKiln",
+                "title": "Chargement d’un four de cuisson",
+                "credit": "Bernardaud"
+              }
+            ]
+          }
         },
         "ajout-de-fonctions": {
           "title": "Assemblage & ajout de fonctions",
@@ -1160,7 +1376,33 @@
               "title": "A family business, generations of industrial investment",
               "body": "Since the company was founded, each generation has contributed new equipment, processes and industrial decisions."
             }
-          ]
+          ],
+          "gallery": {
+            "title": "The manufacture, then and now",
+            "intro": "Views of the manufacture and firing equipment from Bernardaud’s archives and workshops.",
+            "items": [
+              {
+                "image": "archiveManufacture",
+                "title": "The manufacture in 1890",
+                "credit": "Bernardaud archives"
+              },
+              {
+                "image": "manufactureToday",
+                "title": "The manufacture in 2025",
+                "credit": "© OdieuxBoby / Bernardaud"
+              },
+              {
+                "image": "archiveWoodKiln",
+                "title": "The former wood-fired kilns",
+                "credit": "Bernardaud archives"
+              },
+              {
+                "image": "archiveTunnelKiln",
+                "title": "A historic tunnel kiln",
+                "credit": "Bernardaud archives"
+              }
+            ]
+          }
         },
         "actionnariat": {
           "title": "Independent family ownership",
@@ -1277,7 +1519,7 @@
         },
         "serigraphie": {
           "title": "Screen printing",
-          "intro": "Precise decoration and markings for different materials and uses.",
+          "intro": "An integrated chain from graphic design to decoration and markings, for both small batches and large production runs.",
           "sections": [
             {
               "title": "From design to printing",
@@ -1289,7 +1531,7 @@
             },
             {
               "title": "Repeatable production",
-              "body": "Fine details and consistency are assessed with your teams for decorative and technical applications."
+              "body": "In-house control of graphic preparation, colours and printing supports development, protects project confidentiality and accommodates different volumes."
             }
           ],
           "points": [
@@ -1297,11 +1539,88 @@
             "Transfers and decoration",
             "Technical markings",
             "Trials and series production"
-          ]
+          ],
+          "creative": {
+            "title": "Graphic design & colour development",
+            "intro": "Artwork, colour separation and formulations are developed together to prepare for production.",
+            "items": [
+              {
+                "title": "Artistic creation & CAD",
+                "body": "Graphic teams design decorations and prepare their separation for reproduction using the industrial process."
+              },
+              {
+                "title": "Colour development",
+                "body": "Colours and frits are prepared and mixed in-house, with appearance and repeatability trials on the selected substrate."
+              },
+              {
+                "title": "High- & low-temperature firing",
+                "body": "High-temperature decoration at around 1,200 °C and low-temperature decoration at around 800 °C, as well as precious metals including gold, platinum and silver, depending on the project."
+              }
+            ]
+          },
+          "precision": {
+            "title": "High-precision screen printing",
+            "body": "We produce our own hot and cold transfers, from screen preparation to printing.",
+            "metrics": [
+              {
+                "value": "1 µm",
+                "label": "emulsion deposition precision"
+              },
+              {
+                "value": "6",
+                "label": "printing machines"
+              },
+              {
+                "value": "120 µm",
+                "label": "fine pattern detail"
+              }
+            ],
+            "note": "Equipment and process reference figures. Achievable detail and decoration durability must be confirmed for the pattern, substrate and production conditions.",
+            "items": [
+              {
+                "title": "Films & screens",
+                "body": "In-house preparation of films and manufacture of printing screens."
+              },
+              {
+                "title": "Controlled deposition",
+                "body": "Emulsion control to prepare the reproduction of fine details."
+              },
+              {
+                "title": "Hot & cold transfers",
+                "body": "Transfer type and application selected for the substrate."
+              },
+              {
+                "title": "Integrated production",
+                "body": "Coordinated development, trials and series printing."
+              }
+            ]
+          },
+          "digital": {
+            "title": "Digital printing & personalisation",
+            "body": "Digital printing complements screen printing for graphic development and personalisation. The process is selected according to decoration, substrate and quantities.",
+            "image": "digitalPrinter",
+            "caption": "DIPTECH digital printing equipment"
+          },
+          "gallery": {
+            "title": "From transfer to printed decoration",
+            "intro": "Decoration preparation and inspection in the Bernardaud workshops.",
+            "items": [
+              {
+                "image": "printingDetail",
+                "title": "Inspection of a screen-printed decoration",
+                "credit": "© OdieuxBoby / Bernardaud"
+              },
+              {
+                "image": "printedDecoration",
+                "title": "Decoration after printing",
+                "credit": "© OdieuxBoby / Bernardaud"
+              }
+            ]
+          }
         },
         "traitements-de-surface": {
           "title": "Decoration & surface treatments",
-          "intro": "A surface can change a component’s appearance, perception and function.",
+          "intro": "Adapting surface appearance and properties to their use: colour, gloss, roughness, conductivity or resistance.",
           "sections": [
             {
               "title": "Aesthetic finishes",
@@ -1321,7 +1640,69 @@
             "PVD and metallisation",
             "Texturing and sandblasting",
             "Finishes and surface inspection"
-          ]
+          ],
+          "processes": {
+            "title": "Four process families",
+            "intro": "Treatment is defined for the material, geometry and loads applied to the component.",
+            "items": [
+              {
+                "title": "Glazing",
+                "body": "Glaze deposition and low- or high-temperature firing, depending on the substrate and required surface finish."
+              },
+              {
+                "title": "PVD coatings",
+                "body": "Vacuum deposition of thin films for metallisation and aesthetic or functional finishes."
+              },
+              {
+                "title": "Spray coating",
+                "body": "Application of coatings to varied geometries, with appropriate surface preparation."
+              },
+              {
+                "title": "Texturing & sandblasting",
+                "body": "Mechanical surface modification to address roughness, adhesion, friction or a matt, structured appearance."
+              }
+            ]
+          },
+          "functional": {
+            "title": "From appearance to function",
+            "body": "The finish is an interface between the component and its environment. Coating selection and validation take account of operating conditions and specifications.",
+            "points": [
+              "Metallisation and conductivity",
+              "Protective coatings",
+              "Roughness and contact behaviour",
+              "Appearance, colour and gloss"
+            ]
+          },
+          "controls": {
+            "title": "Characterising & inspecting surfaces",
+            "intro": "Tests are selected for the treatment and intended function, supporting process development and validation.",
+            "items": [
+              {
+                "title": "Roughness",
+                "body": "Measurement of parameters such as Ra, Rz, Rp and Rsk, according to characterisation needs."
+              },
+              {
+                "title": "Coating uniformity",
+                "body": "Assessment of coating consistency and uniformity."
+              },
+              {
+                "title": "Adhesion",
+                "body": "Adhesion and pull-off tests appropriate to the substrate–coating combination."
+              },
+              {
+                "title": "Environmental resistance",
+                "body": "Temperature and humidity testing according to the intended operating conditions."
+              },
+              {
+                "title": "Electrical conductivity",
+                "body": "Characterisation of the electrical properties of functional surfaces."
+              },
+              {
+                "title": "Functional validation",
+                "body": "Verification of the treated component’s behaviour against project criteria."
+              }
+            ]
+          }
         },
         "developpements-industriels": {
           "title": "Industrial development",
@@ -1465,6 +1846,18 @@
                 "Small technical components"
               ]
             ]
+          },
+          "sectors": {
+            "title": "A range of application areas",
+            "body": "From prototype to series production, the process is assessed for the component’s requirements and sector.",
+            "items": [
+              "Defence",
+              "Watchmaking",
+              "Industry",
+              "Luxury",
+              "Design",
+              "Healthcare"
+            ]
           }
         },
         "deliantage-frittage": {
@@ -1487,15 +1880,31 @@
           "sections": [
             {
               "title": "Controlled debinding",
-              "body": "Organic constituents are removed before densification. Depending on the material, debinding uses gradual heating or an aqueous process."
+              "body": "Organic constituents are removed before densification. Depending on the material, debinding uses gradual heating or an aqueous process.",
+              "points": [
+                "Electric or gas equipment",
+                "Gradual, controlled temperature ramps",
+                "Aqueous debinding depending on formulation",
+                "Verification of organic constituent removal"
+              ]
             },
             {
               "title": "High-temperature densification",
-              "body": "Electric and gas equipment covers firing from 980 to 1,700 °C. Cycle and environment are defined for the material and geometry."
+              "body": "Electric and gas equipment covers firing from 980 to 1,700 °C. Cycle and environment are defined for the material and geometry.",
+              "points": [
+                "Atmospheres and cycles selected for the material",
+                "Electric, gas and gas tunnel kilns",
+                "Laser sintering for specific applications, subject to technical assessment"
+              ]
             },
             {
               "title": "Dimensions & series production",
-              "body": "Kilns up to 15 m³ support the assessment of large components or substantial loads. Firing plans and inspection are adapted to each development."
+              "body": "Kilns up to 15 m³ support the assessment of large components or substantial loads. Firing plans and inspection are adapted to each development.",
+              "points": [
+                "Definition of loading and kiln furniture",
+                "Monitoring of shrinkage and final dimensions",
+                "Inspection adapted to the material and production run"
+              ]
             }
           ],
           "conditions": [
@@ -1515,7 +1924,23 @@
               "title": "Gas tunnel kilns",
               "body": "Equipment for continuous production."
             }
-          ]
+          ],
+          "gallery": {
+            "title": "Firing equipment",
+            "intro": "Equipment and cycles are selected for the material, component geometry and loading.",
+            "items": [
+              {
+                "image": "furnace",
+                "title": "Firing workshop",
+                "credit": "Bernardaud"
+              },
+              {
+                "image": "loadedKiln",
+                "title": "Loading a firing kiln",
+                "credit": "Bernardaud"
+              }
+            ]
+          }
         },
         "ajout-de-fonctions": {
           "title": "Assembly & added functions",

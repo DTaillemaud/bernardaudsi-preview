@@ -101,14 +101,14 @@ function manufacturingProcess() {
 
 function productionDetail() {
   const data = page("production");
-  return `${pageHero("production")}<section class="section"><div class="container"><div class="manufacturing-grid">${data.sections.map((item, i) => `<article data-reveal><figure class="manufacturing-photo ${item.image === "pressing" ? "compact" : ""}">${picture(item.image, item.title)}</figure><span class="detail-number">0${i + 1}</span><h2>${esc(item.title)}</h2><p>${esc(item.body)}</p></article>`).join("")}</div><h2 class="table-heading">${esc(data.comparison.title)}</h2><div class="table-scroll" role="region" aria-label="${esc(data.comparison.title)}" tabindex="0"><table><thead><tr>${data.comparison.headings.map(label => `<th scope="col">${esc(label)}</th>`).join("")}</tr></thead><tbody>${data.comparison.rows.map(row => `<tr><th scope="row">${esc(row[0])}</th>${row.slice(1).map(cell => `<td>${esc(cell)}</td>`).join("")}</tr>`).join("")}</tbody></table></div></div></section>${related(["etapes-process", "deliantage-frittage", "materiaux"])}${contactBand()}`;
+  return `${pageHero("production")}<section class="section"><div class="container"><div class="manufacturing-grid">${data.sections.map((item, i) => `<article data-reveal><figure class="manufacturing-photo ${item.image === "pressing" ? "compact" : ""}">${picture(item.image, item.title)}</figure><span class="detail-number">0${i + 1}</span><h2>${esc(item.title)}</h2><p>${esc(item.body)}</p></article>`).join("")}</div><h2 class="table-heading">${esc(data.comparison.title)}</h2><div class="table-scroll" role="region" aria-label="${esc(data.comparison.title)}" tabindex="0"><table><thead><tr>${data.comparison.headings.map(label => `<th scope="col">${esc(label)}</th>`).join("")}</tr></thead><tbody>${data.comparison.rows.map(row => `<tr><th scope="row">${esc(row[0])}</th>${row.slice(1).map(cell => `<td>${esc(cell)}</td>`).join("")}</tr>`).join("")}</tbody></table></div><div class="production-sectors" data-reveal><h2>${esc(data.sectors.title)}</h2><p>${esc(data.sectors.body)}</p><ul>${data.sectors.items.map(item => `<li>${esc(item)}</li>`).join("")}</ul></div></div></section>${related(["etapes-process", "deliantage-frittage", "materiaux"])}${contactBand()}`;
 }
 
 function thermalDetail() {
   const data = page("deliantage-frittage");
   const stats = `<section class="metrics thermal-metrics"><div class="container metric-grid">${data.metrics.map(metric => `<div data-reveal><strong>${esc(metric.value)}</strong><span>${esc(metric.label)}</span></div>`).join("")}</div></section>`;
   const conditions = `<section class="section thermal-conditions"><div class="container"><div class="capability-grid">${data.conditions.map(item => `<article data-reveal><h3>${esc(item.title)}</h3><p>${esc(item.body)}</p></article>`).join("")}</div></div></section>`;
-  return detail("deliantage-frittage", conditions, stats);
+  return detail("deliantage-frittage", conditions + mediaGallery(data.gallery), stats);
 }
 
 function home() {
@@ -141,6 +141,30 @@ function sections(items = [], className = "") {
   return `<div class="detail-sections ${className}">${items.map((item, i) => `<article data-reveal><span class="detail-number">${String(i + 1).padStart(2, "0")}</span><div><h2>${esc(item.title)}</h2><p>${esc(item.body)}</p>${bulletList(item.points)}${(item.paragraphs || []).map(text => `<p>${esc(text)}</p>`).join("")}</div></article>`).join("")}</div>`;
 }
 
+function technicalGrid(items, columns = 3) {
+  return `<div class="technical-grid technical-grid-${columns}">${items.map((item, i) => `<article data-reveal><span class="detail-number">${String(i + 1).padStart(2, "0")}</span><h3>${esc(item.title)}</h3><p>${esc(item.body)}</p></article>`).join("")}</div>`;
+}
+
+function mediaGallery(data) {
+  return `<section class="section media-section"><div class="container">${heading(t("ui.expertise"), data.title, data.intro)}<div class="media-gallery">${data.items.map(item => `<figure data-reveal><div class="media-frame">${picture(item.image, item.title)}</div><figcaption><h3>${esc(item.title)}</h3><span>${esc(item.credit)}</span></figcaption></figure>`).join("")}</div></div></section>`;
+}
+
+function screenPrintingDetail() {
+  const data = page("serigraphie");
+  const creative = `<section class="section technical-section"><div class="container">${heading(t("ui.expertise"), data.creative.title, data.creative.intro)}${technicalGrid(data.creative.items)}</div></section>`;
+  const precision = `<section class="section technical-band"><div class="container">${heading(t("ui.expertise"), data.precision.title, data.precision.body)}<dl class="precision-metrics">${data.precision.metrics.map(metric => `<div data-reveal><dt>${esc(metric.label)}</dt><dd>${esc(metric.value)}</dd></div>`).join("")}</dl><p class="precision-note">${esc(data.precision.note)}</p>${technicalGrid(data.precision.items, 4)}</div></section>`;
+  const digital = `<section class="section"><div class="container digital-layout"><div data-reveal><p class="eyebrow">${esc(t("ui.expertise"))}</p><h2>${esc(data.digital.title)}</h2><p>${esc(data.digital.body)}</p></div><figure data-reveal>${picture(data.digital.image, data.digital.caption)}<figcaption>${esc(data.digital.caption)}</figcaption></figure></div></section>`;
+  return detail("serigraphie", creative + precision + digital + mediaGallery(data.gallery));
+}
+
+function surfaceTreatmentDetail() {
+  const data = page("traitements-de-surface");
+  const processes = `<section class="section technical-section"><div class="container">${heading(t("ui.expertise"), data.processes.title, data.processes.intro)}${technicalGrid(data.processes.items, 4)}</div></section>`;
+  const functional = `<section class="section technical-band"><div class="container functional-layout"><div data-reveal><p class="eyebrow">${esc(t("ui.applications"))}</p><h2>${esc(data.functional.title)}</h2><p>${esc(data.functional.body)}</p></div>${bulletList(data.functional.points)}</div></section>`;
+  const controls = `<section class="section"><div class="container">${heading(t("ui.quality"), data.controls.title, data.controls.intro)}<div class="surface-controls"><figure data-reveal>${picture("laboratory", lang === "fr" ? "Microscope du laboratoire Bernardaud" : "Microscope at the Bernardaud laboratory")}</figure>${technicalGrid(data.controls.items, 2)}</div></div></section>`;
+  return detail("traitements-de-surface", processes + functional + controls);
+}
+
 function applicationGroups(items) {
   if (!items?.length) return "";
   return `<section class="section application-section"><div class="container"><p class="eyebrow">${esc(t("ui.applications"))}</p><div class="application-grid">${items.map((item, i) => `<article data-reveal><span class="detail-number">${String(i + 1).padStart(2, "0")}</span><h2>${esc(item.title)}</h2>${bulletList(item.points)}</article>`).join("")}</div></div></section>`;
@@ -166,7 +190,7 @@ function sites() {
 function presentation(id) {
   const data = page(id);
   const image = routeImages[id];
-  return `${pageHero(id)}<section class="section presentation-content"><div class="container">${image && id !== "actionnariat" ? `<figure class="page-visual ${id === "historique" ? "drawing" : ""}" data-reveal>${picture(image, data.title)}</figure>` : ""}${portraits(data.portraits)}${sections(data.sections, id === "historique" ? "timeline" : "")}</div></section>${id === "presentation" ? `${sites()}${metrics()}${related(groups[0].children.filter(child => child !== "outil-industriel"))}` : ""}${id === "certifications" ? related(["outil-industriel", "partenaires"]) : ""}${contactBand()}`;
+  return `${pageHero(id)}<section class="section presentation-content"><div class="container">${image && id !== "actionnariat" ? `<figure class="page-visual ${id === "historique" ? "drawing" : ""}" data-reveal>${picture(image, data.title)}</figure>` : ""}${portraits(data.portraits)}${sections(data.sections, id === "historique" ? "timeline" : "")}</div></section>${data.gallery ? mediaGallery(data.gallery) : ""}${id === "presentation" ? `${sites()}${metrics()}${related(groups[0].children.filter(child => child !== "outil-industriel"))}` : ""}${id === "certifications" ? related(["outil-industriel", "partenaires"]) : ""}${contactBand()}`;
 }
 
 function offer() {
@@ -227,6 +251,8 @@ function renderRoute() {
   if (id === "etapes-process") return manufacturingProcess();
   if (id === "production") return productionDetail();
   if (id === "deliantage-frittage") return thermalDetail();
+  if (id === "serigraphie") return screenPrintingDetail();
+  if (id === "traitements-de-surface") return surfaceTreatmentDetail();
   if (id === "defense") return detail(id, ballisticGallery());
   if (id === "actualites" || groups[4].children.includes(id)) return news(id);
   if (id === "contact") return contact();
