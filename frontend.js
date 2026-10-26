@@ -14,7 +14,7 @@ const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 const mobileViewport = window.matchMedia("(max-width: 1100px)");
 const groups = [
   { id: "presentation", icon: "Factory", children: ["historique", "outil-industriel", "actionnariat", "certifications", "partenaires"] },
-  { id: "offre", icon: "Layers", children: ["ceramiques-techniques", "serigraphie", "traitements-de-surface", "developpements-industriels", "etapes-process"] },
+  { id: "offre", icon: "Layers", children: ["ceramiques-techniques", "serigraphie", "traitements-de-surface", "developpements-industriels", "etapes-process", "production", "deliantage-frittage", "ajout-de-fonctions"] },
   { id: "materiaux", icon: "Hexagon", children: ["porcelaine-technique", "alumine", "alumine-haute-purete", "zta", "zircone"] },
   { id: "marches", icon: "ShieldCheck", children: ["defense", "industrie", "horlogerie", "contenants", "architecture"] },
   { id: "actualites", icon: "ScanLine", children: ["publications", "evenements", "salons"] }
@@ -39,7 +39,7 @@ const currentId = () => {
   const raw = location.pathname.slice(basePath.length).replace(/^\/|\/$/g, "") || "home";
   return routeAliases[raw] || raw;
 };
-const parent = id => groups.find(group => group.id === id || group.children.includes(id))?.id || (["production", "deliantage-frittage", "ajout-de-fonctions"].includes(id) ? "offre" : "");
+const parent = id => groups.find(group => group.id === id || group.children.includes(id))?.id || "";
 const title = id => page(id)?.short || page(id)?.title || "";
 
 function icon(name, className = "") {
@@ -54,6 +54,13 @@ function picture(slot, alt = "", className = "", eager = false) {
   return `<img class="${className}" src="${esc(localURL(content.images[slot]))}" alt="${esc(alt)}" loading="${eager ? "eager" : "lazy"}" ${eager ? 'fetchpriority="high"' : ""} decoding="async">`;
 }
 
+function navigationLinks(group) {
+  const item = (id, i) => link(id, `<span class="menu-number">${String(i + 1).padStart(2, "0")}</span><span>${esc(title(id))}</span>`, "mega-link", true);
+  if (group.id !== "offre") return group.children.map(item).join("");
+  const labels = [t("ui.expertise"), lang === "fr" ? "Procédés & capacités" : "Processes & capabilities"];
+  return [group.children.slice(0, 4), group.children.slice(4)].map((ids, column) => `<div class="mega-link-section" role="group" aria-label="${esc(labels[column])}"><p class="mega-link-heading">${esc(labels[column])}</p>${ids.map((id, i) => item(id, i + column * 4)).join("")}</div>`).join("");
+}
+
 function renderHeader() {
   const active = parent(currentId());
   document.querySelector("#siteHeader").innerHTML = `<div class="header-inner">
@@ -61,7 +68,7 @@ function renderHeader() {
     <nav class="main-nav" id="mainNav" aria-label="${lang === "fr" ? "Navigation principale" : "Main navigation"}">
       ${groups.map((group, index) => `<div class="nav-group" data-nav-group="${group.id}">
         <div class="nav-item ${group.id === active ? "is-active" : ""}">${link(group.id, esc(t("ui.sections")[index]))}<button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-${group.id}" aria-label="${esc(t("ui.overview"))} ${esc(title(group.id))}">${icon("ChevronDown")}</button></div>
-        <div class="mega-menu" id="nav-${group.id}" hidden><div class="mega-intro">${icon(group.icon)}<p class="eyebrow">${esc(t("ui.sections")[index])}</p><p>${esc(page(group.id).intro)}</p>${link(group.id, esc(t("ui.all")), "text-link", true)}</div><div class="mega-links">${group.children.map((id, i) => link(id, `<span class="menu-number">${String(i + 1).padStart(2, "0")}</span><span>${esc(title(id))}</span>`, "mega-link", true)).join("")}</div></div>
+        <div class="mega-menu" id="nav-${group.id}" hidden><div class="mega-intro">${icon(group.icon)}<p class="eyebrow">${esc(t("ui.sections")[index])}</p><p>${esc(page(group.id).intro)}</p>${link(group.id, esc(t("ui.all")), "text-link", true)}</div><div class="mega-links">${navigationLinks(group)}</div></div>
       </div>`).join("")}
       ${link("contact", esc(t("ui.contact")), "mobile-contact", true)}
     </nav>

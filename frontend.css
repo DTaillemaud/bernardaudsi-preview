@@ -79,6 +79,8 @@ ul { list-style: none; margin: 0; padding: 0; }
 .mega-intro > p:not(.eyebrow) { max-width: 340px; font-size: 14px; }
 .mega-intro .text-link { margin-top: 22px; }
 .mega-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 32px; align-content: start; }
+.mega-link-section { min-width: 0; }
+.mega-link-heading { color: var(--teal); font-size: 11px; font-weight: 700; text-transform: uppercase; margin-bottom: 8px; }
 .mega-link { min-height: 74px; display: grid; grid-template-columns: 22px 1fr 18px; gap: 14px; align-items: center; border-bottom: 1px solid var(--line); font-size: 14px; line-height: 1.5; padding: 10px 0; transition: color .2s; }
 .mega-link .icon { width: 18px; height: 18px; }
 .mega-link:hover { color: var(--teal); }
@@ -484,6 +486,8 @@ tbody tr:nth-child(even) { background: var(--mist); }
   .mega-menu { position: static; display: block; padding: 10px 0 20px; box-shadow: none; border: 0; }
   .mega-intro { display: none; }
   .mega-links { display: block; }
+  .mega-link-section + .mega-link-section { margin-top: 26px; }
+  .mega-link-heading { margin: 16px 8px 8px; }
   .mobile-contact { display: flex; align-items: center; justify-content: space-between; margin-top: 24px; background: var(--navy); color: var(--white); padding: 16px; font-size: 14px; }
   .mega-link { min-height: 56px; margin-inline: 8px; }
   .language-options { top: calc(100% + 10px); }
